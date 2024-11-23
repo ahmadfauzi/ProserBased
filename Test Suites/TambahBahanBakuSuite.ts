@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TambahBahanBakuSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>ace7d80d-ee20-4242-9f03-9779d9ef8ac9</testSuiteGuid>
+   <testCaseLink>
+      <guid>9278a2fc-096a-46ec-9ca2-2a2ac7f67bee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DaftarBarang/TambahBahanBaku</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>005ad614-e5f9-4b8f-be45-95200312b17d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/BahanBakuData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>005ad614-e5f9-4b8f-be45-95200312b17d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nama</value>
+         <variableId>1525e8c7-d3c0-422f-b12e-56396e1a2a2b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>005ad614-e5f9-4b8f-be45-95200312b17d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>kodebarang</value>
+         <variableId>b59336f9-ce5d-45ae-8599-b4c5a120d764</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>005ad614-e5f9-4b8f-be45-95200312b17d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>satuanterkecil</value>
+         <variableId>4ff6349d-ea61-4f59-a9c1-04baeae39bd0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>005ad614-e5f9-4b8f-be45-95200312b17d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>hargabeli</value>
+         <variableId>88871698-1395-49ba-914e-387130732625</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
