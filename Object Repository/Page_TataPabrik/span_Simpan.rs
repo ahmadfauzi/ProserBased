@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='invoice-mobile']/div[2]/div[4]/button/span</value>
+         <value>//section[@id='invoice-mobile']/div[2]/div[3]/button/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,27 +23,96 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>8ce5dd85-f34a-4dbf-bac3-63a7849d5e4c</webElementGuid>
+      <webElementGuid>bb01fc42-68de-4c14-8d4d-a73f64e83a79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Simpan
+      <value>
+        Simpan
       </value>
-      <webElementGuid>22288163-8a86-4300-bce1-1a69ac3fc716</webElementGuid>
+      <webElementGuid>95dd6c64-a26c-4bd6-a580-ced0a158ffd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;invoice-mobile&quot;)/div[@class=&quot;section-card modal-content-custom&quot;]/div[@class=&quot;section-footer&quot;]/button[@class=&quot;button button&quot;]/span[1]</value>
-      <webElementGuid>4e7b053d-4e3f-40be-8d70-edb3d516791f</webElementGuid>
+      <value>id(&quot;invoice-mobile&quot;)/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-footer&quot;]/button[@class=&quot;button button&quot;]/span[1]</value>
+      <webElementGuid>2513fee4-99d8-42d6-8ea1-e809230d5fcf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='invoice-mobile']/div[2]/div[3]/button/span</value>
+      <webElementGuid>53d7c4d6-26be-476c-8f45-201117d6c9c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Roles'])[1]/following::span[2]</value>
+      <webElementGuid>10e2330a-1780-47f4-8c1c-472bf4bc281d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Tidak wajib diisi)'])[1]/following::span[3]</value>
+      <webElementGuid>1240ccfb-43b9-4e1d-a790-fd7e34393b65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batalkan'])[1]/preceding::span[1]</value>
+      <webElementGuid>6ca2f704-7ab3-4ae2-b45c-b61fb76fc4ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TataPabrik'])[2]/preceding::span[2]</value>
+      <webElementGuid>fdff1ed3-3075-4fab-849f-d37bf5dde15b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Simpan']/parent::*</value>
+      <webElementGuid>c7d3cc2e-6a06-4fe8-8343-daf1adb01e8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button/span</value>
+      <webElementGuid>960c0d53-c589-4a16-a662-4100ce21cb5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+        Simpan
+      ' or . = '
+        Simpan
+      ')]</value>
+      <webElementGuid>0552d7f0-2959-45c4-b36c-6fc8f4905d15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
@@ -73,22 +142,6 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Batal'])[1]/preceding::span[1]</value>
       <webElementGuid>c2d92666-2557-41cf-a47b-24f6ea10b2fb</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='TataPabrik'])[2]/preceding::span[2]</value>
-      <webElementGuid>aea36785-4d05-4201-8476-c28724f0c1cf</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Simpan']/parent::*</value>
-      <webElementGuid>702897e9-3601-4858-9263-246af87b36ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

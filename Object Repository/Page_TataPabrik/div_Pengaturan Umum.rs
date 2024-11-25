@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Pengaturan Umum</name>
+   <tag></tag>
+   <elementGuidId>46a2e7ca-b999-4721-ace5-cd0f5d0b28d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#PengaturanUmum > div.collapse-trigger > div.menu-item > div.menu-item-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='PengaturanUmum']/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b7205af4-988e-4fab-8953-7ebd6af6d47f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menu-item-text</value>
+      <webElementGuid>e81be59d-4d08-457e-9ace-2194d0b1687c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pengaturan Umum</value>
+      <webElementGuid>818c2a7b-285f-41fc-9be9-257e0ffb540f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;PengaturanUmum&quot;)/div[@class=&quot;collapse-trigger&quot;]/div[@class=&quot;menu-item&quot;]/div[@class=&quot;menu-item-text&quot;]</value>
+      <webElementGuid>e73096a3-8f12-4147-8a20-e3f8e84985f4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='PengaturanUmum']/div/div/div[2]</value>
+      <webElementGuid>a9b7e399-55a0-49aa-a8eb-c90ff6c49a30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Retur Penjualan'])[1]/following::div[5]</value>
+      <webElementGuid>ea47639c-43e8-463c-81e8-4191e268f39d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengiriman Barang'])[1]/following::div[8]</value>
+      <webElementGuid>555387c8-b770-44cd-99e1-57360c2ffee4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil Perusahaan'])[1]/preceding::div[4]</value>
+      <webElementGuid>ad7019ae-92b2-456a-b57d-29702ac4d0f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Role'])[1]/preceding::div[7]</value>
+      <webElementGuid>5474e477-4682-4b07-a227-770e2eb06b82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pengaturan Umum']/parent::*</value>
+      <webElementGuid>c7ce0b04-07bb-4f41-9e51-fb6a9acbc679</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[8]/div/div/div/div[2]</value>
+      <webElementGuid>1cc1cf7a-3dd3-42ca-9813-eb05bd902306</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pengaturan Umum' or . = 'Pengaturan Umum')]</value>
+      <webElementGuid>588ff2bb-2fcc-4c3e-8aab-2b1303ac8faf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

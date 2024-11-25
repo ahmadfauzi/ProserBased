@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_User name_username</name>
+   <name>input_Name_Name</name>
    <tag></tag>
-   <elementGuidId>537c9768-1de1-4825-ab0f-55bbdeccdbc3</elementGuidId>
+   <elementGuidId>e8f30b9f-7d77-4fb6-84d1-590a737ce9f7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;username&quot;]</value>
+         <value>input[name=&quot;Name&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='username']</value>
+         <value>//input[@name='Name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5b0ac4dd-868a-4b1f-ba0c-86ec708cf445</webElementGuid>
+      <webElementGuid>d3a0b2cd-5a20-4373-93e4-368cbb746ef5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>b9fd561c-86c7-4ad6-a744-c08f9669dc69</webElementGuid>
+      <webElementGuid>946fb300-83c4-41e1-9456-757d14e384b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,23 +39,23 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>d99459b8-4ee7-4efd-8ebe-60cb6276d38f</webElementGuid>
+      <webElementGuid>4a21d8d1-f0db-4c7a-9222-cda82dd084de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>40</value>
+      <webElementGuid>1511c708-003c-47d1-9b71-b826ac587afe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>5182fa00-3f12-4cfa-8b78-30cba6d9fb67</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>0762c6ca-783e-41fb-a38f-b48eb69d0f50</webElementGuid>
+      <value>Name</value>
+      <webElementGuid>d919b02f-2968-4930-9bee-348cb135a585</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,38 +63,46 @@
       <name>class</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e036c3d1-5e39-4cef-b587-0388d7ce2c5b</webElementGuid>
+      <webElementGuid>4a89bf2d-fd02-44b6-9291-e9068648daa6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[1]/div[@class=&quot;login-page&quot;]/form[@class=&quot;box login form-auth&quot;]/div[@class=&quot;box user-input&quot;]/div[@class=&quot;control has-icons-left  is-clearfix&quot;]/input[@class=&quot;input&quot;]</value>
-      <webElementGuid>18855d9d-daf6-4ae8-8c80-45dd2825e776</webElementGuid>
+      <value>id(&quot;invoice-mobile&quot;)/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-content with-separator&quot;]/div[@class=&quot;columns is-multiline has-top-space-field&quot;]/div[@class=&quot;column is-full is-paddingless-btm&quot;]/div[@class=&quot;field is-marginless&quot;]/div[@class=&quot;control is-clearfix&quot;]/input[@class=&quot;input&quot;]</value>
+      <webElementGuid>96ac33e2-e76c-49cb-a962-509298b1b7c1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='username']</value>
-      <webElementGuid>56f00565-6d13-414f-abc9-480275b97292</webElementGuid>
+      <value>//input[@name='Name']</value>
+      <webElementGuid>b0c7cc68-fc28-45e8-a5a9-250690fd6035</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='invoice-mobile']/div[2]/div[2]/div/div[3]/div/div/input</value>
+      <webElementGuid>9d6b5a65-7c97-4686-a19c-81aa4e84192f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>7538033f-9201-4aeb-879a-8025b356a23f</webElementGuid>
+      <value>//div[3]/div/div/input</value>
+      <webElementGuid>a71e0da2-c7e3-4d50-ba68-62f5808d2621</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @name = 'username' and @placeholder = 'Username']</value>
-      <webElementGuid>b1bb596e-4caf-4dd4-bc73-b6c950566372</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'Name']</value>
+      <webElementGuid>3306437d-2e4a-49ed-a198-154e096c62e4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
