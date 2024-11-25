@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Management                          _8ce60b</name>
+   <name>select_Roles</name>
    <tag></tag>
    <elementGuidId>39f48757-bb86-4297-8b16-2d789bdb0997</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>select[name=&quot;Roles&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@name='Roles']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;Roles&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

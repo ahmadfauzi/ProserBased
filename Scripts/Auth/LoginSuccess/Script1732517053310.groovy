@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('http://172.30.100.100:8059/login')
 
 WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/input_User name_username'), 'proser2023Pro')
@@ -33,16 +35,15 @@ WebUI.click(findTestObject('Object Repository/Page_TataPabrik/div_Users'))
 
 WebUI.click(findTestObject('Object Repository/Page_TataPabrik/button_User'))
 
-WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/input_Username_Username'), 'autouser3')
+WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/input_Users_Username'), 'autouser3')
 
-WebUI.setEncryptedText(findTestObject('Page_TataPabrik/input_Password_password - Copy'), 'RAQbu0m/KDnt+GJtNEcqXw==')
+WebUI.setEncryptedText(findTestObject('Page_TataPabrik/input_Users_Password'), 'RAQbu0m/KDnt+GJtNEcqXw==')
 
 WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/input_Name_Name'), 'User Tiga Auto')
 
 WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/input_Email_Email'), 'userauto@gmail.com')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_TataPabrik/select_Management                          _8ce60b'), 
-    '[object Object]', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Page_TataPabrik/select_Roles'), 'Admin Pro', false)
 
 WebUI.click(findTestObject('Object Repository/Page_TataPabrik/span_Simpan'))
 

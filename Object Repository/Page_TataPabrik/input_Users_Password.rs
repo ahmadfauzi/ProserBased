@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_password - Copy</name>
+   <name>input_Users_Password</name>
    <tag></tag>
    <elementGuidId>7bea430e-dc38-412c-bdcd-92f540a7ec3d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;password&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='Password']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;password&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

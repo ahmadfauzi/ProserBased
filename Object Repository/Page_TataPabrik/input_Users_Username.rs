@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_Username</name>
+   <name>input_Users_Username</name>
    <tag></tag>
    <elementGuidId>698f85d3-0bb5-4216-9219-482997e61e9e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;Username&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='Username']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;Username&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
