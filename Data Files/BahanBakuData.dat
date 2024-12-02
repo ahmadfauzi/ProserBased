@@ -7,9 +7,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>49d63689-6f6d-4539-b0da-8f2c78250a5c</dataFileGUID>
-   <dataSourceUrl>C:\Users\ASUS\Downloads\BakuExcel.xlsx</dataSourceUrl>
+   <dataSourceUrl>Excel/BakuExcel.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet1</sheetName>

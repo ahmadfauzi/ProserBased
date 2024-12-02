@@ -17,15 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://172.30.100.100:8059/login')
-
-WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/input_User name_username'), 'proser2023Pro')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_TataPabrik/input_Password_password'), 'vRRrCeg9Qho=')
-
-WebUI.click(findTestObject('Object Repository/Page_TataPabrik/span_Login'))
+WebUI.callTestCase(findTestCase('Auth/LoginSuccess'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_TataPabrik/div_Inventaris'))
 
@@ -53,7 +45,7 @@ WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/input_Rp_price')
 
 WebUI.click(findTestObject('Object Repository/Page_TataPabrik/span_Simpan'))
 
-WebUI.click(findTestObject('Object Repository/Page_TataPabrik/span_Bahan Baku_1'))
+WebUI.click(findTestObject('Page_TataPabrik/span_Bahan Baku'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_TataPabrik/select_Sesuai Nama Barang DESCSesuai Nama B_a94553'), 
     'Sesuai Barang Terbaru', true)
