@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>Pro</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://172.30.100.100:8095'</initValue>
+      <initValue>'http://172.30.100.100:8059'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'proser2023'</initValue>
+      <initValue>'proser2023Pro'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

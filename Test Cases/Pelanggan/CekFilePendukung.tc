@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CekFilePendukung</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d5a00f96-3b9e-4030-b387-f4c3348811c1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d30d1a1c-ef8a-4665-a7f9-919840c5338b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d30d1a1c-ef8a-4665-a7f9-919840c5338b</id>
+      <masked>false</masked>
+      <name>namapelanggan</name>
+   </variable>
+</TestCaseEntity>

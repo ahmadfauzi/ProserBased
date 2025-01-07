@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Daftar Kontak</name>
+   <tag></tag>
+   <elementGuidId>9df93582-8c6e-492d-96c8-9a5e3510f227</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#DaftarKontak > div.collapse-trigger > div.menu-item > div.menu-item-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='DaftarKontak']/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f0e147f2-944d-4524-9951-84c91d1141e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menu-item-text</value>
+      <webElementGuid>f8172318-9b23-4b8a-9147-0d1c73ed478d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daftar Kontak</value>
+      <webElementGuid>a67a225d-b3ec-4056-9b4a-3e404f53c8fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;DaftarKontak&quot;)/div[@class=&quot;collapse-trigger&quot;]/div[@class=&quot;menu-item&quot;]/div[@class=&quot;menu-item-text&quot;]</value>
+      <webElementGuid>02acb9ba-76db-4aa4-a8c1-868760edf5b8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='DaftarKontak']/div/div/div[2]</value>
+      <webElementGuid>34904218-8cd6-4b51-987e-3321f1401e22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mesin'])[1]/following::div[5]</value>
+      <webElementGuid>917bc523-7f79-4c59-a2ad-ba6ba97ef8d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kelompok'])[1]/following::div[8]</value>
+      <webElementGuid>c1e271c1-5b4e-4c69-8c3a-4d2692d5244f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pelanggan'])[1]/preceding::div[4]</value>
+      <webElementGuid>f6ce8656-bf87-48fb-b2ce-f69994c8cc01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Salesman'])[1]/preceding::div[7]</value>
+      <webElementGuid>e78045b3-2efd-4d88-bd3f-520c4b1d0c39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Daftar Kontak']/parent::*</value>
+      <webElementGuid>15abdc64-d1cd-4426-a6b8-38b73d1585b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[10]/div/div/div/div[2]</value>
+      <webElementGuid>a0b7403e-31f6-4c54-9813-d6ad2835f652</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Daftar Kontak' or . = 'Daftar Kontak')]</value>
+      <webElementGuid>b3fcf329-b672-4a31-b886-6421a7bb8efd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

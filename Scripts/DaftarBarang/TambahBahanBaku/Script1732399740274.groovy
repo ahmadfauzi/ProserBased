@@ -19,42 +19,42 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Auth/LoginSuccess'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_TataPabrik/div_Inventaris'))
+WebUI.click(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/div_Inventaris'))
 
-WebUI.click(findTestObject('Object Repository/Page_TataPabrik/div_Daftar Barang'))
+WebUI.click(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/div_Daftar Barang'))
 
-WebUI.click(findTestObject('Object Repository/Page_TataPabrik/span_Bahan Baku'))
+WebUI.click(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/span_Bahan Baku'))
 
-WebUI.click(findTestObject('Object Repository/Page_TataPabrik/span_Jenis Bahan Baku'))
+WebUI.click(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/span_Jenis Bahan Baku'))
 
-WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/input_Nama Barang_itemName'), nama)
+WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Nama Barang_itemName'), nama)
 
-WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/input_Kode Barang_itemCode'), kodebarang)
+WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Kode Barang_itemCode'), kodebarang)
 
-WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/input_Satuan_uom'), '')
+WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Satuan_uom'), '')
 
-WebUI.click(findTestObject('Object Repository/Page_TataPabrik/input_Satuan_uom'))
+WebUI.click(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Satuan_uom'))
 
-WebUI.click(findTestObject('Object Repository/Page_TataPabrik/span_Karung - 1 kg'))
+WebUI.click(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/span_Karung - 1 kg'))
 
 WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/input_Netto_netto'), '1')
 
-WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/input_Satuan Berat_nettoUnit'), satuanterkecil)
+WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Satuan Berat_nettoUnit'), satuanterkecil)
 
-WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/input_Rp_price'), hargabeli)
+WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Rp_price'), hargabeli)
 
-WebUI.click(findTestObject('Object Repository/Page_TataPabrik/span_Simpan'))
+WebUI.click(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/span_Simpan'))
 
-WebUI.click(findTestObject('Page_TataPabrik/span_Bahan Baku'))
+WebUI.click(findTestObject('Page_TataPabrik/DaftarBarang/span_Bahan Baku'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_TataPabrik/select_Sesuai Nama Barang DESCSesuai Nama B_a94553'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/select_Sesuai Nama Barang DESCSesuai Nama B_a94553'), 
     'Sesuai Barang Terbaru', true)
 
-WebUI.verifyElementText(findTestObject('Page_TataPabrik/td_Auto baku 1'), nama)
+WebUI.verifyElementText(findTestObject('Page_TataPabrik/DaftarBarang/td_Auto baku 1'), nama)
 
-WebUI.verifyElementText(findTestObject('Page_TataPabrik/td'), kodebarang)
+WebUI.verifyElementText(findTestObject('Page_TataPabrik/DaftarBarang/td'), kodebarang)
 
-WebUI.verifyElementText(findTestObject('Page_TataPabrik/td_kg'), satuanterkecil)
+WebUI.verifyElementText(findTestObject('Page_TataPabrik/DaftarBarang/td_kg'), satuanterkecil)
 
 WebUI.closeBrowser()
 

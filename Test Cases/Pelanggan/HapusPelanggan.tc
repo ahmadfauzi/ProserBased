@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HapusPelanggan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c6605e0b-39d0-44ab-b2f5-0e1a37961e15</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0b520ea0-0db9-4e1c-92a2-eb87d62c4222</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0b520ea0-0db9-4e1c-92a2-eb87d62c4222</id>
+      <masked>false</masked>
+      <name>namapelanggan</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>section_Drop your files here or click to upload</name>
+   <tag></tag>
+   <elementGuidId>c2b3279d-1a3d-4684-b5af-be01b344d39f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>section.section</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='file']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>section</value>
+      <webElementGuid>1a599ec6-60bb-4ff5-a2d3-a643a668d999</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>section</value>
+      <webElementGuid>e1ebcea7-ac5e-4af4-981b-6dd5997cdf04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Drop your files here or click to upload</value>
+      <webElementGuid>53a0df7f-ffef-43bd-aed1-0ce3d6cbdd32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[1]/div[@class=&quot;app&quot;]/div[@class=&quot;tile is-ancestor&quot;]/div[@class=&quot;tile is-parent is-vertical main-content&quot;]/div[@class=&quot;router-content tile is-child&quot;]/div[@class=&quot;app-content&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-content&quot;]/div[@class=&quot;columns is-multiline&quot;]/div[@class=&quot;column is-full&quot;]/div[@class=&quot;column is-multiline is-6&quot;]/div[@class=&quot;columns&quot;]/div[@class=&quot;column is-12&quot;]/div[@class=&quot;field&quot;]/label[@class=&quot;upload control is-expanded&quot;]/div[@class=&quot;upload-draggable is-primary is-expanded&quot;]/section[@class=&quot;section&quot;]</value>
+      <webElementGuid>9d034d9c-30ce-4d57-abae-2c8f1d00d5be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Tidak wajib diisi)'])[9]/following::section[1]</value>
+      <webElementGuid>8eebabec-ef1e-4405-bbe9-ec63ae8b7120</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pembayaran Sebelum Pengiriman'])[1]/preceding::section[1]</value>
+      <webElementGuid>7dff7b8a-95e0-41fd-9584-74344a194a48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tidak'])[1]/preceding::section[1]</value>
+      <webElementGuid>d7e11aba-9261-49a7-8148-944b57654886</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/div/section</value>
+      <webElementGuid>c8a23381-63a5-4cdb-adf0-32c17e0a4dd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//section[(text() = ' Drop your files here or click to upload' or . = ' Drop your files here or click to upload')]</value>
+      <webElementGuid>05174f38-b558-4910-8575-d69dac1c0571</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
