@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.util.Date as Date
+import java.text.SimpleDateFormat as SimpleDateFormat
 
 WebUI.callTestCase(findTestCase('Auth/LoginSuccess'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -40,7 +42,9 @@ WebUI.selectOptionByLabel(findTestObject('Pelanggan/Page_TataPabrik/select_Pilih
 WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_Cancel'))
 
 String fullText0 = WebUI.getText(findTestObject('Pelanggan/Page_TataPabrik/div_Saldo Piutang Rp'))
+
 String extractedNumber0 = fullText0.split(': Rp ')[1]
+
 WebUI.verifyMatch(extractedNumber0, '0,00', false)
 
 WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_Top Up'))
@@ -54,7 +58,35 @@ WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_Simpan Top Up'))
 WebUI.delay(3)
 
 String fullText1 = WebUI.getText(findTestObject('Pelanggan/Page_TataPabrik/div_Saldo Piutang Rp'))
-String parts = fullText1.split(",00")[0]
+
+String parts = fullText1.split(',00')[0]
+
 String numericText1 = parts.replaceAll('[^0-9]', '')
+
 WebUI.verifyMatch(numericText1, topup, false)
+
+WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_Top Up History'))
+
+Date today = new Date()
+
+SimpleDateFormat dateFormat = new SimpleDateFormat('dd-MM-yyyy' // Adjust the format based on your field's format
+)
+
+String todaysDate = dateFormat.format(today)
+
+String dateText = WebUI.getText(findTestObject('Pelanggan/Page_TataPabrik/td_top up_tanggal'))
+
+WebUI.verifyMatch(dateText, todaysDate, false)
+
+String nominalText = WebUI.getText(findTestObject('Pelanggan/Page_TataPabrik/td_top up_nominal'))
+
+String parts2 = nominalText.split(',00')[0]
+
+String numericText2 = parts2.replaceAll('[^0-9]', '')
+
+WebUI.verifyMatch(numericText2, topup, false)
+
+String pembayaranText = WebUI.getText(findTestObject('Pelanggan/Page_TataPabrik/td_top up_cara pembayaran'))
+
+WebUI.verifyMatch(pembayaranText, 'QRIS', false)
 
