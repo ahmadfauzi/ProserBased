@@ -71,7 +71,7 @@ WebUI.verifyMatch(tenggatText, tenggat, false)
 
 String limitPiutangText = WebUI.getAttribute(findTestObject('Pelanggan/Page_TataPabrik/disabled_Rp_creditLimit'), 'value')
 
-String actualLimitText = limitPiutangText.replace(".", "").trim();
+String actualLimitText = limitPiutangText.replace('.', '').trim()
 
 WebUI.verifyMatch(actualLimitText, limitpiutang, false)
 

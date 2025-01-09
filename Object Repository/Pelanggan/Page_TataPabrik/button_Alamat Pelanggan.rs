@@ -6,12 +6,12 @@
    <elementGuidId>b2528ed6-15a2-4765-b6ac-3d655b851ae3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.button.button-addActions</value>
+         <key>XPATH</key>
+         <value>//button[normalize-space()='Alamat Pelanggan']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat Pelanggan: asd'])[1]/following::button[1]</value>
+         <key>CSS</key>
+         <value>button.button.button-addActions</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a52e7d57-7ef4-49fd-a840-6ebedb69344b</webElementGuid>
+      <webElementGuid>1dca3526-281b-4e64-ab98-60cc47a47a82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button button-addActions</value>
-      <webElementGuid>629ed8b0-d5ad-44dc-aaae-d252e59be115</webElementGuid>
+      <webElementGuid>6205cf78-8bfb-461d-bf0f-c396a4fd0a14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <value>
             Alamat Pelanggan
           </value>
-      <webElementGuid>1496293d-c416-4217-8685-6dddcf7128d2</webElementGuid>
+      <webElementGuid>cf98cce3-9d78-4417-95b0-a37edc7e9c7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[1]/div[@class=&quot;app&quot;]/div[@class=&quot;tile is-ancestor&quot;]/div[@class=&quot;tile is-parent is-vertical main-content&quot;]/div[@class=&quot;router-content tile is-child&quot;]/div[@class=&quot;app-content&quot;]/div[@class=&quot;content expenses&quot;]/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-header with-separator&quot;]/a[1]/button[@class=&quot;button button-addActions&quot;]</value>
-      <webElementGuid>c2eb0425-3feb-4d2f-a8d1-6e43f21326a9</webElementGuid>
+      <webElementGuid>f1d4373d-5bac-46ca-8868-f177a42a3352</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat Pelanggan: asd'])[1]/following::button[1]</value>
-      <webElementGuid>15c9e1e5-de25-499d-82ef-1b3e8404212d</webElementGuid>
+      <webElementGuid>0d592d23-5a9e-444f-a0f5-27ea181be01d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='History'])[1]/following::button[1]</value>
-      <webElementGuid>6beb7bc2-14f1-4388-a321-9aeee885dc98</webElementGuid>
+      <webElementGuid>18f7b2ac-2656-4ddf-9cbc-a59d38f9a573</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TataPabrik'])[2]/preceding::button[1]</value>
-      <webElementGuid>e8b5c815-2544-40a3-a84d-e076ba8fe7f2</webElementGuid>
+      <webElementGuid>98e5550f-dead-47c1-b368-80cde3ae6e16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PT. KST'])[1]/preceding::button[1]</value>
-      <webElementGuid>c881e256-b345-4705-a37f-55a6bfaf7d23</webElementGuid>
+      <webElementGuid>9195ae08-e351-4732-b3d8-96cf2dc37c4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Alamat Pelanggan']/parent::*</value>
-      <webElementGuid>57ee3642-9f94-4a11-bdd9-61245bc99163</webElementGuid>
+      <webElementGuid>d4f41d2d-9359-47b1-8e8e-90d937a8711f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/button</value>
-      <webElementGuid>7794fabe-8bd9-4bfc-837e-527bfd40aaf1</webElementGuid>
+      <webElementGuid>722c9295-bdec-49ea-a0a3-5ad93c814043</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
           ' or . = '
             Alamat Pelanggan
           ')]</value>
-      <webElementGuid>52689d66-2514-4fa9-8024-bd2831aed1f0</webElementGuid>
+      <webElementGuid>f687330a-5509-4042-8f5a-ab8b7f9d5fbf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

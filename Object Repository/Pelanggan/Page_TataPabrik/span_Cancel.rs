@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Cancel</name>
+   <tag></tag>
+   <elementGuidId>59d025a5-d50c-432d-a26c-606ba14875ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.button.button.button-cancel.has-outline > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='invoice-mobile']/div[2]/div[3]/button[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c7b54297-3f94-4063-82b8-267fe3f50d3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+        Cancel
+      </value>
+      <webElementGuid>7efeeefe-004d-44f9-aff2-1a5e317ea429</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;invoice-mobile&quot;)/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-footer&quot;]/button[@class=&quot;button button button-cancel has-outline&quot;]/span[1]</value>
+      <webElementGuid>530aba2c-1a57-4f4f-8242-df7ed577248a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='invoice-mobile']/div[2]/div[3]/button[2]/span</value>
+      <webElementGuid>1c45cb3c-15f2-4317-830e-785127a1126b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpan'])[1]/following::span[1]</value>
+      <webElementGuid>483b78fd-a254-4fb6-bf00-589d214a8824</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Klik Untuk Tambahkan File'])[1]/following::span[2]</value>
+      <webElementGuid>8dc26476-2128-4ac3-a399-fa5eec1e86ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rincian Pelanggan: Sunari Ngatmono (Edit)'])[1]/preceding::span[1]</value>
+      <webElementGuid>ee0d4eac-2393-4925-9e59-fba0f33ed132</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cancel']/parent::*</value>
+      <webElementGuid>ae215d6c-15b7-4192-b14a-4cefe07f7d0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span</value>
+      <webElementGuid>6037441d-338b-4df2-b684-816571bd366a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+        Cancel
+      ' or . = '
+        Cancel
+      ')]</value>
+      <webElementGuid>2e962db8-ebd7-4e59-8e32-781c0ec42141</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -57,10 +57,6 @@ WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/input_(Tidak wajib diisi)_
 
 WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/div_Discount Cst QA 1'))
 
-WebUI.uploadFile(findTestObject('Pelanggan/Page_TataPabrik/section_Drop your files here or click to upload'), 'D:\\KST\\Testdata\\valid1.jpg')
-
-WebUI.delay(1)
-
 WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_Simpan'))
 
 WebUI.setText(findTestObject('Pelanggan/Page_TataPabrik/input_Jenis Alamat_addressName0'), jenisalamat)

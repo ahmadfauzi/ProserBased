@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TopUpPelanggan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c46657dd-befd-4855-8f6c-12bcf42da5e8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7a66ba15-5e4a-413a-aa39-b45400b2cb55</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6a042b32-7715-4809-b294-4a0beffc9553</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7a66ba15-5e4a-413a-aa39-b45400b2cb55</id>
+      <masked>false</masked>
+      <name>namapelanggan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a042b32-7715-4809-b294-4a0beffc9553</id>
+      <masked>false</masked>
+      <name>topup</name>
+   </variable>
+</TestCaseEntity>

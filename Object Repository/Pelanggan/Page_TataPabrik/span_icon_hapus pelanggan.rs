@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_delete icon</name>
+   <name>span_icon_hapus pelanggan</name>
    <tag></tag>
    <elementGuidId>6a1eb673-3fe6-4d50-81bb-1277bebcd861</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@class='button button button-delete']//span[@class='icon is-small']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>tr:nth-of-type(7) > td:nth-of-type(5) > div.action-buttons > button.button.button.button-delete > span.icon.is-small</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@class='button button button-delete']//span[@class='icon is-small']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -29,11 +29,11 @@ WebUI.setText(findTestObject('Pelanggan/Page_TataPabrik/input_Cari_input'), nama
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_delete icon'))
+WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_icon_hapus pelanggan'))
 
 WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_Batalkan'))
 
-WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_delete icon'))
+WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_icon_hapus pelanggan'))
 
 WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_Hapus'))
 
