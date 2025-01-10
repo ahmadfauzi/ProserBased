@@ -127,7 +127,7 @@
       <guid>b7c87f55-e78c-44ed-9600-5211b9cdb256</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pelanggan_Positive/CekPelanggan</testCaseId>
+      <testCaseId>Test Cases/Pelanggan_Positive/RincianPelanggan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6d56b997-5f0a-4937-82ae-7cad823ebc93</id>

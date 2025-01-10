@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='menghapus'])[1]/following::span[1]</value>
+         <value>//span[normalize-space()='Batalkan']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>31066402-be3c-4c71-ae15-d72038161177</webElementGuid>
+      <webElementGuid>5a45e2ca-a9c3-4e5f-b721-3279d4e87c78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Batalkan</value>
-      <webElementGuid>3628bb48-8e2e-44b2-9cc1-ad975fee4bc0</webElementGuid>
+      <webElementGuid>3641d5e8-e51d-425e-a7ec-0b427e8f0a99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete is-clipped&quot;]/body[1]/div[@class=&quot;dialog modal is-active&quot;]/div[@class=&quot;modal-card animation-content&quot;]/footer[@class=&quot;modal-card-foot&quot;]/button[@class=&quot;button&quot;]/span[1]</value>
-      <webElementGuid>06ab1530-79f4-4dd1-9799-243fa31cdca8</webElementGuid>
+      <webElementGuid>c47c2acf-b351-4a46-9501-b73ef631d568</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='menghapus'])[1]/following::span[1]</value>
-      <webElementGuid>23afc4ef-58cd-4a5d-b71e-df8de336ed9b</webElementGuid>
+      <webElementGuid>91af5007-d39d-471a-9450-a308180bcc7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::span[2]</value>
-      <webElementGuid>3ca14244-b10b-474a-9b00-da8b09df6f06</webElementGuid>
+      <webElementGuid>8787f86c-2548-4c0a-af37-6521d6483581</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hapus'])[1]/preceding::span[1]</value>
-      <webElementGuid>7235f2c1-25f8-4f16-95c0-1215c29f1080</webElementGuid>
+      <webElementGuid>daf54393-f792-4809-94d6-475703c376ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Batalkan']/parent::*</value>
-      <webElementGuid>a4001175-eb3a-4cbe-8a15-1b544e5425bf</webElementGuid>
+      <webElementGuid>bf23cd8c-59ff-465f-9c33-6022cfa36899</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//footer/button/span</value>
-      <webElementGuid>28fc3f1b-7dd9-4b17-8db4-9bcd432ca9c0</webElementGuid>
+      <webElementGuid>b26f9ef7-361e-459a-8449-907d61989b14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Batalkan' or . = 'Batalkan')]</value>
-      <webElementGuid>51d6e176-a923-40c0-bc4d-a457a55f92fd</webElementGuid>
+      <webElementGuid>462f002b-c085-42a9-9cb0-f9a47e016bd3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

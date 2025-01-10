@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Jenis Alamat_addressName0</name>
+   <name>input_Nama Salesman_name</name>
    <tag></tag>
-   <elementGuidId>14ec59fc-3ea8-42f0-ac02-fd190abe639c</elementGuidId>
+   <elementGuidId>a72767b4-fa18-46ad-b1b6-4a3ae8cfaafa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='addressName0']</value>
+         <value>//input[@name='name']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;addressName0&quot;]</value>
+         <value>input[name=&quot;name&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>12f2a529-cec9-462f-a427-c92f805b196a</webElementGuid>
+      <webElementGuid>8aded43d-c436-4bb0-b7bf-71a783ef1879</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>9616523e-156e-4c8c-b936-db271fbb672e</webElementGuid>
+      <webElementGuid>7d6d3b3f-7c3e-4afb-9485-d4eaa91b01ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,31 +39,23 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>c679e9d0-cd99-48e0-9320-98b544cec011</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>100</value>
-      <webElementGuid>628e0ce6-1f93-4e1a-8111-a38ae4d87189</webElementGuid>
+      <webElementGuid>0c19bded-50cd-4dd2-9c6b-c0a2a52a3d12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>addressName0</value>
-      <webElementGuid>de3b816f-da49-4061-b4bb-3efcf483eb92</webElementGuid>
+      <value>name</value>
+      <webElementGuid>27a50d05-ada1-4e2a-acc1-d9cbfdc6f72e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>disabled</name>
       <type>Main</type>
-      <value>contoh: Rumah, Office 1, Office 2</value>
-      <webElementGuid>78fa739a-5f38-4e32-ad9e-3567b2374fbf</webElementGuid>
+      <value>disabled</value>
+      <webElementGuid>75e5fdb2-656d-495c-9f54-4a812178e960</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,23 +63,31 @@
       <name>class</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2491a1ce-4aa5-42c7-8980-fd52a6ba72d3</webElementGuid>
+      <webElementGuid>a3096666-0388-4285-9439-14f8ebe24a02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[1]/div[@class=&quot;app&quot;]/div[@class=&quot;tile is-ancestor&quot;]/div[@class=&quot;tile is-parent is-vertical main-content&quot;]/div[@class=&quot;router-content tile is-child&quot;]/div[@class=&quot;app-content&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-content&quot;]/div[1]/div[@class=&quot;box client-address-form-margin-btm&quot;]/div[@class=&quot;columns is-multiline&quot;]/div[@class=&quot;column is-half content-separator&quot;]/div[@class=&quot;columns is-multiline&quot;]/div[@class=&quot;column is-12&quot;]/div[@class=&quot;control is-clearfix&quot;]/input[@class=&quot;input&quot;]</value>
-      <webElementGuid>1d484462-d7a5-449f-9c1e-e5fe5925de85</webElementGuid>
+      <value>id(&quot;3&quot;)/div[@class=&quot;content&quot;]/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-content&quot;]/div[1]/div[@class=&quot;columns is-multiline&quot;]/div[@class=&quot;column is-half&quot;]/div[@class=&quot;control is-clearfix&quot;]/input[@class=&quot;input&quot;]</value>
+      <webElementGuid>982d57ce-6c0e-4516-9f4f-65bd790efaf4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='addressName0']</value>
-      <webElementGuid>ac7d3aa4-160d-4481-9650-a908814bae1b</webElementGuid>
+      <value>//input[@name='name']</value>
+      <webElementGuid>4d29895d-d6f9-4ff7-b90f-63ac7df14f87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='3']/div/div/div[2]/div/div/div/div[2]/input</value>
+      <webElementGuid>e84065ce-075f-4ff4-9dc9-57e4850f4884</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,14 +95,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>8e2e2c37-3ba3-45eb-afb9-9759311db0f7</webElementGuid>
+      <webElementGuid>62c1873c-5d8f-4551-813a-2afccc171dd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @name = 'addressName0' and @placeholder = 'contoh: Rumah, Office 1, Office 2']</value>
-      <webElementGuid>b5bc03bc-1ee8-4ae0-b116-df8faaabf4cd</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'name']</value>
+      <webElementGuid>d0466bfe-e128-4f3e-a2d9-358e9244af8c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

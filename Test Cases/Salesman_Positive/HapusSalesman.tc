@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HapusSalesman</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3a3d52bd-7237-4b85-a1af-c25a90ce8967</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2aa3776c-6560-49f2-9bdc-a563db2b8afb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2aa3776c-6560-49f2-9bdc-a563db2b8afb</id>
+      <masked>false</masked>
+      <name>namasalesman</name>
+   </variable>
+</TestCaseEntity>

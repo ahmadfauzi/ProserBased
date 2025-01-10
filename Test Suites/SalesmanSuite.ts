@@ -45,4 +45,60 @@
          <variableId>73783665-9ebe-4c25-a967-8db9dbfe3014</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>2dda1639-0f1d-4557-a170-58402fb1422a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Salesman_Positive/RincianSalesman</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f321f742-9ee1-47c5-b3b7-814742349403</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/SalesmanData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>f321f742-9ee1-47c5-b3b7-814742349403</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>namasalesman</value>
+         <variableId>2f23fe5c-53a7-4769-9d07-d66e49ddbb88</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f321f742-9ee1-47c5-b3b7-814742349403</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>telepon</value>
+         <variableId>b14360f9-5e26-46ed-9ae1-272aba79293b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f321f742-9ee1-47c5-b3b7-814742349403</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nokaryawan</value>
+         <variableId>a4da4257-0f46-4914-b24c-9478d694c933</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>710193aa-ee77-4fdc-9269-fcb99780e6d7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Salesman_Positive/HapusSalesman</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0df9c3c9-fde2-4d87-aa73-54f19fe1fb61</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/SalesmanData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>0df9c3c9-fde2-4d87-aa73-54f19fe1fb61</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>namasalesman</value>
+         <variableId>2aa3776c-6560-49f2-9bdc-a563db2b8afb</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
