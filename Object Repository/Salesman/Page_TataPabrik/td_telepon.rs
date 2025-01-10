@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_telepon</name>
+   <tag></tag>
+   <elementGuidId>c27ddc5d-8add-4202-a235-7ff2c57d87b5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tbody[1]/tr[1]/td[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>d381c807-6374-4586-8bfc-a8bc74c05356</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-label</name>
+      <type>Main</type>
+      <value>Telepon</value>
+      <webElementGuid>3f71a15c-00c8-4df7-a509-45123334c35b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+              asd
+            </value>
+      <webElementGuid>e480af6d-6bb2-4368-95a9-1e885236ae02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[1]/div[@class=&quot;app&quot;]/div[@class=&quot;tile is-ancestor&quot;]/div[@class=&quot;tile is-parent is-vertical main-content&quot;]/div[@class=&quot;router-content tile is-child&quot;]/div[@class=&quot;app-content&quot;]/div[@class=&quot;content expenses&quot;]/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-table with-separator table-shared-style&quot;]/div[2]/div[@class=&quot;b-table table table-striped&quot;]/div[@class=&quot;table-wrapper has-mobile-cards&quot;]/table[@class=&quot;table is-striped&quot;]/tbody[1]/tr[1]/td[2]</value>
+      <webElementGuid>19bde13c-188a-4002-b390-d14f5732d730</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Multi click test sales'])[2]/following::td[1]</value>
+      <webElementGuid>1d9465a0-7ec8-4c04-a50d-3fd18bdff63d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Multi click test sales'])[1]/following::td[1]</value>
+      <webElementGuid>32ec71fd-9c93-4ae2-a0fe-9ada37ce6a02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='asd123'])[1]/preceding::td[1]</value>
+      <webElementGuid>d017f6f0-1e2e-4d0c-83cd-28d692203348</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='asd123'])[2]/preceding::td[1]</value>
+      <webElementGuid>6f8a3028-38a9-4e1c-be30-5749e4b4781b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='asd']/parent::*</value>
+      <webElementGuid>d3915961-0ff2-413f-a31d-ae205e96bdff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]</value>
+      <webElementGuid>4efd942d-ed14-4e2f-b2f3-544c83917679</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '
+              asd
+            ' or . = '
+              asd
+            ')]</value>
+      <webElementGuid>71719b0c-5c95-4940-897a-1e858eb94ae8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

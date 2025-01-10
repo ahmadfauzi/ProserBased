@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Simpan</name>
+   <tag></tag>
+   <elementGuidId>1c1317d5-b128-4dd7-8586-358f40f02f5d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.section-footer > button.button.button > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='invoice-mobile']/div[2]/div[3]/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2bce9825-682e-41b9-81af-977fa49823b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+        Simpan
+      </value>
+      <webElementGuid>b233456e-abb7-4468-8db6-92d5710f3b21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;invoice-mobile&quot;)/div[@class=&quot;section-card modal-content-custom&quot;]/div[@class=&quot;section-footer&quot;]/button[@class=&quot;button button&quot;]/span[1]</value>
+      <webElementGuid>df8edebd-8c56-454a-a773-23e7f28cde99</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='invoice-mobile']/div[2]/div[3]/button/span</value>
+      <webElementGuid>21a9ac1b-36e9-47c6-9135-b9710630a3d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Karyawan'])[2]/following::span[1]</value>
+      <webElementGuid>ded2e99b-f675-4ee6-8aa2-0a36ea06ccbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Telepon'])[2]/following::span[1]</value>
+      <webElementGuid>f81c94b2-aa95-4c94-86e4-1d1819ef78c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batalkan'])[1]/preceding::span[1]</value>
+      <webElementGuid>c6962dee-be8f-4653-8536-7a6af7848e5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TataPabrik'])[2]/preceding::span[2]</value>
+      <webElementGuid>0e34a172-8bf2-47e7-b2ce-d3e894787ede</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Simpan']/parent::*</value>
+      <webElementGuid>2f765feb-c4d4-4b59-8adf-2da3bf4a4b35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button/span</value>
+      <webElementGuid>c0412de8-8af7-47f9-9498-6f6a064af314</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+        Simpan
+      ' or . = '
+        Simpan
+      ')]</value>
+      <webElementGuid>c3cb006d-e22f-4569-aa27-045b453ea6b9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

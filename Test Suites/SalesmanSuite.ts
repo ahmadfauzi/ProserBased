@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>SalesmanSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>56b5a406-9ada-4e89-a838-a13771e9da8a</testSuiteGuid>
+   <testCaseLink>
+      <guid>4398835a-a1b5-4aea-82d7-7baf22e5f29c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Salesman_Positive/TambahSalesman</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>94080664-4317-4dd1-bfa4-c874c1931ee0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/SalesmanData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>94080664-4317-4dd1-bfa4-c874c1931ee0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>namasalesman</value>
+         <variableId>51af407a-f4d3-42fc-82c4-2f4fb97cdcfd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>94080664-4317-4dd1-bfa4-c874c1931ee0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>telepon</value>
+         <variableId>7eb1c555-345d-4be7-a057-af42efe3e12c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>94080664-4317-4dd1-bfa4-c874c1931ee0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nokaryawan</value>
+         <variableId>73783665-9ebe-4c25-a967-8db9dbfe3014</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
