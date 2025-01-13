@@ -6,12 +6,12 @@
    <elementGuidId>49a15ada-4a28-4255-8c69-b677cc13103d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.button.button-addActions.responsive-button</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Atur Ulang'])[1]/following::button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.button.button-addActions.responsive-button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6174a27a-ba57-44fc-8e48-cb28a15432dc</webElementGuid>
+      <webElementGuid>23e2ce09-62bf-4fab-b6c8-1a62173a66cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button button-addActions responsive-button</value>
-      <webElementGuid>3f129676-3757-47b6-9b11-b50565aaf951</webElementGuid>
+      <webElementGuid>d42f5c5a-a6a4-43af-ab84-2d0c07b7fe83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <value>
           User
         </value>
-      <webElementGuid>cedddccb-bdaf-4b0f-8c7b-9d571dd244ac</webElementGuid>
+      <webElementGuid>4266c22f-3c68-429f-abcc-933d11f86628</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[1]/div[@class=&quot;app&quot;]/div[@class=&quot;tile is-ancestor&quot;]/div[@class=&quot;tile is-parent is-vertical main-content&quot;]/div[@class=&quot;router-content tile is-child&quot;]/div[@class=&quot;app-content&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;section-card&quot;]/div[@class=&quot;operationals-menu font-style-normal responsive-menu is-flex-desktop is-justify-content-end&quot;]/button[@class=&quot;button button-addActions responsive-button&quot;]</value>
-      <webElementGuid>3059b087-f2f4-40a7-9be3-9dcf720a513f</webElementGuid>
+      <webElementGuid>fc3608da-9507-4da9-a311-85e12254b74a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Atur Ulang'])[1]/following::button[1]</value>
-      <webElementGuid>0a66c796-bc04-421a-83a2-70ec9ff01697</webElementGuid>
+      <webElementGuid>bfefe044-5ee3-4468-a9de-5346068cf54c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cari'])[1]/following::button[2]</value>
-      <webElementGuid>bd0b43fc-70d3-4df2-a524-066abafb706c</webElementGuid>
+      <webElementGuid>76172448-afdd-4c2c-bdca-63473b1ae8c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama'])[1]/preceding::button[1]</value>
-      <webElementGuid>9987a25d-bd49-4cd0-8e43-4576f00efcd0</webElementGuid>
+      <webElementGuid>23697f3c-ae3b-4a71-8c43-98554a5b2a7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Departemen'])[1]/preceding::button[1]</value>
-      <webElementGuid>0ba72522-19d5-4f1d-8cbf-79ab2d2c65f4</webElementGuid>
+      <webElementGuid>135e001d-84a6-4e58-b300-33d0b74ae6cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,18 +89,18 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>f11b23a6-cdcc-425c-9625-745347fb9444</webElementGuid>
+      <webElementGuid>7475273d-1b81-4ed5-9489-c85ee10da0a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = '
-          User
-        ' or . = '
-          User
+      <value>//button[(text() = '&#xd;
+          User&#xd;
+        ' or . = '&#xd;
+          User&#xd;
         ')]</value>
-      <webElementGuid>fbadee7a-7520-44ae-9865-2bb831170a20</webElementGuid>
+      <webElementGuid>171bb2fe-45c7-46f7-afb6-08454c365a15</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
