@@ -80,6 +80,46 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>395a4251-863c-4ed9-97a3-d12b968f209d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Salesman_Positive/EditSalesman</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e93beb65-5be6-4905-a4cf-4a99aa0e8d75</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/SalesmanData_edit</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e93beb65-5be6-4905-a4cf-4a99aa0e8d75</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>namasalesman</value>
+         <variableId>857be32b-53a3-48d8-8bf3-29dff3aacabc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e93beb65-5be6-4905-a4cf-4a99aa0e8d75</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>namasalesman_edit</value>
+         <variableId>2ed8e8f5-2f2a-482a-9ab9-fee046758750</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e93beb65-5be6-4905-a4cf-4a99aa0e8d75</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>telepon_edit</value>
+         <variableId>a9c4f93f-7255-49da-afa7-442aa24732e8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e93beb65-5be6-4905-a4cf-4a99aa0e8d75</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nokaryawan_edit</value>
+         <variableId>9dd9a9ba-8fe2-4686-a24a-b1e6c7d8b666</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>710193aa-ee77-4fdc-9269-fcb99780e6d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
