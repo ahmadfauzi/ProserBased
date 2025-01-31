@@ -25,31 +25,39 @@ WebUI.click(findTestObject('Supplier/Page_TataPabrik/div_Supplier'))
 
 WebUI.click(findTestObject('Object Repository/Supplier/Page_TataPabrik/span_Supplier'))
 
-WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Nama Supplier_name'), 'Testing Katalon')
+WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Nama Supplier_name'), namasupplier)
 
-WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Kode_code'), '')
+WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_phoneNumber'), telepon)
 
-WebUI.click(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Kode_code'))
-
-WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Kode_code'), 'TK 001')
+WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Kode_code'), kode)
 
 WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Tenggat Pembayaran (hari)_paymentTerm'), 
-    '1')
+    tenggat)
+
+WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_nik'), nik)
+
+WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_npwp'), npwp)
+
+WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_mobileNumber'), nomorponsel)
+
+WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_emailAddress'), email)
+
+WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_pkp'), pkp)
+
+WebUI.setText(findTestObject('Supplier/Page_TataPabrik/textarea_(Tidak wajib diisi)_note'), catatan)
 
 WebUI.click(findTestObject('Object Repository/Supplier/Page_TataPabrik/span_Simpan'))
 
-WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Jenis Alamat_addressName0'), 'Office 1')
+WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Jenis Alamat_addressName0'), jenisalamat)
 
-WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Nama_picName0'), 'Annisa')
+WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/textarea_Alamat Lengkap_address0'), alamatlengkap)
 
-WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Nomor Telepon_picPhoneNumber0'), '0487383')
+WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Nama_picName0'), namapj)
 
-WebUI.click(findTestObject('Object Repository/Supplier/Page_TataPabrik/div_Alamat 1           Jenis Alamat  8  200_081c6e'))
-
-WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/textarea_Alamat Lengkap_address0'), 'Jl. Prabu ')
+WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Nomor Telepon_picPhoneNumber0'), teleponpj)
 
 WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_(Gunakan Format email yang benar)_picEmail0'), 
-    'test@test.co')
+    emailpj)
 
 WebUI.click(findTestObject('Object Repository/Supplier/Page_TataPabrik/span_Simpan_1'))
 
