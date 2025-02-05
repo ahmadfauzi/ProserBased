@@ -82,12 +82,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f378a5a3-7e7a-41e7-b730-d1293f1db3a5</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>98f11399-5014-4e30-917c-80218f79434d</variableId>
    </variableLinks>
    <variableLinks>
@@ -185,13 +179,6 @@
       <id>eeb50487-8b8f-4b2c-94c5-97abfff689c5</id>
       <masked>false</masked>
       <name>alamatlengkap</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>f378a5a3-7e7a-41e7-b730-d1293f1db3a5</id>
-      <masked>false</masked>
-      <name>alamatfaktur</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>

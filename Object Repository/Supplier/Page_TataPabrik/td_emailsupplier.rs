@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_emailsupplier</name>
+   <tag></tag>
+   <elementGuidId>8fd473f3-6405-4add-8114-4eb4780793ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Tindakan'])[1]/following::td[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(4)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>dff590be-a756-43f8-8d34-6be38d5b7a6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-label</name>
+      <type>Main</type>
+      <value>Email</value>
+      <webElementGuid>b8c949c4-e1d2-415e-aa73-8dc3f8aa15ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[1]/div[@class=&quot;app&quot;]/div[@class=&quot;tile is-ancestor&quot;]/div[@class=&quot;tile is-parent is-vertical main-content&quot;]/div[@class=&quot;router-content tile is-child&quot;]/div[@class=&quot;app-content&quot;]/div[@class=&quot;content expenses&quot;]/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-table with-separator table-shared-style&quot;]/div[2]/div[@class=&quot;b-table table table-striped&quot;]/div[@class=&quot;table-wrapper has-mobile-cards&quot;]/table[@class=&quot;table is-striped&quot;]/tbody[1]/tr[1]/td[4]</value>
+      <webElementGuid>f85c936e-c8e9-4c47-b0b8-2ba88c45fe55</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tindakan'])[1]/following::td[4]</value>
+      <webElementGuid>78b6184a-da4a-4942-9e41-c8f70a598850</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saldo Utang'])[1]/following::td[4]</value>
+      <webElementGuid>b40ea58a-5ccb-4710-a6a2-69ecc51c9603</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 0,00'])[1]/preceding::td[1]</value>
+      <webElementGuid>394ff266-afbc-49bc-a655-b3edd8cc9f5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='bikin2'])[1]/preceding::td[3]</value>
+      <webElementGuid>46065367-921f-442d-9c9e-25d3ebe8f6eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]</value>
+      <webElementGuid>e7a40bf3-6968-4edd-b508-23b52d7d8273</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

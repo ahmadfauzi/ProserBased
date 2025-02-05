@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>SupplierData</name>
+   <name>SupplierData_edit</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>3a91e868-5b22-4d36-b437-3065d9c626d5</dataFileGUID>
-   <dataSourceUrl>Excel/SupplierDataExcel.xlsx</dataSourceUrl>
+   <dataFileGUID>08eb2315-6fe7-43ec-bfc5-a3052f6e5ca0</dataFileGUID>
+   <dataSourceUrl>Excel/SupplierDataExcel_edit.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

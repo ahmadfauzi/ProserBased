@@ -6,12 +6,12 @@
    <elementGuidId>abc3f530-f0f9-4c2b-8bd4-9be3bc6b3e87</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.button.button > span</value>
+         <key>XPATH</key>
+         <value>//button[@class='button button']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='(Tidak wajib diisi)'])[7]/following::span[1]</value>
+         <key>CSS</key>
+         <value>button.button.button > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>53e522a2-ac11-4eba-9d5e-e44b2edc0984</webElementGuid>
+      <webElementGuid>98d4fe48-d684-43aa-b8e0-cf8eae483d46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,7 +33,7 @@
       <value>
           Simpan
         </value>
-      <webElementGuid>0cfc36fa-10d5-473e-9349-1f7f9a5bc78a</webElementGuid>
+      <webElementGuid>4ba183e1-9421-404a-b627-64518b29ae6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[1]/div[@class=&quot;app&quot;]/div[@class=&quot;tile is-ancestor&quot;]/div[@class=&quot;tile is-parent is-vertical main-content&quot;]/div[@class=&quot;router-content tile is-child&quot;]/div[@class=&quot;app-content&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-footer&quot;]/button[@class=&quot;button button&quot;]/span[1]</value>
-      <webElementGuid>ddb966ee-ac39-4549-a25f-0d51831d0400</webElementGuid>
+      <webElementGuid>ada2f868-6c25-4243-9dad-118ca5edbc22</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(Tidak wajib diisi)'])[7]/following::span[1]</value>
-      <webElementGuid>3e623bc0-3b27-44bf-91fe-c15f957d5753</webElementGuid>
+      <webElementGuid>2d620494-c922-4e64-927c-44bda94135d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TataPabrik'])[2]/preceding::span[1]</value>
-      <webElementGuid>d6f462e0-3a5a-48e0-b73d-4e998252d96e</webElementGuid>
+      <webElementGuid>e0725fe0-411a-4a63-92c2-5229b62b39f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PT. KST'])[1]/preceding::span[1]</value>
-      <webElementGuid>f00c14d1-1fdf-4450-9a7c-116ce5d2ac78</webElementGuid>
+      <webElementGuid>fc263ea0-c161-42c1-ba17-ba19060a51ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Simpan']/parent::*</value>
-      <webElementGuid>6a068643-e607-4139-b31b-96498641f90f</webElementGuid>
+      <webElementGuid>42c6cf46-d06b-468f-bbaf-6bb0a34a93d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/span</value>
-      <webElementGuid>95459d75-74b9-408f-97be-d2e570a73276</webElementGuid>
+      <webElementGuid>579f5ece-68f3-4404-86c0-b1e0b693025c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
         ' or . = '
           Simpan
         ')]</value>
-      <webElementGuid>9c483675-010f-4bc9-8d66-abe7c677f5b7</webElementGuid>
+      <webElementGuid>29b51cc1-568e-4f96-8fae-f62d7b768e3f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

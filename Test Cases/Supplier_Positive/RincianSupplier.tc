@@ -1,152 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>EditSupplier</name>
+   <name>RincianSupplier</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>955af4eb-8510-4315-969f-fc5867fffc98</testCaseGuid>
+   <testCaseGuid>c5d06980-f358-40b7-9a31-06a87b27ba8c</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c7b383f3-c35a-4b5e-b066-0bfbbe39fd0c</variableId>
+      <variableId>1fd874ba-1b73-4ff7-933b-73b78e23a899</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>cb403847-f56f-4c26-a746-591c47c6f1ad</variableId>
+      <variableId>ddfcf7d6-fa27-473a-abc5-8d922ac88293</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>cf23ad76-6c03-427d-9033-b8b11b470517</variableId>
+      <variableId>e10a40aa-3ace-4729-9969-902e2d710216</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3c3b1b88-2289-4046-97a1-58fcd7a6809a</variableId>
+      <variableId>926eb238-17f2-47dc-86c4-c28f03171773</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ad14c928-58f2-400c-9d9f-42252f203d9d</variableId>
+      <variableId>e9dab6a5-1725-4732-bf22-8ba3abb0b692</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a4446a44-39ff-438a-b599-068e5411b5a0</variableId>
+      <variableId>7902556e-33c5-46a0-af9b-332ef5ecb699</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e622ca76-3df8-4f92-a859-3bb407800111</variableId>
+      <variableId>cd512586-5c82-439e-9008-e69c0702eb8b</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>56d2463b-b72f-42b4-ab04-9516a406b1a1</variableId>
+      <variableId>7bdea663-cb90-4fe9-9694-1938031fb2ca</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>67b60b1c-5781-417d-bddc-f201696a8273</variableId>
+      <variableId>6a8bcb37-788d-42e6-93fd-fab0da682a88</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ff90df9e-b5d3-4c66-9124-f2b56a26287a</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>61942c8d-3251-42dd-8a2c-c1a2b50cd202</variableId>
+      <variableId>7c75e2dd-030c-4bb9-b853-67077b768c26</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>c7b383f3-c35a-4b5e-b066-0bfbbe39fd0c</id>
+      <id>1fd874ba-1b73-4ff7-933b-73b78e23a899</id>
       <masked>false</masked>
       <name>namasupplier</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>cb403847-f56f-4c26-a746-591c47c6f1ad</id>
+      <id>ddfcf7d6-fa27-473a-abc5-8d922ac88293</id>
       <masked>false</masked>
-      <name>namasupplier_edit</name>
+      <name>telepon</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>cf23ad76-6c03-427d-9033-b8b11b470517</id>
+      <id>e10a40aa-3ace-4729-9969-902e2d710216</id>
       <masked>false</masked>
-      <name>telepon_edit</name>
+      <name>kode</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>3c3b1b88-2289-4046-97a1-58fcd7a6809a</id>
+      <id>926eb238-17f2-47dc-86c4-c28f03171773</id>
       <masked>false</masked>
-      <name>kode_edit</name>
+      <name>tenggat</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>ad14c928-58f2-400c-9d9f-42252f203d9d</id>
+      <id>e9dab6a5-1725-4732-bf22-8ba3abb0b692</id>
       <masked>false</masked>
-      <name>tenggat_edit</name>
+      <name>nik</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>a4446a44-39ff-438a-b599-068e5411b5a0</id>
+      <id>7902556e-33c5-46a0-af9b-332ef5ecb699</id>
       <masked>false</masked>
-      <name>nik_edit</name>
+      <name>npwp</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>e622ca76-3df8-4f92-a859-3bb407800111</id>
+      <id>cd512586-5c82-439e-9008-e69c0702eb8b</id>
       <masked>false</masked>
-      <name>npwp_edit</name>
+      <name>nomorponsel</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>56d2463b-b72f-42b4-ab04-9516a406b1a1</id>
+      <id>7bdea663-cb90-4fe9-9694-1938031fb2ca</id>
       <masked>false</masked>
-      <name>nomorponsel_edit</name>
+      <name>email</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>67b60b1c-5781-417d-bddc-f201696a8273</id>
+      <id>6a8bcb37-788d-42e6-93fd-fab0da682a88</id>
       <masked>false</masked>
-      <name>email_edit</name>
+      <name>pkp</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>ff90df9e-b5d3-4c66-9124-f2b56a26287a</id>
+      <id>7c75e2dd-030c-4bb9-b853-67077b768c26</id>
       <masked>false</masked>
-      <name>pkp_edit</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>61942c8d-3251-42dd-8a2c-c1a2b50cd202</id>
-      <masked>false</masked>
-      <name>catatan_edit</name>
+      <name>catatan</name>
    </variable>
 </TestCaseEntity>

@@ -23,30 +23,13 @@ WebUI.click(findTestObject('Salesman/Page_TataPabrik/div_Daftar Kontak'))
 
 WebUI.click(findTestObject('Supplier/Page_TataPabrik/div_Supplier'))
 
-WebUI.click(findTestObject('Object Repository/Supplier/Page_TataPabrik/span_Supplier'))
+WebUI.click(findTestObject('Supplier/Page_TataPabrik/span_Filter Pencarian_icon'))
 
-WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Nama Supplier_name'), namasupplier)
+WebUI.setText(findTestObject('Salesman/Page_TataPabrik/input_Cari_input'), namasupplier)
 
-WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_phoneNumber'), telepon)
+WebUI.click(findTestObject('Supplier/Page_TataPabrik/span_alamatsupplier'))
 
-WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Kode_code'), kode)
-
-WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Tenggat Pembayaran (hari)_paymentTerm'), 
-    tenggat)
-
-WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_nik'), nik)
-
-WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_npwp'), npwp)
-
-WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_mobileNumber'), nomorponsel)
-
-WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_emailAddress'), email)
-
-WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_pkp'), pkp)
-
-WebUI.setText(findTestObject('Supplier/Page_TataPabrik/textarea_(Tidak wajib diisi)_note'), catatan)
-
-WebUI.click(findTestObject('Object Repository/Supplier/Page_TataPabrik/span_Simpan'))
+WebUI.click(findTestObject('Supplier/Page_TataPabrik/button_Alamat Supplier'))
 
 WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Jenis Alamat_addressName0'), jenisalamat)
 
@@ -84,28 +67,4 @@ WebUI.verifyMatch(emailPICText, emailpj, false)
 String nomorPICText = WebUI.getText(findTestObject('Supplier/Page_TataPabrik/td_nomorpic'))
 
 WebUI.verifyMatch(nomorPICText, teleponpj, false)
-
-WebUI.click(findTestObject('Object Repository/Supplier/Page_TataPabrik/div_Supplier'))
-
-WebUI.click(findTestObject('Object Repository/Supplier/Page_TataPabrik/span_Filter Pencarian_icon'))
-
-WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Cari_input'), namasupplier)
-
-WebUI.delay(2)
-
-String namaSupplierText = WebUI.getText(findTestObject('Supplier/Page_TataPabrik/div_namasupplier'))
-
-WebUI.verifyMatch(namaSupplierText, namasupplier, false)
-
-String nomorPonselText = WebUI.getText(findTestObject('Supplier/Page_TataPabrik/td_nomorponsel'))
-
-WebUI.verifyMatch(nomorPonselText, nomorponsel, false)
-
-String nomorTeleponText = WebUI.getText(findTestObject('Supplier/Page_TataPabrik/td_nomortelepon'))
-
-WebUI.verifyMatch(nomorTeleponText, telepon, false)
-
-String emailText = WebUI.getText(findTestObject('Supplier/Page_TataPabrik/td_emailsupplier'))
-
-WebUI.verifyMatch(emailText, email, false)
 

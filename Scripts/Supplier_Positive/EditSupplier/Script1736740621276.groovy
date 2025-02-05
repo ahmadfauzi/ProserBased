@@ -25,13 +25,73 @@ WebUI.click(findTestObject('Supplier/Page_TataPabrik/div_Supplier'))
 
 WebUI.click(findTestObject('Supplier/Page_TataPabrik/span_Filter Pencarian_icon'))
 
-WebUI.setText(findTestObject('Salesman/Page_TataPabrik/input_Cari_input'), 'Testing Katalon')
+WebUI.setText(findTestObject('Salesman/Page_TataPabrik/input_Cari_input'), namasupplier)
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Supplier/Page_TataPabrik/span_editbutton'))
 
-WebUI.setText(findTestObject('Supplier/Page_TataPabrik/field_nomorPonsel'), '08976376')
+WebUI.sendKeys(findTestObject('Supplier/Page_TataPabrik/input_Nama Supplier_name'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Supplier/Page_TataPabrik/input_Nama Supplier_name'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_Nama Supplier_name'), namasupplier_edit)
+
+WebUI.sendKeys(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_phoneNumber'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_phoneNumber'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_phoneNumber'), telepon_edit)
+
+WebUI.sendKeys(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Kode_code'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Kode_code'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Kode_code'), kode_edit)
+
+WebUI.sendKeys(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Tenggat Pembayaran (hari)_paymentTerm'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Tenggat Pembayaran (hari)_paymentTerm'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Tenggat Pembayaran (hari)_paymentTerm'),
+	tenggat_edit)
+
+WebUI.sendKeys(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_nik'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_nik'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_nik'), nik_edit)
+
+WebUI.sendKeys(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_npwp'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_npwp'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_npwp'), npwp_edit)
+
+WebUI.sendKeys(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_mobileNumber'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_mobileNumber'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_mobileNumber'), nomorponsel_edit)
+
+WebUI.sendKeys(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_emailAddress'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_emailAddress'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_emailAddress'), email_edit)
+
+WebUI.sendKeys(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_pkp'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_pkp'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Supplier/Page_TataPabrik/input_(Tidak wajib diisi)_pkp'), pkp_edit)
+
+WebUI.sendKeys(findTestObject('Supplier/Page_TataPabrik/textarea_(Tidak wajib diisi)_note'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Supplier/Page_TataPabrik/textarea_(Tidak wajib diisi)_note'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Supplier/Page_TataPabrik/textarea_(Tidak wajib diisi)_note'), catatan_edit)
 
 WebUI.click(findTestObject('Supplier/Page_TataPabrik/span_Simpan'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Supplier/Page_TataPabrik/span_Filter Pencarian_icon'))
 
+WebUI.setText(findTestObject('Salesman/Page_TataPabrik/input_Cari_input'), namasupplier)
+
+WebUI.delay(2)
+
+String namaSupplierText = WebUI.getText(findTestObject('Supplier/Page_TataPabrik/div_namasupplier'))
+
+WebUI.verifyMatch(namaSupplierText, namasupplier_edit, false)
+
+String nomorPonselText = WebUI.getText(findTestObject('Supplier/Page_TataPabrik/td_nomorponsel'))
+
+WebUI.verifyMatch(nomorPonselText, nomorponsel_edit, false)
+
+String nomorTeleponText = WebUI.getText(findTestObject('Supplier/Page_TataPabrik/td_nomortelepon'))
+
+WebUI.verifyMatch(nomorTeleponText, telepon_edit, false)
+
+String emailText = WebUI.getText(findTestObject('Supplier/Page_TataPabrik/td_emailsupplier'))
+
+WebUI.verifyMatch(emailText, email_edit, false)

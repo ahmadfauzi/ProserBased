@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_namapic</name>
+   <tag></tag>
+   <elementGuidId>06c18710-d635-43b7-bac2-329de7bf5b1d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Tindakan'])[1]/following::div[9]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(3) > div.overflow-wrap</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>77ba2ca7-def0-46bd-8d14-c885de18bb6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>overflow-wrap</value>
+      <webElementGuid>9d09b348-ec98-4fb9-a4da-0e73db52ca9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>22</value>
+      <webElementGuid>6ba0e107-efd4-4cd4-afbb-7987cca1c715</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[1]/div[@class=&quot;app&quot;]/div[@class=&quot;tile is-ancestor&quot;]/div[@class=&quot;tile is-parent is-vertical main-content&quot;]/div[@class=&quot;router-content tile is-child&quot;]/div[@class=&quot;app-content&quot;]/div[@class=&quot;content expenses&quot;]/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-table with-separator table-shared-style&quot;]/div[2]/div[1]/div[@class=&quot;b-table table table-striped&quot;]/div[@class=&quot;table-wrapper has-mobile-cards&quot;]/table[@class=&quot;table is-striped&quot;]/tbody[1]/tr[1]/td[3]/div[@class=&quot;overflow-wrap&quot;]</value>
+      <webElementGuid>fbe61116-aeef-43cd-bff6-c13b8141617f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tindakan'])[1]/following::div[9]</value>
+      <webElementGuid>49dd42ff-5d31-4b3b-80d8-df23391db4a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email PIC'])[1]/following::div[10]</value>
+      <webElementGuid>d8abbd3b-63ef-4b26-84b9-e208232933c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='asdasd@asd.asda'])[1]/preceding::div[4]</value>
+      <webElementGuid>05160d51-98dc-404e-be2b-c9855dfe677d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TataPabrik'])[2]/preceding::div[5]</value>
+      <webElementGuid>ae17b335-c13c-49ad-9503-7de75cc7c4c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/div</value>
+      <webElementGuid>76697d62-1452-4d85-a118-1ba78347a8ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '22' or . = '22')]</value>
+      <webElementGuid>317afc15-646d-4b56-83ee-2eb8edffa70f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -310,6 +310,28 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>caedd8f0-98f7-4fab-b136-feb099da62e3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Pelanggan_Positive/HapusAlamatPelanggan</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4147c66a-d638-49f8-90c4-25bb5dfb6c08</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/PelangganData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>4147c66a-d638-49f8-90c4-25bb5dfb6c08</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>namapelanggan</value>
+         <variableId>18c02777-d495-430d-8754-71a691199ab6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>360d9f20-fc69-4206-93b6-e09cd7691061</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -423,28 +445,6 @@
          <type>DATA_COLUMN</type>
          <value>emailpj_edit</value>
          <variableId>6fc2ffe1-fcbb-4d90-8c01-4b416e38bbfa</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>caedd8f0-98f7-4fab-b136-feb099da62e3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Pelanggan_Positive/HapusAlamatPelanggan</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>4147c66a-d638-49f8-90c4-25bb5dfb6c08</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/PelangganData</testDataId>
-      </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId>4147c66a-d638-49f8-90c4-25bb5dfb6c08</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>namapelanggan</value>
-         <variableId>18c02777-d495-430d-8754-71a691199ab6</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
