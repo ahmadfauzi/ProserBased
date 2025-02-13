@@ -23,38 +23,42 @@ WebUI.click(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/div_I
 
 WebUI.click(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/div_Daftar Barang'))
 
-WebUI.click(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/span_Bahan Baku'))
+WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/span_tab_Bahan Baku'))
 
-WebUI.click(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/span_Jenis Bahan Baku'))
+WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/button_tambah jenis barang'))
 
-WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Nama Barang_itemName'), nama)
+WebUI.waitForElementPresent(findTestObject('DaftarBarang/Page_TataPabrik/input_Nama Barang_itemName'), 5)
+
+WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Nama Barang_itemName'), namabarang)
 
 WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Kode Barang_itemCode'), kodebarang)
 
-WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Satuan_uom'), '')
+WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/input_Satuan'))
 
-WebUI.click(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Satuan_uom'))
+WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/span_Satuan_Sack - 1 Kilogram'))
 
-WebUI.click(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/span_Karung - 1 kg'))
+WebUI.setText(findTestObject('DaftarBarang/Page_TataPabrik/input_Netto_netto'), netto)
 
-WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/input_Netto_netto'), '1')
+WebUI.setText(findTestObject('DaftarBarang/Page_TataPabrik/input_Satuan Berat'), satuanberat)
 
-WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Satuan Berat_nettoUnit'), satuanterkecil)
+WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Rp_price'), harga)
 
-WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Rp_price'), hargabeli)
+WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/button_Simpan'))
 
-WebUI.click(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/span_Simpan'))
+WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/span_Filter Pencarian_icon'))
 
-WebUI.click(findTestObject('Page_TataPabrik/DaftarBarang/span_Bahan Baku'))
+WebUI.setText(findTestObject('DaftarBarang/Page_TataPabrik/input_Cari_input'), namabarang)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/select_Sesuai Nama Barang DESCSesuai Nama B_a94553'), 
-    'Sesuai Barang Terbaru', true)
+WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('Page_TataPabrik/DaftarBarang/td_Auto baku 1'), nama)
+String namaBarangText = WebUI.getText(findTestObject('DaftarBarang/Page_TataPabrik/div_list_namabarang'))
 
-WebUI.verifyElementText(findTestObject('Page_TataPabrik/DaftarBarang/td'), kodebarang)
+WebUI.verifyMatch(namaBarangText, namabarang, false)
 
-WebUI.verifyElementText(findTestObject('Page_TataPabrik/DaftarBarang/td_kg'), satuanterkecil)
+String kodeBarangText = WebUI.getText(findTestObject('DaftarBarang/Page_TataPabrik/div_list_kodebarang'))
 
-WebUI.closeBrowser()
+WebUI.verifyMatch(kodeBarangText, kodebarang, false)
 
+String satuanBeratText = WebUI.getText(findTestObject('DaftarBarang/Page_TataPabrik/div_list_satuanberat'))
+
+WebUI.verifyMatch(satuanBeratText, satuanberat, false)

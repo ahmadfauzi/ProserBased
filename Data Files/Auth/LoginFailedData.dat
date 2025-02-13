@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>BahanBakuData</name>
+   <name>LoginFailedData</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>49d63689-6f6d-4539-b0da-8f2c78250a5c</dataFileGUID>
-   <dataSourceUrl>Excel/BakuExcel.xlsx</dataSourceUrl>
+   <dataFileGUID>25b2dda5-339b-4177-982c-7e7be667fe71</dataFileGUID>
+   <dataSourceUrl>C:\Users\Lenovo\Downloads\LoginFailed.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>true</isInternalPath>
+   <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet1</sheetName>

@@ -28,6 +28,12 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>ddb41b88-511a-4842-b347-d31c126399a8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>88871698-1395-49ba-914e-387130732625</variableId>
    </variableLinks>
    <variable>
@@ -35,7 +41,7 @@
       <description></description>
       <id>1525e8c7-d3c0-422f-b12e-56396e1a2a2b</id>
       <masked>false</masked>
-      <name>nama</name>
+      <name>namabarang</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
@@ -49,13 +55,20 @@
       <description></description>
       <id>4ff6349d-ea61-4f59-a9c1-04baeae39bd0</id>
       <masked>false</masked>
-      <name>satuanterkecil</name>
+      <name>netto</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ddb41b88-511a-4842-b347-d31c126399a8</id>
+      <masked>false</masked>
+      <name>satuanberat</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>88871698-1395-49ba-914e-387130732625</id>
       <masked>false</masked>
-      <name>hargabeli</name>
+      <name>harga</name>
    </variable>
 </TestCaseEntity>

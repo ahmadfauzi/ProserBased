@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Daftar Barang</name>
+   <tag></tag>
+   <elementGuidId>0bd53254-b867-4298-83ae-f87be0495101</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#Inventaris > div.collapse-content > ul.submenu-list > li > a.submenu-item > div.submenu-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Inventaris']/div[2]/ul/li/a/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>99879473-36b4-4d02-ad98-40f86674bfc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>submenu-text</value>
+      <webElementGuid>149f235d-4c90-4106-8ad8-33e60ce41ec4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daftar Barang</value>
+      <webElementGuid>842db727-cff3-4fd5-b05b-f5e82e42c561</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Inventaris&quot;)/div[@class=&quot;collapse-content&quot;]/ul[@class=&quot;submenu-list&quot;]/li[1]/a[@class=&quot;submenu-item&quot;]/div[@class=&quot;submenu-text&quot;]</value>
+      <webElementGuid>d80d0f67-79e7-4392-ba7c-f7d6ce306ed6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Inventaris']/div[2]/ul/li/a/div[2]</value>
+      <webElementGuid>d4363d15-919c-44f9-ac7e-917ecfb1246e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inventaris'])[1]/following::div[5]</value>
+      <webElementGuid>56c78db4-bf8f-43c6-b9f1-a351f687bb0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pemakaian Barang'])[1]/following::div[10]</value>
+      <webElementGuid>055d87df-3e85-4b12-a292-a010d94f1e3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penyesuaian Stok'])[1]/preceding::div[3]</value>
+      <webElementGuid>4921adfc-ed93-49f8-b2a6-dc6b8beceada</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penjualan'])[1]/preceding::div[5]</value>
+      <webElementGuid>1c2bd9dc-10e8-47af-9375-71cfd218269b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Daftar Barang']/parent::*</value>
+      <webElementGuid>39ae2a43-3faa-44ca-a601-30d620487b32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[48]/div/div[2]/ul/li/a/div[2]</value>
+      <webElementGuid>bbcc871f-9774-49fa-b2b1-4edfda6f14c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Daftar Barang' or . = 'Daftar Barang')]</value>
+      <webElementGuid>fb361f42-fbea-423e-9c5a-afd998f66e72</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

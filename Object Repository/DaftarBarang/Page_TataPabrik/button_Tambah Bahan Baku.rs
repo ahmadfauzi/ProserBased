@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Tambah Bahan Baku</name>
+   <tag></tag>
+   <elementGuidId>3bd4324e-eda7-41c2-a5ed-5be59853912e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@class='button is-primary is-fullwidth']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.button.is-primary.is-fullwidth</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>42211357-b341-460f-855a-66d84971483a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>737edd04-c1ad-43f7-b93f-33b01aa6ac8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button is-primary is-fullwidth</value>
+      <webElementGuid>960f9f41-9442-4f9f-8004-66f5d4928409</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>+ Barang</value>
+      <webElementGuid>efbc4ac8-b230-4691-b66a-265d8da67e16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;invoice-mobile&quot;)/div[@class=&quot;section-card modal-content-custom&quot;]/div[@class=&quot;section-content with-separator&quot;]/div[4]/div[@class=&quot;box is-full border has-column-margin-top&quot;]/div[1]/div[1]/div[@class=&quot;buttons&quot;]/button[@class=&quot;button is-primary is-fullwidth&quot;]</value>
+      <webElementGuid>e7d03aae-c114-42cc-85fa-9542222b00fd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[8]</value>
+      <webElementGuid>998c94c9-e95c-43b7-94cd-21e1644c6aab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='invoice-mobile']/div[2]/div[2]/div[4]/div[2]/div/div/div/button</value>
+      <webElementGuid>a8b441c2-230b-47a0-911b-e645b4d1be77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Bahan Baku'])[1]/following::button[1]</value>
+      <webElementGuid>41809eeb-6026-45c0-8a83-6178037e7c58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Satuan Berat'])[1]/following::button[1]</value>
+      <webElementGuid>40bd796d-2182-4305-99f8-4d02f85d7cba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Golongan'])[2]/preceding::button[1]</value>
+      <webElementGuid>5890e7b6-f827-42dd-bde1-52b4fdcbca7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div/div/div/button</value>
+      <webElementGuid>b23d1c52-e2f3-4a58-b72d-87750a4e65ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '+ Barang' or . = '+ Barang')]</value>
+      <webElementGuid>e82cda9d-2ada-42bf-82f2-ee8377dfa81e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
