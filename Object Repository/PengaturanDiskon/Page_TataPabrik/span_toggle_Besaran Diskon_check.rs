@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_toggle_Besaran Diskon_check</name>
+   <tag></tag>
+   <elementGuidId>d53a292b-842f-4881-9070-24fbed610d86</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='invoice-mobile']/div[2]/div[2]/div[3]/div[2]/label/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.check</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>35905b51-e40d-43b9-96db-85d8830575ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>check</value>
+      <webElementGuid>ee7fbd20-0b48-449e-a9ef-b0f3541d4f28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;invoice-mobile&quot;)/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-content with-separator&quot;]/div[@class=&quot;columns is-multiline is-vcentered has-custom-margin-top&quot;]/div[@class=&quot;column is-6 selcetor field is-expanded&quot;]/label[@class=&quot;switch is-medium is-rounded&quot;]/span[@class=&quot;check&quot;]</value>
+      <webElementGuid>f10791c3-152b-43e2-9f5d-85fc0e42a19c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='invoice-mobile']/div[2]/div[2]/div[3]/div[2]/label/span</value>
+      <webElementGuid>082c7ecc-ca50-450e-9841-fb13a2b6d99b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/span</value>
+      <webElementGuid>155e007a-7b32-473f-b0c4-d9c44bdde29a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

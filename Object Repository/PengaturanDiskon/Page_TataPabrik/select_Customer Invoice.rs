@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Customer Invoice</name>
+   <tag></tag>
+   <elementGuidId>a49dc031-d91b-4a58-9963-5d268aa2f431</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='TipePicker']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;TipePicker&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>0b9f9778-6e7d-4e16-b4d8-9a08b303d56b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>TipePicker</value>
+      <webElementGuid>40079b5d-5c4d-41c6-ae4d-fb8405ec7151</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Customer Invoice</value>
+      <webElementGuid>00a23408-7725-4188-a15d-fcd95044f0fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;invoice-mobile&quot;)/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-content with-separator&quot;]/div[@class=&quot;columns is-multiline is-vcentered has-custom-margin-top mb-4&quot;]/div[@class=&quot;column is-6&quot;]/div[@class=&quot;control&quot;]/span[@class=&quot;select&quot;]/select[1]</value>
+      <webElementGuid>7bd330ac-60f0-49aa-b3cf-227dc9b3ced4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='TipePicker']</value>
+      <webElementGuid>ac3bb064-8b3d-4130-b91e-88738aab20c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='invoice-mobile']/div[2]/div[2]/div[2]/div[2]/div/span/select</value>
+      <webElementGuid>dabb7e13-6d53-480d-b6b0-494c4e8cee4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipe Diskon'])[3]/following::select[1]</value>
+      <webElementGuid>50969369-fa2d-4f8c-ab31-8256c6c7b5cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Berakhir'])[2]/following::select[1]</value>
+      <webElementGuid>37455190-48bd-4c0a-aab0-4e1a189c703d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Untuk Semua Pelanggan'])[3]/preceding::select[1]</value>
+      <webElementGuid>25f471b5-ad07-485c-a37f-45b78bf41d93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpan'])[1]/preceding::select[1]</value>
+      <webElementGuid>4f25a610-b57c-492c-9d5d-1907ce2ab850</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>a585b1f2-8fb6-43db-9a15-07287eb265fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'TipePicker' and (text() = 'Customer Invoice' or . = 'Customer Invoice')]</value>
+      <webElementGuid>b61cc8e5-4473-480f-9962-345973d2a74c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TambahStokProdukJadi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>94264449-7a25-4c63-9e13-809d25b9a9e4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>acc5e304-2ac7-4d14-9eb5-8ffa9f4918a4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ef4dcc7-4678-45ef-a567-ac72c88046c6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>acc5e304-2ac7-4d14-9eb5-8ffa9f4918a4</id>
+      <masked>false</masked>
+      <name>namabarang</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ef4dcc7-4678-45ef-a567-ac72c88046c6</id>
+      <masked>false</masked>
+      <name>stok</name>
+   </variable>
+</TestCaseEntity>

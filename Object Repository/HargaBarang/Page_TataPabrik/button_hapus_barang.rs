@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_hapus_barang</name>
+   <tag></tag>
+   <elementGuidId>aa1c3771-659e-472d-8695-f29daf79b603</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='box']//div[2]//div[3]//button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1897eae8-3a6b-48cc-a76e-46dd9078dc53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button delete-button delete-icon</value>
+      <webElementGuid>560813fb-31a5-4b20-87ef-25a396be7cbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;581-content&quot;)/div[@class=&quot;app-content&quot;]/div[@class=&quot;items-price-form&quot;]/div[@class=&quot;content section-card&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;item-selector&quot;]/div[@class=&quot;columns is-multiline is-marginless&quot;]/div[@class=&quot;column is-1 pull-to-bottom is-marginless&quot;]/button[@class=&quot;button delete-button delete-icon&quot;]</value>
+      <webElementGuid>8f12743c-d93c-4473-987b-ca6d0367835d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='581-content']/div/div/div/div[2]/div/div[2]/div[3]/button</value>
+      <webElementGuid>6c0cc5b1-5080-4c1a-9b84-fa57a4a7255b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp'])[2]/following::button[1]</value>
+      <webElementGuid>395b4276-eb86-41b6-ba0f-d8f842555b48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga'])[2]/following::button[2]</value>
+      <webElementGuid>9e882e12-485f-423e-b606-0715e6840cf4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Barang'])[3]/preceding::button[1]</value>
+      <webElementGuid>6fb41578-12e0-4760-b16b-1ae1ebcf60a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selanjutnya'])[1]/preceding::button[2]</value>
+      <webElementGuid>b760b597-1a39-498b-8a7d-203d703c70ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/button</value>
+      <webElementGuid>c3a9ec48-f597-496c-8c38-c5eec43be5b7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

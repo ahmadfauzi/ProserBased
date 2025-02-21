@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_pilih barang</name>
+   <tag></tag>
+   <elementGuidId>f61fdad8-10ef-46b3-8d75-5430753a13bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//td[@data-label='Nama'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.overflow-wrap</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0c643c4e-d2c7-4965-a7a4-29c3c60228c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>overflow-wrap</value>
+      <webElementGuid>afd6ba10-e0a8-4f0f-8894-c5b43a286c13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Gula Pasir (edit)Gula Pasir (edit)</value>
+      <webElementGuid>e7282d60-92e9-4993-87bb-33dc7fcc3768</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tabelItem&quot;)/div[@class=&quot;b-table table table-striped&quot;]/div[@class=&quot;table-wrapper has-mobile-cards&quot;]/table[@class=&quot;table is-striped&quot;]/tbody[1]/tr[@class=&quot;is-selected is-selected&quot;]/td[1]/div[@class=&quot;overflow-wrap&quot;]</value>
+      <webElementGuid>ee354c5e-4046-4467-95d2-0e03cc9b5d41</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tabelItem']/div/div/table/tbody/tr/td/div</value>
+      <webElementGuid>2db1fb82-1afd-44f8-aeef-ef250ec9809d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::div[1]</value>
+      <webElementGuid>f092e40e-d8ec-4256-b193-e95120803253</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stok'])[1]/following::div[2]</value>
+      <webElementGuid>c573e0c0-1f97-4abc-b908-bf145eec01bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div</value>
+      <webElementGuid>dc5a12f0-a47e-4baa-a5de-4889155c9f4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Gula Pasir (edit)Gula Pasir (edit)' or . = 'Gula Pasir (edit)Gula Pasir (edit)')]</value>
+      <webElementGuid>5feb451f-3388-4231-8cd5-93dc9f09ccaa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

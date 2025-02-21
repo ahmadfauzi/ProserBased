@@ -6,12 +6,12 @@
    <elementGuidId>f39ba922-8fd2-4cb5-91fe-2952090728f0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#304-label > span</value>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Barang Sortir' or . = 'Barang Sortir')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='304-label']/span</value>
+         <key>CSS</key>
+         <value>#304-label > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e46b1dde-5cf3-45ac-9509-48e4a3f0e1ed</webElementGuid>
+      <webElementGuid>99f139d3-7553-4b69-afa1-340d0dfaabd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Barang Sortir (Edit Test)</value>
-      <webElementGuid>07e85d61-5a79-4644-93a5-11c659ad0832</webElementGuid>
+      <webElementGuid>258e0679-5408-4008-9864-079d55576e0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;304-label&quot;)/span[1]</value>
-      <webElementGuid>08e5553a-5128-4fa9-b224-256512f8ec01</webElementGuid>
+      <webElementGuid>91730c42-a427-442c-b734-b8bfdeb9c1a9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='304-label']/span</value>
-      <webElementGuid>9baacc32-9ecf-4866-be69-dc8e0cca477b</webElementGuid>
+      <webElementGuid>85d38dcd-7b4d-4b79-8e0d-7019ea6978e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Barang Setengah Jadi'])[1]/following::span[1]</value>
-      <webElementGuid>ae1ea7a7-3eb6-4bc4-92d9-3e14df8d8a82</webElementGuid>
+      <webElementGuid>3524da9d-df26-43f5-8c43-2fd806c2a129</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Produk Jadi'])[1]/following::span[2]</value>
-      <webElementGuid>fb53266c-c93c-41eb-af95-5171f767829c</webElementGuid>
+      <webElementGuid>ebb43256-46ab-4acf-8b30-6bdd272a0526</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Stok Produk Jadi'])[1]/preceding::span[1]</value>
-      <webElementGuid>4803e2bd-98f1-47e5-9d33-4fd28b64cdcb</webElementGuid>
+      <webElementGuid>9a1668d4-9638-42d0-9bcb-763be40f99df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter Pencarian'])[1]/preceding::span[1]</value>
-      <webElementGuid>c7435b7d-78b9-4736-b64c-b88cf31d262f</webElementGuid>
+      <webElementGuid>acdf7450-7ad4-42d3-8579-62dd4fd42f30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Barang Sortir (Edit Test)']/parent::*</value>
-      <webElementGuid>1d5b0c64-6c51-49d2-8240-5ad958a08ab2</webElementGuid>
+      <webElementGuid>0a588280-8c8f-4d02-a8bb-4020e676ff67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[6]/a/span</value>
-      <webElementGuid>55c4a5cd-1c90-41b1-afef-c8b71785d7af</webElementGuid>
+      <webElementGuid>df0b80f8-ff5e-4dba-a4ed-6466f1bc5b29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Barang Sortir (Edit Test)' or . = 'Barang Sortir (Edit Test)')]</value>
-      <webElementGuid>f8967ef9-a313-4858-94fb-5ac012dc4111</webElementGuid>
+      <webElementGuid>2a927d78-1e6a-4477-9eb8-9426ada2b80e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

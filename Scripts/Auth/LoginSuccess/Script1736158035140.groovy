@@ -29,3 +29,5 @@ WebUI.setEncryptedText(findTestObject('Page_TataPabrik/input_Password_password')
 
 WebUI.click(findTestObject('Page_TataPabrik/DaftarBarang/span_Login'))
 
+WebUI.verifyElementPresent(findTestObject('Page_TataPabrik/Auth/Page_TataPabrik/div_Beranda'), 2)
+

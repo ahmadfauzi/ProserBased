@@ -6,12 +6,12 @@
    <elementGuidId>ea829121-ecec-4cdd-8fef-81caea823bac</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#300-label > span</value>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Produk Jadi' or . = 'Produk Jadi')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='300-label']/span</value>
+         <key>CSS</key>
+         <value>#300-label > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>bac2ac09-e0d6-4faf-9839-b52a85ec0ed6</webElementGuid>
+      <webElementGuid>8c77d8ef-0078-46f1-b4ee-a50ffa57d730</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Produk Jadi</value>
-      <webElementGuid>c186eb1c-a486-4665-8cbf-17ab89140ca9</webElementGuid>
+      <webElementGuid>783b7e36-094d-4e89-88b3-431c6a602258</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;300-label&quot;)/span[1]</value>
-      <webElementGuid>9c7a5c8f-fd2c-4f2c-a99b-7fd75912559e</webElementGuid>
+      <webElementGuid>bcd9b44c-d261-4b15-8539-b5f3bcbd5215</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='300-label']/span</value>
-      <webElementGuid>3835a74b-2e87-483c-b211-7298a511851c</webElementGuid>
+      <webElementGuid>af16c1da-7272-4fbf-a0a3-3e0b1af92bba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bahan Baku'])[1]/following::span[1]</value>
-      <webElementGuid>98f63cf6-977e-4589-a8bf-36a456bda77f</webElementGuid>
+      <webElementGuid>05f19964-f707-4358-8c2f-cbe22d1c4979</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bahan Pembantu'])[1]/following::span[2]</value>
-      <webElementGuid>0581f1b5-ddca-4feb-baf4-d4ad2ef6227b</webElementGuid>
+      <webElementGuid>42b40745-d6df-4b34-9927-37d59ff6cead</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Barang Setengah Jadi'])[1]/preceding::span[1]</value>
-      <webElementGuid>056e6e37-434c-40b3-96f7-19d0f9906548</webElementGuid>
+      <webElementGuid>2518ca23-ed05-4434-861c-01b62bfcf82d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Barang Sortir (Edit Test)'])[1]/preceding::span[2]</value>
-      <webElementGuid>11adca64-afee-4b07-938b-82bce5820a48</webElementGuid>
+      <webElementGuid>4f55c209-cadb-487f-a306-ef335e66e484</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Produk Jadi']/parent::*</value>
-      <webElementGuid>55a3933a-8a1e-4886-9241-5cad3d525d0e</webElementGuid>
+      <webElementGuid>0f6ed9a5-1a2e-4422-b7d3-5399115aad17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/a/span</value>
-      <webElementGuid>9142c7c2-b1c6-46b3-8806-4b39cda6facd</webElementGuid>
+      <webElementGuid>929b0ec1-a874-421b-972f-f7f2ab6daea1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Produk Jadi' or . = 'Produk Jadi')]</value>
-      <webElementGuid>54859162-d56a-4702-ac14-9faea4f6ec9e</webElementGuid>
+      <webElementGuid>4c3854ef-6787-4937-973c-61b0088db0de</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

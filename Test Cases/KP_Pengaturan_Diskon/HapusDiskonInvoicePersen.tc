@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HapusDiskonInvoicePersen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3f616bb1-39b2-4f33-bac6-e2c7e2583b8b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f617abfe-f58e-43cb-97c0-30c5e8bd8c24</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f617abfe-f58e-43cb-97c0-30c5e8bd8c24</id>
+      <masked>false</masked>
+      <name>namadiskon</name>
+   </variable>
+</TestCaseEntity>

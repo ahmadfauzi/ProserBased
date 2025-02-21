@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Pengaturan Diskon</name>
+   <tag></tag>
+   <elementGuidId>b6cd4869-506c-4b52-8656-ca47e4430d2c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='KonfigurasiPabrik']/div[2]/ul/li[3]/a/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#KonfigurasiPabrik > div.collapse-content > ul.submenu-list > li:nth-of-type(3) > a.submenu-item > div.submenu-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c52225ce-7c18-4048-bbc0-ed52c3180bc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>submenu-text</value>
+      <webElementGuid>89424432-692b-4ca1-b1d7-05bcc9058c96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pengaturan Diskon</value>
+      <webElementGuid>b123c1ab-ef32-48f1-824c-5ebc02c95a9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;KonfigurasiPabrik&quot;)/div[@class=&quot;collapse-content&quot;]/ul[@class=&quot;submenu-list&quot;]/li[3]/a[@class=&quot;submenu-item&quot;]/div[@class=&quot;submenu-text&quot;]</value>
+      <webElementGuid>181920ca-cd0e-4421-a0d7-589c72dbd223</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='KonfigurasiPabrik']/div[2]/ul/li[3]/a/div[2]</value>
+      <webElementGuid>398ea345-5b49-4ee9-8ded-5a9cdfcd3645</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga Barang'])[1]/following::div[3]</value>
+      <webElementGuid>cd4f63bd-0a50-4d2e-9947-8c95c9df6a72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Satuan Pengukuran'])[1]/following::div[6]</value>
+      <webElementGuid>fba7671f-6061-4147-910e-a34cc953c0cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori Biaya'])[1]/preceding::div[3]</value>
+      <webElementGuid>095d0f88-0ef7-4994-8c99-7b9fe440e82b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Golongan'])[1]/preceding::div[6]</value>
+      <webElementGuid>675cba4a-6895-4ab6-83df-db617aab6184</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pengaturan Diskon']/parent::*</value>
+      <webElementGuid>e5d9a7b4-b2b0-438a-9f9f-ed1341c21eb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[50]/div/div[2]/ul/li[3]/a/div[2]</value>
+      <webElementGuid>66cedc04-c878-4c2f-a80e-913259c32304</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pengaturan Diskon' or . = 'Pengaturan Diskon')]</value>
+      <webElementGuid>1a9a43f3-5f94-4433-b4cf-2cbfc5160da1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

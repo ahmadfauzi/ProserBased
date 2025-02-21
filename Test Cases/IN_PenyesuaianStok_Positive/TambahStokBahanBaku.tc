@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TambahStokBahanBaku</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5341217c-b7cb-4dc2-bb60-0d7502673e25</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3afede01-3b3b-475c-90f2-7722f7bd3aba</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f7acb8fa-6c7a-451b-a060-a1a456ccc6fb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3afede01-3b3b-475c-90f2-7722f7bd3aba</id>
+      <masked>false</masked>
+      <name>namabarang</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f7acb8fa-6c7a-451b-a060-a1a456ccc6fb</id>
+      <masked>false</masked>
+      <name>stok</name>
+   </variable>
+</TestCaseEntity>

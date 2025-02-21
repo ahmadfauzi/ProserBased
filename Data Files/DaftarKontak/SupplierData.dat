@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>3a91e868-5b22-4d36-b437-3065d9c626d5</dataFileGUID>
-   <dataSourceUrl>Excel/SupplierDataExcel.xlsx</dataSourceUrl>
+   <dataSourceUrl>Excel/DaftarKontak/SupplierDataExcel.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

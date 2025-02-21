@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Konfigurasi Pabrik</name>
+   <tag></tag>
+   <elementGuidId>bfd8e917-79c1-4e46-8dad-1423d130f566</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='KonfigurasiPabrik']/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#KonfigurasiPabrik > div.collapse-trigger > div.menu-item > div.menu-item-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>edac8ca0-eca0-4583-aca3-82cd0a2b45aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menu-item-text</value>
+      <webElementGuid>541e6f73-ad57-40b6-b5f3-81dc9e9d9db5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Konfigurasi Pabrik</value>
+      <webElementGuid>a7326bd0-d456-47d3-9cf7-62d66945074b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;KonfigurasiPabrik&quot;)/div[@class=&quot;collapse-trigger&quot;]/div[@class=&quot;menu-item&quot;]/div[@class=&quot;menu-item-text&quot;]</value>
+      <webElementGuid>a7c84619-252e-403a-ac63-41514b4229ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='KonfigurasiPabrik']/div/div/div[2]</value>
+      <webElementGuid>7080cf9b-7a5a-4a64-95de-242f0559806d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penomoran Otomatis'])[1]/following::div[5]</value>
+      <webElementGuid>4538bdd5-b0f6-4375-bb69-c0fe2c445721</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cara Pembayaran'])[1]/following::div[8]</value>
+      <webElementGuid>d4c10f03-3253-425c-955a-5f2a8b5a284f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Satuan Pengukuran'])[1]/preceding::div[4]</value>
+      <webElementGuid>bf102686-6b6d-4b5b-9b11-bc577a756ba4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga Barang'])[1]/preceding::div[7]</value>
+      <webElementGuid>07e2ece8-34cd-4f7c-bc0f-37ea5e8a603a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Konfigurasi Pabrik']/parent::*</value>
+      <webElementGuid>810ce6cb-de28-45fb-9eb9-e2a686454560</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[50]/div/div/div/div[2]</value>
+      <webElementGuid>c119e785-c4bf-4a6b-bd81-1b6d99eb4062</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Konfigurasi Pabrik' or . = 'Konfigurasi Pabrik')]</value>
+      <webElementGuid>5728b9e5-c412-4811-bb49-78dce995461e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

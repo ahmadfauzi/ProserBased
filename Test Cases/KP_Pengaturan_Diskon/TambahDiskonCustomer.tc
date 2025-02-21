@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TambahDiskonCustomer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>58d1a946-4ff9-4b83-a563-3182f3078e68</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b8da50d-891c-4c26-a7b8-1c0a35943730</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3b8da50d-891c-4c26-a7b8-1c0a35943730</id>
+      <masked>false</masked>
+      <name>namadiskon</name>
+   </variable>
+</TestCaseEntity>

@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>a7064120-1bbb-4c19-a8cc-aaffcece61e6</dataFileGUID>
-   <dataSourceUrl>Excel/ProdukJadiDataExcel.xlsx</dataSourceUrl>
+   <dataSourceUrl>Excel/DaftarBarang/ProdukJadiDataExcel.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

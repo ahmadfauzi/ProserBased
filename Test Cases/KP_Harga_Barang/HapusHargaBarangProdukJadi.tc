@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HapusHargaBarangProdukJadi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fc2a22ef-bbba-49f8-bf6c-7d9e32069da0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>49f1c8d7-c621-40b8-bc3c-f1bac047fbff</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>49f1c8d7-c621-40b8-bc3c-f1bac047fbff</id>
+      <masked>false</masked>
+      <name>namabarang</name>
+   </variable>
+</TestCaseEntity>

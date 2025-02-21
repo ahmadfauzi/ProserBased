@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Penyesuaian Stok</name>
+   <tag></tag>
+   <elementGuidId>605701da-af7e-4156-b1f2-17647dfd1edf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Inventaris']/div[2]/ul/li[2]/a/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Inventaris > div.collapse-content > ul.submenu-list > li:nth-of-type(2) > a.submenu-item > div.submenu-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>315dc873-077d-4ee3-bc24-6f642a688876</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>submenu-text</value>
+      <webElementGuid>27a928e5-507a-48da-bffd-61e43b2c5d33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Penyesuaian Stok</value>
+      <webElementGuid>556f264f-e23a-499b-8ae9-4c8b045f55ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Inventaris&quot;)/div[@class=&quot;collapse-content&quot;]/ul[@class=&quot;submenu-list&quot;]/li[2]/a[@class=&quot;submenu-item&quot;]/div[@class=&quot;submenu-text&quot;]</value>
+      <webElementGuid>19f14151-95ed-407a-ac72-70bd6a6c5766</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Inventaris']/div[2]/ul/li[2]/a/div[2]</value>
+      <webElementGuid>ab524fe0-97bd-4344-a03e-7ee7864ec676</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Barang'])[1]/following::div[3]</value>
+      <webElementGuid>577cbea1-f824-40b6-9c55-3d53d69eccdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inventaris'])[1]/following::div[8]</value>
+      <webElementGuid>97779673-0c00-41c1-8dc2-4e6fdc94c11f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penjualan'])[1]/preceding::div[2]</value>
+      <webElementGuid>b90b31e0-2fa1-4ee6-be6f-60414211aa9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pemesanan Penjualan'])[1]/preceding::div[8]</value>
+      <webElementGuid>adc7821b-1b86-4431-b7bb-b7eb3e72a1d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Penyesuaian Stok']/parent::*</value>
+      <webElementGuid>88e05bba-4c65-47a0-a260-f4b35dcd8c5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[51]/div/div[2]/ul/li[2]/a/div[2]</value>
+      <webElementGuid>45378d67-2949-4731-97fb-a0d1ca303171</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Penyesuaian Stok' or . = 'Penyesuaian Stok')]</value>
+      <webElementGuid>b43744e0-50bf-40ef-82ee-0841521d767a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

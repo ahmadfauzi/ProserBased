@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>PenyesuaianStokSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>b583c16f-126e-48b5-8776-cc6396f36157</testSuiteGuid>
+   <testCaseLink>
+      <guid>2a8e7d16-f2d0-44ce-9069-37fac1b136eb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/IN_PenyesuaianStok_Positive/TambahStokBahanBaku</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1b3ad1b5-dea5-4ca2-80d2-397ec88a326f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DaftarBarang/BahanBakuData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>1b3ad1b5-dea5-4ca2-80d2-397ec88a326f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>namabarang</value>
+         <variableId>3afede01-3b3b-475c-90f2-7722f7bd3aba</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1b3ad1b5-dea5-4ca2-80d2-397ec88a326f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>stok</value>
+         <variableId>f7acb8fa-6c7a-451b-a060-a1a456ccc6fb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c6a2a6a3-57d3-45f0-98d6-ae7056b2e8b4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IN_PenyesuaianStok_Positive/TambahStokProdukJadi</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2fd5864c-7712-4b1d-a91e-7c2709692ea8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DaftarBarang/ProdukJadiData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>2fd5864c-7712-4b1d-a91e-7c2709692ea8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>namabarang</value>
+         <variableId>acc5e304-2ac7-4d14-9eb5-8ffa9f4918a4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2fd5864c-7712-4b1d-a91e-7c2709692ea8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>stok</value>
+         <variableId>2ef4dcc7-4678-45ef-a567-ac72c88046c6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>00e49604-8ec5-427a-9bba-23a96616cc5a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/IN_PenyesuaianStok_Positive/TambahStokBarangSortir</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fc6b6df7-acd3-4968-9029-20961c102622</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DaftarBarang/BarangSortirData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>fc6b6df7-acd3-4968-9029-20961c102622</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>namabarang</value>
+         <variableId>ad0b32b1-1d54-4487-8aa6-1b0e5f0d8ecd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fc6b6df7-acd3-4968-9029-20961c102622</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>stok</value>
+         <variableId>39273529-3614-4262-8857-b448dbc5c019</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

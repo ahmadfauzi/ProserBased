@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Harga Barang</name>
+   <tag></tag>
+   <elementGuidId>e3e275ea-8745-4890-b85b-6a425f4ef3b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='KonfigurasiPabrik']/div[2]/ul/li[2]/a/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#KonfigurasiPabrik > div.collapse-content > ul.submenu-list > li:nth-of-type(2) > a.submenu-item > div.submenu-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a5e3fc6f-d6e1-45f1-aacc-7b6def8eebd9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>submenu-text</value>
+      <webElementGuid>1b953dbb-5b15-4beb-80d3-cfd07a1de15b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Harga Barang</value>
+      <webElementGuid>705d6362-4ad6-4922-93b3-5e2c8ddbb1f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;KonfigurasiPabrik&quot;)/div[@class=&quot;collapse-content&quot;]/ul[@class=&quot;submenu-list&quot;]/li[2]/a[@class=&quot;submenu-item&quot;]/div[@class=&quot;submenu-text&quot;]</value>
+      <webElementGuid>3edfbbd4-f1cc-4d89-8a9b-c9e47aaf2fa8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='KonfigurasiPabrik']/div[2]/ul/li[2]/a/div[2]</value>
+      <webElementGuid>f891fc09-3c6e-43b8-9f9f-1f6cb53e8892</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Satuan Pengukuran'])[1]/following::div[3]</value>
+      <webElementGuid>9f1b4dc2-25da-47b6-a06a-0b10c2dd2ae8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Konfigurasi Pabrik'])[1]/following::div[8]</value>
+      <webElementGuid>59964582-e17a-4004-8edc-aad5f69984ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengaturan Diskon'])[1]/preceding::div[3]</value>
+      <webElementGuid>5fd1c5c2-c9cc-4196-ba2b-104bbc87177f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori Biaya'])[1]/preceding::div[6]</value>
+      <webElementGuid>184b8010-53db-494a-8bc7-79769d9d5424</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Harga Barang']/parent::*</value>
+      <webElementGuid>88b2530d-f2a9-4282-b3cf-935995b15c9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[50]/div/div[2]/ul/li[2]/a/div[2]</value>
+      <webElementGuid>0c1a751b-308a-4cce-9510-3860ca67213a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Harga Barang' or . = 'Harga Barang')]</value>
+      <webElementGuid>a1fb8cd0-dc99-44a1-ade4-280557ef9d6e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

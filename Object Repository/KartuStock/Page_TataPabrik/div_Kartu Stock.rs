@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Kartu Stock</name>
+   <tag></tag>
+   <elementGuidId>b135be82-9bdf-4de3-b4fb-1c7434b393f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Laporan']/div[2]/ul/li/a/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.submenu-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b59837ad-29c3-4aed-8680-fc9184af81c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>submenu-text</value>
+      <webElementGuid>d57d523d-b584-421c-b9dc-21ad5fd00ff0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kartu Stock</value>
+      <webElementGuid>78f5ba91-fa1f-4e1b-8754-29929fca5c8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Laporan&quot;)/div[@class=&quot;collapse-content&quot;]/ul[@class=&quot;submenu-list&quot;]/li[1]/a[@class=&quot;submenu-item&quot;]/div[@class=&quot;submenu-text&quot;]</value>
+      <webElementGuid>8ff23f88-ddb3-4e75-9228-d0bf2c54f0bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Laporan']/div[2]/ul/li/a/div[2]</value>
+      <webElementGuid>48d8c7d6-33b1-4bb0-9611-4af3745b7e9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Laporan'])[1]/following::div[5]</value>
+      <webElementGuid>6864b156-f1a4-4f5c-9ef7-167d222c3ffc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Smart Search'])[1]/following::div[10]</value>
+      <webElementGuid>7425a958-66e9-4cc3-8870-90f6c95aa540</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Laporan Barang'])[1]/preceding::div[3]</value>
+      <webElementGuid>1c79fb10-55c9-49e0-b9c4-03a04279bbee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Laporan Penjualan'])[1]/preceding::div[6]</value>
+      <webElementGuid>219050a7-1f78-432f-bb6e-2c0a90dcf1c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kartu Stock']/parent::*</value>
+      <webElementGuid>6319aaf7-e365-4176-98a0-4083c05f29e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li/a/div[2]</value>
+      <webElementGuid>88e740f2-63af-4b6a-80ca-5f4d87e58c75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Kartu Stock' or . = 'Kartu Stock')]</value>
+      <webElementGuid>3e9f5f60-3d84-40d5-aa77-9eaaa2bdf561</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

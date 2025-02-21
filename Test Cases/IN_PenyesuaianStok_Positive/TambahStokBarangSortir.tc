@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TambahStokBarangSortir</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>391535e3-2e3e-49b9-aac2-c34e119d0285</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad0b32b1-1d54-4487-8aa6-1b0e5f0d8ecd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>39273529-3614-4262-8857-b448dbc5c019</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ad0b32b1-1d54-4487-8aa6-1b0e5f0d8ecd</id>
+      <masked>false</masked>
+      <name>namabarang</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>39273529-3614-4262-8857-b448dbc5c019</id>
+      <masked>false</masked>
+      <name>stok</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TambahDiskonInvoiceManual</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f5250591-216c-4ace-afe1-c675dc94739e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8eb3fea4-9758-4a09-b9b3-1cfd0406c5d6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>74c8fac0-a08c-4133-91a4-47d46a8a4eb2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8eb3fea4-9758-4a09-b9b3-1cfd0406c5d6</id>
+      <masked>false</masked>
+      <name>namadiskon</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>74c8fac0-a08c-4133-91a4-47d46a8a4eb2</id>
+      <masked>false</masked>
+      <name>nominal</name>
+   </variable>
+</TestCaseEntity>

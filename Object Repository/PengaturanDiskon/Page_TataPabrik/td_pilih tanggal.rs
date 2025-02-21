@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_pilih tanggal</name>
+   <tag></tag>
+   <elementGuidId>9c0184d9-8bd7-4ab1-b3b2-8f47be51b257</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//td[contains(text(),'28')])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>bbdfca6c-dd27-48ba-b932-e5f338d64094</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>off weekend</value>
+      <webElementGuid>eaf2eb86-fc29-40da-b46d-250e4b108670</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                9
+            </value>
+      <webElementGuid>ff941c23-f9b2-40e8-a429-4b1ef587f423</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;invoice-mobile&quot;)/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-content with-separator&quot;]/div[@class=&quot;columns is-multiline has-top-space-field&quot;]/div[@class=&quot;column is-half&quot;]/div[@class=&quot;date-shift-picker&quot;]/div[@class=&quot;columns is-desktop&quot;]/div[@class=&quot;column is-full&quot;]/div[@class=&quot;vue-daterange-picker&quot;]/div[@class=&quot;daterangepicker dropdown-menu ltr show-calendar single opensright&quot;]/div[@class=&quot;calendars row no-gutters&quot;]/div[@class=&quot;drp-calendar col left single&quot;]/div[@class=&quot;calendar-table&quot;]/table[@class=&quot;table-condensed&quot;]/tbody[1]/tr[7]/td[@class=&quot;off weekend&quot;]</value>
+      <webElementGuid>1cdedc7b-2620-432a-8218-cc20ba667019</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='invoice-mobile']/div[2]/div[2]/div/div[3]/div/div[2]/div/div/div[2]/div/div/div/table/tbody/tr[7]/td[7]</value>
+      <webElementGuid>1a5f0343-d1e1-44be-8daf-331ba0f72f1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mg'])[1]/following::td[42]</value>
+      <webElementGuid>e15ec946-16f4-4cbd-9821-f990a5587e27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sb'])[1]/following::td[42]</value>
+      <webElementGuid>485b6346-c9ee-4651-8201-32af68e93f52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipe Diskon'])[3]/preceding::td[1]</value>
+      <webElementGuid>94b4b593-6f47-47de-8e5c-dd00981f49b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpan'])[1]/preceding::td[1]</value>
+      <webElementGuid>33ff9152-5471-436e-bf6c-412d58a9fe86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[7]/td[7]</value>
+      <webElementGuid>c7549da9-d248-464e-934b-87f6b008b743</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '
+                9
+            ' or . = '
+                9
+            ')]</value>
+      <webElementGuid>74de8dae-544d-470b-b8ce-ed00273f8d4d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
