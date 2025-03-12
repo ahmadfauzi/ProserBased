@@ -132,3 +132,13 @@ if (kelompok == '' && WebUI.verifyElementPresent(findTestObject('Object Reposito
 	KeywordUtil.logInfo('Kelompok is empty and the warning text is displayed')
 	isErrorPresent = true
 }
+if (tenggat == '' && WebUI.verifyElementPresent(findTestObject('Object Repository/Pelanggan/Page_TataPabrik/span_wajib_tenggat'),
+	2)) {
+	KeywordUtil.logInfo('Kelompok is empty and the warning text is displayed')
+	isErrorPresent = true
+}
+if (limitpiutang == '' && WebUI.verifyElementPresent(findTestObject('Object Repository/Pelanggan/Page_TataPabrik/span_wajib_limit piutang'),
+	2)) {
+	KeywordUtil.logInfo('Kelompok is empty and the warning text is displayed')
+	isErrorPresent = true
+}
