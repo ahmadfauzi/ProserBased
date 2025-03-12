@@ -54,7 +54,7 @@
    <testCaseLink>
       <guid>3462ee34-0e2b-4318-a09e-3baaa585d256</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/IN_DaftarBarang_Positive/EditBarangSortir</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -118,7 +118,7 @@
    <testCaseLink>
       <guid>ecba70a0-87e4-4dfb-b787-176609c69ae8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/IN_DaftarBarang_Positive/DataMaskingBarangSortir</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

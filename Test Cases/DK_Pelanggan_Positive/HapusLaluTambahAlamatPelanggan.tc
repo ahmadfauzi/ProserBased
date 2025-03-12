@@ -1,86 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TambahAlamatSupplier</name>
+   <name>HapusLaluTambahAlamatPelanggan</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>362d799b-db07-4332-ae99-4579eec17653</testCaseGuid>
+   <testCaseGuid>b79c1491-a3ea-4fe3-b980-ed92b225cfad</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>2478b794-e631-44a6-a208-a3ff857eba18</variableId>
+      <variableId>3e46311c-0a89-4dfb-beda-59ba2a160e38</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>2ff93395-686b-4975-a9c2-ed6f8d0369de</variableId>
+      <variableId>f9dee2da-d1ba-414f-bdcf-9bf6a31f8de3</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>755b9a99-45d8-48db-9df8-4084524e574f</variableId>
+      <variableId>5681aef6-01af-4e2e-a5b0-5cf90d9c4ced</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>36a80bdd-fd18-4520-bba2-fe1de2a75484</variableId>
+      <variableId>8d1ee167-42e4-4e39-8deb-1060b5e1ee4b</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>eaf4e75a-c335-42ee-9c0b-7cbfe826f052</variableId>
+      <variableId>1bc21094-d7c7-40a7-bf7e-4ad339ba3bff</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0fb7d482-27d3-4caf-bd62-8a5ccbbdb763</variableId>
+      <variableId>85daaeb0-7fac-4b04-9413-4aa45a019702</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ee538b9-29ae-493c-a04a-1c03f27b00d1</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>2478b794-e631-44a6-a208-a3ff857eba18</id>
+      <id>3e46311c-0a89-4dfb-beda-59ba2a160e38</id>
       <masked>false</masked>
-      <name>namasupplier</name>
+      <name>namapelanggan</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>2ff93395-686b-4975-a9c2-ed6f8d0369de</id>
+      <id>f9dee2da-d1ba-414f-bdcf-9bf6a31f8de3</id>
       <masked>false</masked>
       <name>jenisalamat</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>755b9a99-45d8-48db-9df8-4084524e574f</id>
+      <id>5681aef6-01af-4e2e-a5b0-5cf90d9c4ced</id>
       <masked>false</masked>
       <name>alamatlengkap</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>36a80bdd-fd18-4520-bba2-fe1de2a75484</id>
+      <id>8d1ee167-42e4-4e39-8deb-1060b5e1ee4b</id>
+      <masked>false</masked>
+      <name>alamatfaktur</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1bc21094-d7c7-40a7-bf7e-4ad339ba3bff</id>
       <masked>false</masked>
       <name>namapj</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>eaf4e75a-c335-42ee-9c0b-7cbfe826f052</id>
+      <id>85daaeb0-7fac-4b04-9413-4aa45a019702</id>
       <masked>false</masked>
       <name>teleponpj</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>0fb7d482-27d3-4caf-bd62-8a5ccbbdb763</id>
+      <id>2ee538b9-29ae-493c-a04a-1c03f27b00d1</id>
       <masked>false</masked>
       <name>emailpj</name>
    </variable>

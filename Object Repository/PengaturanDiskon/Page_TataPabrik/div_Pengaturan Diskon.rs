@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='KonfigurasiPabrik']/div[2]/ul/li[3]/a/div[2]</value>
+         <value>//div[normalize-space()='Pengaturan Diskon']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c52225ce-7c18-4048-bbc0-ed52c3180bc6</webElementGuid>
+      <webElementGuid>bdfbf11d-87d1-43a1-8e1d-3f6aa9e7ff2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>submenu-text</value>
-      <webElementGuid>89424432-692b-4ca1-b1d7-05bcc9058c96</webElementGuid>
+      <webElementGuid>d8a22b68-43c6-4b9c-bed2-4ca75a04bd61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Pengaturan Diskon</value>
-      <webElementGuid>b123c1ab-ef32-48f1-824c-5ebc02c95a9b</webElementGuid>
+      <webElementGuid>bbc162ba-f5ce-4416-8e2f-9e964667983a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;KonfigurasiPabrik&quot;)/div[@class=&quot;collapse-content&quot;]/ul[@class=&quot;submenu-list&quot;]/li[3]/a[@class=&quot;submenu-item&quot;]/div[@class=&quot;submenu-text&quot;]</value>
-      <webElementGuid>181920ca-cd0e-4421-a0d7-589c72dbd223</webElementGuid>
+      <webElementGuid>a0dbd30f-b0ed-430c-a5d8-8b379ff28339</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='KonfigurasiPabrik']/div[2]/ul/li[3]/a/div[2]</value>
-      <webElementGuid>398ea345-5b49-4ee9-8ded-5a9cdfcd3645</webElementGuid>
+      <webElementGuid>d1e52f26-dbda-46ee-9793-a7ecd1f5c85c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga Barang'])[1]/following::div[3]</value>
-      <webElementGuid>cd4f63bd-0a50-4d2e-9947-8c95c9df6a72</webElementGuid>
+      <webElementGuid>780555dc-9532-4ab8-a49b-7f7eadd66e21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Satuan Pengukuran'])[1]/following::div[6]</value>
-      <webElementGuid>fba7671f-6061-4147-910e-a34cc953c0cf</webElementGuid>
+      <webElementGuid>5c00b3ba-e4b9-45cb-b686-5c57aed4c915</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori Biaya'])[1]/preceding::div[3]</value>
-      <webElementGuid>095d0f88-0ef7-4994-8c99-7b9fe440e82b</webElementGuid>
+      <webElementGuid>bd2aed4b-4b2e-4611-ac89-9d85481913d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Golongan'])[1]/preceding::div[6]</value>
-      <webElementGuid>675cba4a-6895-4ab6-83df-db617aab6184</webElementGuid>
+      <webElementGuid>82cc53c6-f7f6-4a0b-aec3-0a990787874a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Pengaturan Diskon']/parent::*</value>
-      <webElementGuid>e5d9a7b4-b2b0-438a-9f9f-ed1341c21eb1</webElementGuid>
+      <webElementGuid>8646aacd-73e6-4354-9263-396b1e89d26e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[50]/div/div[2]/ul/li[3]/a/div[2]</value>
-      <webElementGuid>66cedc04-c878-4c2f-a80e-913259c32304</webElementGuid>
+      <webElementGuid>51317c12-2370-43fb-a42c-31093d959a82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Pengaturan Diskon' or . = 'Pengaturan Diskon')]</value>
-      <webElementGuid>1a9a43f3-5f94-4433-b4cf-2cbfc5160da1</webElementGuid>
+      <webElementGuid>670f1f05-d533-413f-9af3-9e9e8ba3304c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

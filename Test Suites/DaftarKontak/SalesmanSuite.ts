@@ -18,28 +18,28 @@
       <testCaseId>Test Cases/DK_Salesman_Positive/TambahSalesman</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>94080664-4317-4dd1-bfa4-c874c1931ee0</id>
+         <id>a77817ac-0af1-4fbc-a970-01dddb52a263</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/SalesmanData</testDataId>
+         <testDataId>Data Files/DaftarKontak/SalesmanData</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>94080664-4317-4dd1-bfa4-c874c1931ee0</testDataLinkId>
+         <testDataLinkId>a77817ac-0af1-4fbc-a970-01dddb52a263</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>namasalesman</value>
          <variableId>51af407a-f4d3-42fc-82c4-2f4fb97cdcfd</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>94080664-4317-4dd1-bfa4-c874c1931ee0</testDataLinkId>
+         <testDataLinkId>a77817ac-0af1-4fbc-a970-01dddb52a263</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>telepon</value>
          <variableId>7eb1c555-345d-4be7-a057-af42efe3e12c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>94080664-4317-4dd1-bfa4-c874c1931ee0</testDataLinkId>
+         <testDataLinkId>a77817ac-0af1-4fbc-a970-01dddb52a263</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>nokaryawan</value>
          <variableId>73783665-9ebe-4c25-a967-8db9dbfe3014</variableId>
@@ -52,28 +52,28 @@
       <testCaseId>Test Cases/DK_Salesman_Positive/RincianSalesman</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>f321f742-9ee1-47c5-b3b7-814742349403</id>
+         <id>5fb15b53-30ec-4a25-8a69-6168ffdba3b4</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/SalesmanData</testDataId>
+         <testDataId>Data Files/DaftarKontak/SalesmanData</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>f321f742-9ee1-47c5-b3b7-814742349403</testDataLinkId>
+         <testDataLinkId>5fb15b53-30ec-4a25-8a69-6168ffdba3b4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>namasalesman</value>
          <variableId>2f23fe5c-53a7-4769-9d07-d66e49ddbb88</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f321f742-9ee1-47c5-b3b7-814742349403</testDataLinkId>
+         <testDataLinkId>5fb15b53-30ec-4a25-8a69-6168ffdba3b4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>telepon</value>
          <variableId>b14360f9-5e26-46ed-9ae1-272aba79293b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f321f742-9ee1-47c5-b3b7-814742349403</testDataLinkId>
+         <testDataLinkId>5fb15b53-30ec-4a25-8a69-6168ffdba3b4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>nokaryawan</value>
          <variableId>a4da4257-0f46-4914-b24c-9478d694c933</variableId>
@@ -86,37 +86,49 @@
       <testCaseId>Test Cases/DK_Salesman_Positive/EditSalesman</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>e93beb65-5be6-4905-a4cf-4a99aa0e8d75</id>
+         <id>0f4d8dc4-3bdd-4e86-a331-1142925378d0</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/SalesmanData_edit</testDataId>
+         <testDataId>Data Files/DaftarKontak/SalesmanData</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>e93beb65-5be6-4905-a4cf-4a99aa0e8d75</testDataLinkId>
+         <testDataLinkId>0f4d8dc4-3bdd-4e86-a331-1142925378d0</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>namasalesman</value>
          <variableId>857be32b-53a3-48d8-8bf3-29dff3aacabc</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e93beb65-5be6-4905-a4cf-4a99aa0e8d75</testDataLinkId>
+         <testDataLinkId>0f4d8dc4-3bdd-4e86-a331-1142925378d0</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>namasalesman_edit</value>
          <variableId>2ed8e8f5-2f2a-482a-9ab9-fee046758750</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e93beb65-5be6-4905-a4cf-4a99aa0e8d75</testDataLinkId>
+         <testDataLinkId>0f4d8dc4-3bdd-4e86-a331-1142925378d0</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>telepon_edit</value>
          <variableId>a9c4f93f-7255-49da-afa7-442aa24732e8</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e93beb65-5be6-4905-a4cf-4a99aa0e8d75</testDataLinkId>
+         <testDataLinkId>0f4d8dc4-3bdd-4e86-a331-1142925378d0</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>nokaryawan_edit</value>
          <variableId>9dd9a9ba-8fe2-4686-a24a-b1e6c7d8b666</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0f4d8dc4-3bdd-4e86-a331-1142925378d0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>telepon</value>
+         <variableId>9355c953-aad9-48aa-a3ff-a2a76cb04ad4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0f4d8dc4-3bdd-4e86-a331-1142925378d0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nokaryawan</value>
+         <variableId>16eca923-6dc5-4d2c-b22a-831e27ecff96</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -126,16 +138,16 @@
       <testCaseId>Test Cases/DK_Salesman_Positive/HapusSalesman</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>0df9c3c9-fde2-4d87-aa73-54f19fe1fb61</id>
+         <id>a1bbaa4d-cba8-405d-ae0f-2dd2b517c808</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/SalesmanData</testDataId>
+         <testDataId>Data Files/DaftarKontak/SalesmanData</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>0df9c3c9-fde2-4d87-aa73-54f19fe1fb61</testDataLinkId>
+         <testDataLinkId>a1bbaa4d-cba8-405d-ae0f-2dd2b517c808</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>namasalesman</value>
          <variableId>2aa3776c-6560-49f2-9bdc-a563db2b8afb</variableId>

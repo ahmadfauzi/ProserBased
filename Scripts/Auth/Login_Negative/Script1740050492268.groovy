@@ -23,7 +23,6 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-
 WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/input_User name_username'), username)
 
 WebUI.setEncryptedText(findTestObject('Page_TataPabrik/input_Password_password'), password)

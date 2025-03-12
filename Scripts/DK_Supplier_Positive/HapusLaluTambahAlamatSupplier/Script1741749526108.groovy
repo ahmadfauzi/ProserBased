@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Auth/LoginSuccess'), [:], FailureHandling.STOP_ON_FAILURE)
 
+//**Hapus Alamat**
+
 WebUI.click(findTestObject('Salesman/Page_TataPabrik/div_Daftar Kontak'))
 
 WebUI.click(findTestObject('Supplier/Page_TataPabrik/div_Supplier'))
@@ -40,3 +42,45 @@ WebUI.click(findTestObject('Supplier/Page_TataPabrik/span_icon_hapusalamat'))
 WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_Hapus'))
 
 WebUI.verifyTextPresent('Data Alamat Supplier berhasil dihapus', false)
+
+//**Tambah Alamat**
+
+WebUI.click(findTestObject('Supplier/Page_TataPabrik/button_Alamat Supplier'))
+
+WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Jenis Alamat_addressName0'), jenisalamat)
+
+WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/textarea_Alamat Lengkap_address0'), alamatlengkap)
+
+WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Nama_picName0'), namapj)
+
+WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_Nomor Telepon_picPhoneNumber0'), teleponpj)
+
+WebUI.setText(findTestObject('Object Repository/Supplier/Page_TataPabrik/input_(Gunakan Format email yang benar)_picEmail0'), 
+    emailpj)
+
+WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_Tambahkan Alamat'))
+
+WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_remove alamat'))
+
+WebUI.click(findTestObject('Supplier/Page_TataPabrik/span_Simpan'))
+
+String jenisAlamatText = WebUI.getText(findTestObject('Supplier/Page_TataPabrik/div_jenisalamat'))
+
+WebUI.verifyMatch(jenisAlamatText, jenisalamat, false)
+
+String alamatText = WebUI.getText(findTestObject('Supplier/Page_TataPabrik/div_alamat'))
+
+WebUI.verifyMatch(alamatText, alamatlengkap, false)
+
+String namaPICText = WebUI.getText(findTestObject('Supplier/Page_TataPabrik/div_namapic'))
+
+WebUI.verifyMatch(namaPICText, namapj, false)
+
+String emailPICText = WebUI.getText(findTestObject('Supplier/Page_TataPabrik/td_emailpic'))
+
+WebUI.verifyMatch(emailPICText, emailpj, false)
+
+String nomorPICText = WebUI.getText(findTestObject('Supplier/Page_TataPabrik/td_nomorpic'))
+
+WebUI.verifyMatch(nomorPICText, teleponpj, false)
+

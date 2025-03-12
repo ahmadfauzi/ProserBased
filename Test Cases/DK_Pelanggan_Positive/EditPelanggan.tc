@@ -10,12 +10,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b5b36b1a-ffe0-4db8-ac0a-af60acf8a5cf</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>977d9438-3dd6-4555-b422-b5210622c29c</variableId>
    </variableLinks>
    <variableLinks>
@@ -72,13 +66,66 @@
       <value></value>
       <variableId>eec17517-4d7a-461f-a9ca-2bd18ca90a7a</variableId>
    </variableLinks>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>b5b36b1a-ffe0-4db8-ac0a-af60acf8a5cf</id>
-      <masked>false</masked>
-      <name>namapelanggan</name>
-   </variable>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b5b36b1a-ffe0-4db8-ac0a-af60acf8a5cf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f0ce3c99-d906-4a7b-b853-5eaa4bd875d4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ce9dfb38-686a-4346-9194-b367d35d516a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51f15ec4-3f15-4dd5-af8f-ae21f6ce9ff1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b8490f2e-48f8-45d2-9623-76810868a7a3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4e5a92aa-1258-41e1-8ae0-0cca55714bdd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>83830878-3e3d-44ec-8d15-c3b419408b05</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6b2a6dd8-be49-41c3-80a0-b8e22f503927</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f668d142-3438-40ee-91d6-c999b56884d6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>758b6bd7-a6a9-4706-bb69-8e1b2fbc8ff7</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -148,5 +195,75 @@
       <id>eec17517-4d7a-461f-a9ca-2bd18ca90a7a</id>
       <masked>false</masked>
       <name>infoperusahaan_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b5b36b1a-ffe0-4db8-ac0a-af60acf8a5cf</id>
+      <masked>false</masked>
+      <name>namapelanggan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f0ce3c99-d906-4a7b-b853-5eaa4bd875d4</id>
+      <masked>false</masked>
+      <name>telepon</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ce9dfb38-686a-4346-9194-b367d35d516a</id>
+      <masked>false</masked>
+      <name>nomorponsel</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>51f15ec4-3f15-4dd5-af8f-ae21f6ce9ff1</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b8490f2e-48f8-45d2-9623-76810868a7a3</id>
+      <masked>false</masked>
+      <name>kodepelanggan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4e5a92aa-1258-41e1-8ae0-0cca55714bdd</id>
+      <masked>false</masked>
+      <name>nik</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>83830878-3e3d-44ec-8d15-c3b419408b05</id>
+      <masked>false</masked>
+      <name>npwp</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6b2a6dd8-be49-41c3-80a0-b8e22f503927</id>
+      <masked>false</masked>
+      <name>tenggat</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f668d142-3438-40ee-91d6-c999b56884d6</id>
+      <masked>false</masked>
+      <name>limitpiutang</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>758b6bd7-a6a9-4706-bb69-8e1b2fbc8ff7</id>
+      <masked>false</masked>
+      <name>infoperusahaan</name>
    </variable>
 </TestCaseEntity>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='DaftarKontak']/div[2]/ul/li/a/div[2]</value>
+         <value>//div[normalize-space()='Pelanggan']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d7f3bc29-4af4-43d6-a52f-93bc65b8108e</webElementGuid>
+      <webElementGuid>e83ce800-4f26-4ea4-837b-3f32f4e4fd4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>submenu-text</value>
-      <webElementGuid>8084a910-2e2f-4dc3-9f0e-a58a9a17cc5e</webElementGuid>
+      <webElementGuid>b2bc00e3-523b-4831-8427-d1b58c903729</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Pelanggan</value>
-      <webElementGuid>5c223b24-9697-45a3-8f89-57399b4b7043</webElementGuid>
+      <webElementGuid>aca32611-c687-46e0-9486-9d29ea52c203</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;DaftarKontak&quot;)/div[@class=&quot;collapse-content&quot;]/ul[@class=&quot;submenu-list&quot;]/li[1]/a[@class=&quot;submenu-item&quot;]/div[@class=&quot;submenu-text&quot;]</value>
-      <webElementGuid>f893e5c9-d51e-46a4-b038-1191f106b86c</webElementGuid>
+      <webElementGuid>9d277699-b6a5-41a4-baa2-27e67fa4cec4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='DaftarKontak']/div[2]/ul/li/a/div[2]</value>
-      <webElementGuid>d3f879a9-0003-4bce-8d55-958ffb72f3a7</webElementGuid>
+      <webElementGuid>c529c618-0b32-43df-b212-568d318117a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Kontak'])[1]/following::div[5]</value>
-      <webElementGuid>b20f8b9d-31f8-425b-8719-4c7dc799bf9d</webElementGuid>
+      <webElementGuid>4c7a7834-ad14-4924-a38c-b83a500d12ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mesin'])[1]/following::div[10]</value>
-      <webElementGuid>df62c0c2-bcf9-4292-864b-12edffd2d158</webElementGuid>
+      <webElementGuid>41508ebe-26d1-45f7-8510-d27ca42844ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Salesman'])[1]/preceding::div[3]</value>
-      <webElementGuid>fdbd60a6-ffda-4521-95d3-2070ae20925b</webElementGuid>
+      <webElementGuid>bfe41a2b-8f6c-4ea7-b103-3a76a50a53d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Supplier'])[1]/preceding::div[6]</value>
-      <webElementGuid>a5bb2abd-2c26-464b-a79f-6ff70aeb6f95</webElementGuid>
+      <webElementGuid>63081052-b4af-45a9-b230-476e072f33bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Pelanggan']/parent::*</value>
-      <webElementGuid>028bea40-fe2d-43f2-87c0-8f7e0b09698c</webElementGuid>
+      <webElementGuid>dcb120d9-c343-40e5-b911-91d05bb94773</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[10]/div/div[2]/ul/li/a/div[2]</value>
-      <webElementGuid>1565a57f-f7a1-421d-a5f0-8a6a3933f890</webElementGuid>
+      <webElementGuid>56367967-dba7-44b0-937c-5d22669ef399</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Pelanggan' or . = 'Pelanggan')]</value>
-      <webElementGuid>bd5c6e35-d694-4b81-8e31-402aa4165a95</webElementGuid>
+      <webElementGuid>5ca2e2fd-a931-4412-9846-e47fb7463f87</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

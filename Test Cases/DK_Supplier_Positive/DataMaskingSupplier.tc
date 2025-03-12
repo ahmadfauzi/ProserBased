@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>HapusAlamatSupplier</name>
+   <name>DataMaskingSupplier</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>de35039c-23b0-43a0-9171-ef5d3c20d246</testCaseGuid>
+   <testCaseGuid>cf932c6d-c4ec-4a4c-98e2-d1118e6f376a</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>51bc6598-b035-4edb-9a26-396962ce5fc6</variableId>
+      <variableId>6838ff07-6afc-4809-8284-9638fec5b7e1</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>51bc6598-b035-4edb-9a26-396962ce5fc6</id>
+      <id>6838ff07-6afc-4809-8284-9638fec5b7e1</id>
       <masked>false</masked>
       <name>namasupplier</name>
    </variable>

@@ -10,12 +10,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>857be32b-53a3-48d8-8bf3-29dff3aacabc</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>2ed8e8f5-2f2a-482a-9ab9-fee046758750</variableId>
    </variableLinks>
    <variableLinks>
@@ -30,13 +24,24 @@
       <value></value>
       <variableId>9dd9a9ba-8fe2-4686-a24a-b1e6c7d8b666</variableId>
    </variableLinks>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>857be32b-53a3-48d8-8bf3-29dff3aacabc</id>
-      <masked>false</masked>
-      <name>namasalesman</name>
-   </variable>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>857be32b-53a3-48d8-8bf3-29dff3aacabc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9355c953-aad9-48aa-a3ff-a2a76cb04ad4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>16eca923-6dc5-4d2c-b22a-831e27ecff96</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -57,5 +62,26 @@
       <id>9dd9a9ba-8fe2-4686-a24a-b1e6c7d8b666</id>
       <masked>false</masked>
       <name>nokaryawan_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>857be32b-53a3-48d8-8bf3-29dff3aacabc</id>
+      <masked>false</masked>
+      <name>namasalesman</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9355c953-aad9-48aa-a3ff-a2a76cb04ad4</id>
+      <masked>false</masked>
+      <name>telepon</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>16eca923-6dc5-4d2c-b22a-831e27ecff96</id>
+      <masked>false</masked>
+      <name>nokaryawan</name>
    </variable>
 </TestCaseEntity>

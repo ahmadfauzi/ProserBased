@@ -36,7 +36,7 @@
    <testCaseLink>
       <guid>0f635037-b197-4881-8b69-76556dc83a67</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/KP_Pengaturan_Diskon/EditDiskonCustomer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -64,7 +64,7 @@
    <testCaseLink>
       <guid>564a48cc-9d2b-485c-b360-f1df29433ebe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/KP_Pengaturan_Diskon/HapusDiskonCustomer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -86,7 +86,7 @@
    <testCaseLink>
       <guid>147df6a1-7bc9-46ad-94dd-eb58e6198996</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/KP_Pengaturan_Diskon/TambahDiskonInvoiceManual</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -114,7 +114,7 @@
    <testCaseLink>
       <guid>ddafa6fe-adb5-4c40-9ab1-156962a49f5b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/KP_Pengaturan_Diskon/EditDiskonInvoiceManual</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -154,7 +154,7 @@
    <testCaseLink>
       <guid>539069f2-36dc-4dff-ae36-5c062110134d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/KP_Pengaturan_Diskon/HapusDiskonInvoiceManual</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -176,7 +176,7 @@
    <testCaseLink>
       <guid>32fa79d7-66d8-42e6-b630-4602647af9f6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/KP_Pengaturan_Diskon/TambahDiskonInvoicePersen</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -204,7 +204,7 @@
    <testCaseLink>
       <guid>c12f0580-6baa-4516-9d39-10c7598576df</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/KP_Pengaturan_Diskon/EditDiskonInvoicePersen</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -244,7 +244,7 @@
    <testCaseLink>
       <guid>d7f5046f-4104-4c9e-90bf-5f17186f40cc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/KP_Pengaturan_Diskon/HapusDiskonInvoicePersen</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

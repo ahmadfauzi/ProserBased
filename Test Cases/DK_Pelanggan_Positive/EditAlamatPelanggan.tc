@@ -48,6 +48,42 @@
       <value></value>
       <variableId>6fc2ffe1-fcbb-4d90-8c01-4b416e38bbfa</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>031c61f5-9a52-44af-9cab-d04c8d824c53</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>08551535-9284-48b0-9a62-c39a473ef4ea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>42ecdd5e-6060-4638-848b-2f954b855513</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0f600256-ccab-4a17-a474-e7425e5ebf77</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b79effb5-7981-4515-84a2-45d9af942d3f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0f7ab124-d26d-4bf5-a3d5-3552e8cbeeb7</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -96,5 +132,47 @@
       <id>6fc2ffe1-fcbb-4d90-8c01-4b416e38bbfa</id>
       <masked>false</masked>
       <name>emailpj_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>031c61f5-9a52-44af-9cab-d04c8d824c53</id>
+      <masked>false</masked>
+      <name>jenisalamat</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>08551535-9284-48b0-9a62-c39a473ef4ea</id>
+      <masked>false</masked>
+      <name>alamatlengkap</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>42ecdd5e-6060-4638-848b-2f954b855513</id>
+      <masked>false</masked>
+      <name>alamatfaktur</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0f600256-ccab-4a17-a474-e7425e5ebf77</id>
+      <masked>false</masked>
+      <name>namapj</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b79effb5-7981-4515-84a2-45d9af942d3f</id>
+      <masked>false</masked>
+      <name>teleponpj</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0f7ab124-d26d-4bf5-a3d5-3552e8cbeeb7</id>
+      <masked>false</masked>
+      <name>emailpj</name>
    </variable>
 </TestCaseEntity>

@@ -38,6 +38,3 @@ WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_icon_hapus pelanggan'
 WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_Hapus'))
 
 WebUI.verifyElementPresent(findTestObject('Pelanggan/Page_TataPabrik/p_Tidak ditemukan Pelanggan'), 3)
-
-WebUI.closeBrowser()
-

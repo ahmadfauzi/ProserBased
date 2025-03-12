@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_Top Up'))
 
 WebUI.setText(findTestObject('Pelanggan/Page_TataPabrik/input_Top Up_amount'), topup)
 
-WebUI.selectOptionByLabel(findTestObject('Pelanggan/Page_TataPabrik/select_Pilih Cara Pembayaran'), 'QRIS', false)
+WebUI.selectOptionByLabel(findTestObject('Pelanggan/Page_TataPabrik/select_Pilih Cara Pembayaran'), 'Cash', false)
 
 WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_Cancel'))
 
@@ -51,7 +51,7 @@ WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_Top Up'))
 
 WebUI.setText(findTestObject('Pelanggan/Page_TataPabrik/input_Top Up_amount'), topup)
 
-WebUI.selectOptionByLabel(findTestObject('Pelanggan/Page_TataPabrik/select_Pilih Cara Pembayaran'), 'QRIS', false)
+WebUI.selectOptionByLabel(findTestObject('Pelanggan/Page_TataPabrik/select_Pilih Cara Pembayaran'), 'Cash', false)
 
 WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_Simpan Top Up'))
 
@@ -88,5 +88,5 @@ WebUI.verifyMatch(numericText2, topup, false)
 
 String pembayaranText = WebUI.getText(findTestObject('Pelanggan/Page_TataPabrik/td_top up_cara pembayaran'))
 
-WebUI.verifyMatch(pembayaranText, 'QRIS', false)
+WebUI.verifyMatch(pembayaranText, 'Cash', false)
 

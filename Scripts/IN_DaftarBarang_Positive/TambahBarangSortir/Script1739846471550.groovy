@@ -43,20 +43,34 @@ WebUI.setText(findTestObject('DaftarBarang/Page_TataPabrik/input_Satuan Berat'),
 
 WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/button_Simpan'))
 
-WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/span_Filter Pencarian_icon'))
+if (namabarang == '') {
+    WebUI.verifyElementPresent(findTestObject('DaftarBarang/Page_TataPabrik/span_Wajib diisi_namabarang'), 2)
+} else if (netto == '') {
+    WebUI.verifyElementPresent(findTestObject('DaftarBarang/Page_TataPabrik/span_Wajib diisi_netto'), 2)
+} else if (satuanberat == '') {
+    WebUI.verifyElementPresent(findTestObject('DaftarBarang/Page_TataPabrik/span_Wajib diisi_satuanberat'), 2)
+} else if (WebUI.verifyElementPresent(findTestObject('DaftarBarang/Page_TataPabrik/div_AlertDialog_duplicate'), 2) == true) {
+    println('The data is duplicate');
+} else {
+	
+	WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/span_Filter Pencarian_icon'))
+	
+	WebUI.setText(findTestObject('DaftarBarang/Page_TataPabrik/input_Cari_input'), namabarang)
+	
+	WebUI.delay(2)
+	
+	String namaBarangText = WebUI.getText(findTestObject('DaftarBarang/Page_TataPabrik/div_list_namabarang'))
+	
+	WebUI.verifyMatch(namaBarangText, namabarang, false)
+	
+	String kodeBarangText = WebUI.getText(findTestObject('DaftarBarang/Page_TataPabrik/div_list_kodebarang'))
+	
+	WebUI.verifyMatch(kodeBarangText, kodebarang, false)
+	
+	String satuanBeratText = WebUI.getText(findTestObject('DaftarBarang/Page_TataPabrik/div_list_satuanberat'))
+	
+	WebUI.verifyMatch(satuanBeratText, satuanberat, false)
+	
+	WebUI.verifyTextPresent('Wajib diisi', false)
+}
 
-WebUI.setText(findTestObject('DaftarBarang/Page_TataPabrik/input_Cari_input'), namabarang)
-
-WebUI.delay(2)
-
-String namaBarangText = WebUI.getText(findTestObject('DaftarBarang/Page_TataPabrik/div_list_namabarang'))
-
-WebUI.verifyMatch(namaBarangText, namabarang, false)
-
-String kodeBarangText = WebUI.getText(findTestObject('DaftarBarang/Page_TataPabrik/div_list_kodebarang'))
-
-WebUI.verifyMatch(kodeBarangText, kodebarang, false)
-
-String satuanBeratText = WebUI.getText(findTestObject('DaftarBarang/Page_TataPabrik/div_list_satuanberat'))
-
-WebUI.verifyMatch(satuanBeratText, satuanberat, false)

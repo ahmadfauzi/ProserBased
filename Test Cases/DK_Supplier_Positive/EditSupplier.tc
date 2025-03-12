@@ -10,12 +10,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c7b383f3-c35a-4b5e-b066-0bfbbe39fd0c</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>cb403847-f56f-4c26-a746-591c47c6f1ad</variableId>
    </variableLinks>
    <variableLinks>
@@ -72,13 +66,66 @@
       <value></value>
       <variableId>61942c8d-3251-42dd-8a2c-c1a2b50cd202</variableId>
    </variableLinks>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>c7b383f3-c35a-4b5e-b066-0bfbbe39fd0c</id>
-      <masked>false</masked>
-      <name>namasupplier</name>
-   </variable>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c7b383f3-c35a-4b5e-b066-0bfbbe39fd0c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3503d048-af23-4de8-8670-9568630d52d6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>96729754-61a3-46c4-a826-237e8f77c669</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>98cf6e36-f11b-42c3-8244-65cfa9455a7c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1de0f649-757e-40b4-a358-498df27a82c0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>be67d86b-8dc0-4f27-bb3a-e48e6938e50b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c821f873-89e0-41f8-b63d-0930c3e19657</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e61c412-f180-4c4b-a9c5-06123f8d9964</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1445294e-ab5d-4161-bc00-a055e151efb1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>762e857d-ad85-4440-9c5e-02dd882c60e4</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -148,5 +195,75 @@
       <id>61942c8d-3251-42dd-8a2c-c1a2b50cd202</id>
       <masked>false</masked>
       <name>catatan_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c7b383f3-c35a-4b5e-b066-0bfbbe39fd0c</id>
+      <masked>false</masked>
+      <name>namasupplier</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3503d048-af23-4de8-8670-9568630d52d6</id>
+      <masked>false</masked>
+      <name>telepon</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>96729754-61a3-46c4-a826-237e8f77c669</id>
+      <masked>false</masked>
+      <name>kode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>98cf6e36-f11b-42c3-8244-65cfa9455a7c</id>
+      <masked>false</masked>
+      <name>tenggat</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1de0f649-757e-40b4-a358-498df27a82c0</id>
+      <masked>false</masked>
+      <name>nik</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>be67d86b-8dc0-4f27-bb3a-e48e6938e50b</id>
+      <masked>false</masked>
+      <name>npwp</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c821f873-89e0-41f8-b63d-0930c3e19657</id>
+      <masked>false</masked>
+      <name>nomorponsel</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1e61c412-f180-4c4b-a9c5-06123f8d9964</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1445294e-ab5d-4161-bc00-a055e151efb1</id>
+      <masked>false</masked>
+      <name>pkp</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>762e857d-ad85-4440-9c5e-02dd882c60e4</id>
+      <masked>false</masked>
+      <name>catatan</name>
    </variable>
 </TestCaseEntity>

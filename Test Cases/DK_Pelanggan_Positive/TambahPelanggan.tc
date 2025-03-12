@@ -40,6 +40,12 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>356aad48-ec8e-468f-a8b1-5d7a334984e4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>18fb9661-ef32-4fa9-a99f-1375866de9bc</variableId>
    </variableLinks>
    <variableLinks>
@@ -136,6 +142,13 @@
       <id>5e8dff78-b090-48df-bb7a-6517fb2a4227</id>
       <masked>false</masked>
       <name>kodepelanggan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>356aad48-ec8e-468f-a8b1-5d7a334984e4</id>
+      <masked>false</masked>
+      <name>kelompok</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>

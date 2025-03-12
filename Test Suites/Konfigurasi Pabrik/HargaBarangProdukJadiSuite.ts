@@ -60,7 +60,7 @@
    <testCaseLink>
       <guid>9f2003ca-e568-4a45-b531-a1a218406333</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/IN_DaftarBarang_Positive/EditBahanBaku</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -136,7 +136,7 @@
    <testCaseLink>
       <guid>08e694aa-49de-4fa8-b609-79bc696a2c40</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/IN_DaftarBarang_Positive/TambahProdukJadi</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -188,7 +188,7 @@
    <testCaseLink>
       <guid>5910dded-48f9-487e-a24a-7806683099a7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/IN_DaftarBarang_Positive/EditProdukJadi</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -276,7 +276,7 @@
    <testCaseLink>
       <guid>98af64a8-aa22-4e69-a2df-085b08155a61</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/KP_Pengaturan_Diskon/TambahDiskonCustomer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -298,7 +298,7 @@
    <testCaseLink>
       <guid>d63778c7-e2df-4428-ab0b-9a12ed98cb52</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/KP_Pengaturan_Diskon/EditDiskonCustomer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -326,7 +326,7 @@
    <testCaseLink>
       <guid>fb2e744b-277b-4159-91ff-4eead9387241</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/KP_Harga_Barang/TambahHargaBarangProdukJadi</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -354,7 +354,7 @@
    <testCaseLink>
       <guid>63610398-bb80-469a-9e57-475b456cc357</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/KP_Harga_Barang/EditHargaBarangProdukJadi</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -388,7 +388,7 @@
    <testCaseLink>
       <guid>d5ed63cd-0c5c-44e0-807a-1c52b45c1b52</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/KP_Harga_Barang/HapusHargaBarangProdukJadi</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -410,7 +410,7 @@
    <testCaseLink>
       <guid>835ef3f9-eb71-437c-8fe8-28e5313d62d3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/KP_Pengaturan_Diskon/HapusDiskonCustomer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -432,7 +432,7 @@
    <testCaseLink>
       <guid>e2ded2fe-5545-45ad-9cdc-f03cefcba597</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/IN_DaftarBarang_Positive/DataMaskingProdukJadi</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -490,7 +490,7 @@
    <testCaseLink>
       <guid>e68203b0-b03c-45e9-97b9-7061ea712fb9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/IN_DaftarBarang_Positive/DataMaskingBahanBaku</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

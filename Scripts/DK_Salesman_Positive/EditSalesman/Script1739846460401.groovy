@@ -51,17 +51,64 @@ WebUI.setText(findTestObject('Salesman/Page_TataPabrik/input_No Karyawan_Employe
 
 WebUI.click(findTestObject('Object Repository/Salesman/Page_TataPabrik/span_Simpan'))
 
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_Cari_input'), Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_Cari_input'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('Pelanggan/Page_TataPabrik/input_Cari_input'), namasalesman_edit)
+
+WebUI.delay(2)
+
+String namaSalesmanEditText = WebUI.getText(findTestObject('Salesman/Page_TataPabrik/td_nama salesman'))
+
+WebUI.verifyMatch(namaSalesmanEditText, namasalesman_edit, false)
+
+String teleponEditText = WebUI.getText(findTestObject('Salesman/Page_TataPabrik/td_telepon'))
+
+WebUI.verifyMatch(teleponEditText, telepon_edit, false)
+
+String noKaryawanEditText = WebUI.getText(findTestObject('Salesman/Page_TataPabrik/td_no karyawan'))
+
+WebUI.verifyMatch(noKaryawanEditText, nokaryawan_edit, false)
+
+WebUI.click(findTestObject('Salesman/Page_TataPabrik/span_icon_edit salesman'))
+
+WebUI.sendKeys(findTestObject('Salesman/Page_TataPabrik/input_Nama_Name'), Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Salesman/Page_TataPabrik/input_Nama_Name'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('Salesman/Page_TataPabrik/input_Nama_Name'), namasalesman)
+
+WebUI.sendKeys(findTestObject('Salesman/Page_TataPabrik/input_Telepon_PhoneNumber'), Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Salesman/Page_TataPabrik/input_Telepon_PhoneNumber'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('Salesman/Page_TataPabrik/input_Telepon_PhoneNumber'), telepon)
+
+WebUI.sendKeys(findTestObject('Salesman/Page_TataPabrik/input_No Karyawan_EmployeeID'), Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Salesman/Page_TataPabrik/input_No Karyawan_EmployeeID'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('Salesman/Page_TataPabrik/input_No Karyawan_EmployeeID'), nokaryawan)
+
+WebUI.click(findTestObject('Object Repository/Salesman/Page_TataPabrik/span_Simpan'))
+
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_Cari_input'), Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_Cari_input'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('Pelanggan/Page_TataPabrik/input_Cari_input'), namasalesman)
+
 WebUI.delay(2)
 
 String namaSalesmanText = WebUI.getText(findTestObject('Salesman/Page_TataPabrik/td_nama salesman'))
 
-WebUI.verifyMatch(namaSalesmanText, namasalesman_edit, false)
+WebUI.verifyMatch(namaSalesmanText, namasalesman, false)
 
 String teleponText = WebUI.getText(findTestObject('Salesman/Page_TataPabrik/td_telepon'))
 
-WebUI.verifyMatch(teleponText, telepon_edit, false)
+WebUI.verifyMatch(teleponText, telepon, false)
 
 String noKaryawanText = WebUI.getText(findTestObject('Salesman/Page_TataPabrik/td_no karyawan'))
 
-WebUI.verifyMatch(noKaryawanText, nokaryawan_edit, false)
-
+WebUI.verifyMatch(noKaryawanText, nokaryawan, false)

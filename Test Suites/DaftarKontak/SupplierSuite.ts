@@ -18,100 +18,100 @@
       <testCaseId>Test Cases/DK_Supplier_Positive/TambahSupplier</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>be8e3514-f4e5-41d2-a375-4092c74f999c</id>
+         <id>f48a2c57-2f34-4b0d-9c98-53940bf7b0da</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/SupplierData</testDataId>
+         <testDataId>Data Files/DaftarKontak/SupplierData</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>be8e3514-f4e5-41d2-a375-4092c74f999c</testDataLinkId>
+         <testDataLinkId>f48a2c57-2f34-4b0d-9c98-53940bf7b0da</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>namasupplier</value>
          <variableId>24e40063-1a00-4fd5-bc5e-29e03c077937</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>be8e3514-f4e5-41d2-a375-4092c74f999c</testDataLinkId>
+         <testDataLinkId>f48a2c57-2f34-4b0d-9c98-53940bf7b0da</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>telepon</value>
          <variableId>80adde56-9dfa-4216-9249-9bb0c76f1ef4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>be8e3514-f4e5-41d2-a375-4092c74f999c</testDataLinkId>
+         <testDataLinkId>f48a2c57-2f34-4b0d-9c98-53940bf7b0da</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>kode</value>
          <variableId>4e399747-e72a-488c-af63-9982335ced65</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>be8e3514-f4e5-41d2-a375-4092c74f999c</testDataLinkId>
+         <testDataLinkId>f48a2c57-2f34-4b0d-9c98-53940bf7b0da</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>tenggat</value>
          <variableId>21cb04e8-7e45-4332-beeb-0027435228b3</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>be8e3514-f4e5-41d2-a375-4092c74f999c</testDataLinkId>
+         <testDataLinkId>f48a2c57-2f34-4b0d-9c98-53940bf7b0da</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>nik</value>
          <variableId>f2690029-ee02-44c7-9a55-5080b2a8f292</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>be8e3514-f4e5-41d2-a375-4092c74f999c</testDataLinkId>
+         <testDataLinkId>f48a2c57-2f34-4b0d-9c98-53940bf7b0da</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>npwp</value>
          <variableId>e7843b6a-a6b6-4422-9941-5a4d869aab9b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>be8e3514-f4e5-41d2-a375-4092c74f999c</testDataLinkId>
+         <testDataLinkId>f48a2c57-2f34-4b0d-9c98-53940bf7b0da</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>nomorponsel</value>
          <variableId>f8d2903f-77cc-4b80-96f8-5fd47916991b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>be8e3514-f4e5-41d2-a375-4092c74f999c</testDataLinkId>
+         <testDataLinkId>f48a2c57-2f34-4b0d-9c98-53940bf7b0da</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>email</value>
          <variableId>d176ca96-46c3-45ae-8d3e-6b01e74ca1ee</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>be8e3514-f4e5-41d2-a375-4092c74f999c</testDataLinkId>
+         <testDataLinkId>f48a2c57-2f34-4b0d-9c98-53940bf7b0da</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>pkp</value>
          <variableId>629ee60b-7ecd-4479-a385-7efdf4eb630b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>be8e3514-f4e5-41d2-a375-4092c74f999c</testDataLinkId>
+         <testDataLinkId>f48a2c57-2f34-4b0d-9c98-53940bf7b0da</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>catatan</value>
          <variableId>f73ffff4-ba59-4e75-a121-d4785a06d20a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>be8e3514-f4e5-41d2-a375-4092c74f999c</testDataLinkId>
+         <testDataLinkId>f48a2c57-2f34-4b0d-9c98-53940bf7b0da</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>jenisalamat</value>
          <variableId>27615631-eea9-4865-bcbf-b4443e1578e1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>be8e3514-f4e5-41d2-a375-4092c74f999c</testDataLinkId>
+         <testDataLinkId>f48a2c57-2f34-4b0d-9c98-53940bf7b0da</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>alamatlengkap</value>
          <variableId>eeb50487-8b8f-4b2c-94c5-97abfff689c5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>be8e3514-f4e5-41d2-a375-4092c74f999c</testDataLinkId>
+         <testDataLinkId>f48a2c57-2f34-4b0d-9c98-53940bf7b0da</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>namapj</value>
          <variableId>98f11399-5014-4e30-917c-80218f79434d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>be8e3514-f4e5-41d2-a375-4092c74f999c</testDataLinkId>
+         <testDataLinkId>f48a2c57-2f34-4b0d-9c98-53940bf7b0da</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>teleponpj</value>
          <variableId>3984304f-6e85-47c0-90df-5d0fc6dff0e8</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>be8e3514-f4e5-41d2-a375-4092c74f999c</testDataLinkId>
+         <testDataLinkId>f48a2c57-2f34-4b0d-9c98-53940bf7b0da</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>emailpj</value>
          <variableId>17159892-cfec-444a-98fd-61550d2ff6fa</variableId>
@@ -124,70 +124,70 @@
       <testCaseId>Test Cases/DK_Supplier_Positive/RincianSupplier</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>c05abe13-3801-4111-855d-2c053b89848c</id>
+         <id>e4bfffe4-851d-4db1-baef-15635636a0fd</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/SupplierData</testDataId>
+         <testDataId>Data Files/DaftarKontak/SupplierData</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>c05abe13-3801-4111-855d-2c053b89848c</testDataLinkId>
+         <testDataLinkId>e4bfffe4-851d-4db1-baef-15635636a0fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>namasupplier</value>
          <variableId>1fd874ba-1b73-4ff7-933b-73b78e23a899</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c05abe13-3801-4111-855d-2c053b89848c</testDataLinkId>
+         <testDataLinkId>e4bfffe4-851d-4db1-baef-15635636a0fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>telepon</value>
          <variableId>ddfcf7d6-fa27-473a-abc5-8d922ac88293</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c05abe13-3801-4111-855d-2c053b89848c</testDataLinkId>
+         <testDataLinkId>e4bfffe4-851d-4db1-baef-15635636a0fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>kode</value>
          <variableId>e10a40aa-3ace-4729-9969-902e2d710216</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c05abe13-3801-4111-855d-2c053b89848c</testDataLinkId>
+         <testDataLinkId>e4bfffe4-851d-4db1-baef-15635636a0fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>tenggat</value>
          <variableId>926eb238-17f2-47dc-86c4-c28f03171773</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c05abe13-3801-4111-855d-2c053b89848c</testDataLinkId>
+         <testDataLinkId>e4bfffe4-851d-4db1-baef-15635636a0fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>nik</value>
          <variableId>e9dab6a5-1725-4732-bf22-8ba3abb0b692</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c05abe13-3801-4111-855d-2c053b89848c</testDataLinkId>
+         <testDataLinkId>e4bfffe4-851d-4db1-baef-15635636a0fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>npwp</value>
          <variableId>7902556e-33c5-46a0-af9b-332ef5ecb699</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c05abe13-3801-4111-855d-2c053b89848c</testDataLinkId>
+         <testDataLinkId>e4bfffe4-851d-4db1-baef-15635636a0fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>nomorponsel</value>
          <variableId>cd512586-5c82-439e-9008-e69c0702eb8b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c05abe13-3801-4111-855d-2c053b89848c</testDataLinkId>
+         <testDataLinkId>e4bfffe4-851d-4db1-baef-15635636a0fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>email</value>
          <variableId>7bdea663-cb90-4fe9-9694-1938031fb2ca</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c05abe13-3801-4111-855d-2c053b89848c</testDataLinkId>
+         <testDataLinkId>e4bfffe4-851d-4db1-baef-15635636a0fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>pkp</value>
          <variableId>6a8bcb37-788d-42e6-93fd-fab0da682a88</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c05abe13-3801-4111-855d-2c053b89848c</testDataLinkId>
+         <testDataLinkId>e4bfffe4-851d-4db1-baef-15635636a0fd</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>catatan</value>
          <variableId>7c75e2dd-030c-4bb9-b853-67077b768c26</variableId>
@@ -200,150 +200,182 @@
       <testCaseId>Test Cases/DK_Supplier_Positive/EditSupplier</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>a1eb7748-2350-4a7b-bd93-69575b7fa6ae</id>
+         <id>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/SupplierData_edit</testDataId>
+         <testDataId>Data Files/DaftarKontak/SupplierData</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>a1eb7748-2350-4a7b-bd93-69575b7fa6ae</testDataLinkId>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>namasupplier</value>
          <variableId>c7b383f3-c35a-4b5e-b066-0bfbbe39fd0c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a1eb7748-2350-4a7b-bd93-69575b7fa6ae</testDataLinkId>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>namasupplier_edit</value>
          <variableId>cb403847-f56f-4c26-a746-591c47c6f1ad</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a1eb7748-2350-4a7b-bd93-69575b7fa6ae</testDataLinkId>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>telepon_edit</value>
          <variableId>cf23ad76-6c03-427d-9033-b8b11b470517</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a1eb7748-2350-4a7b-bd93-69575b7fa6ae</testDataLinkId>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>kode_edit</value>
          <variableId>3c3b1b88-2289-4046-97a1-58fcd7a6809a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a1eb7748-2350-4a7b-bd93-69575b7fa6ae</testDataLinkId>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>tenggat_edit</value>
          <variableId>ad14c928-58f2-400c-9d9f-42252f203d9d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a1eb7748-2350-4a7b-bd93-69575b7fa6ae</testDataLinkId>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>nik_edit</value>
          <variableId>a4446a44-39ff-438a-b599-068e5411b5a0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a1eb7748-2350-4a7b-bd93-69575b7fa6ae</testDataLinkId>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>npwp_edit</value>
          <variableId>e622ca76-3df8-4f92-a859-3bb407800111</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a1eb7748-2350-4a7b-bd93-69575b7fa6ae</testDataLinkId>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>nomorponsel_edit</value>
          <variableId>56d2463b-b72f-42b4-ab04-9516a406b1a1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a1eb7748-2350-4a7b-bd93-69575b7fa6ae</testDataLinkId>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>email_edit</value>
          <variableId>67b60b1c-5781-417d-bddc-f201696a8273</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a1eb7748-2350-4a7b-bd93-69575b7fa6ae</testDataLinkId>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>pkp_edit</value>
          <variableId>ff90df9e-b5d3-4c66-9124-f2b56a26287a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a1eb7748-2350-4a7b-bd93-69575b7fa6ae</testDataLinkId>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>catatan_edit</value>
          <variableId>61942c8d-3251-42dd-8a2c-c1a2b50cd202</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>84630ada-82f5-49d8-91ae-021831cbb818</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/DK_Supplier_Positive/HapusAlamatSupplier</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>da975524-e34b-4d6e-a222-e7119c04c94c</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/SupplierData</testDataId>
-      </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>da975524-e34b-4d6e-a222-e7119c04c94c</testDataLinkId>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>namasupplier</value>
-         <variableId>51bc6598-b035-4edb-9a26-396962ce5fc6</variableId>
+         <value>telepon</value>
+         <variableId>3503d048-af23-4de8-8670-9568630d52d6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>kode</value>
+         <variableId>96729754-61a3-46c4-a826-237e8f77c669</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>tenggat</value>
+         <variableId>98cf6e36-f11b-42c3-8244-65cfa9455a7c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nik</value>
+         <variableId>1de0f649-757e-40b4-a358-498df27a82c0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>npwp</value>
+         <variableId>be67d86b-8dc0-4f27-bb3a-e48e6938e50b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nomorponsel</value>
+         <variableId>c821f873-89e0-41f8-b63d-0930c3e19657</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>1e61c412-f180-4c4b-a9c5-06123f8d9964</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pkp</value>
+         <variableId>1445294e-ab5d-4161-bc00-a055e151efb1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>49d5fc0e-7e4d-43b6-a6bc-8fc371c366a2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>catatan</value>
+         <variableId>762e857d-ad85-4440-9c5e-02dd882c60e4</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>2893cae4-25fc-47af-8d84-abe18cb6bc5f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DK_Supplier_Positive/TambahAlamatSupplier</testCaseId>
+      <testCaseId>Test Cases/DK_Supplier_Positive/HapusLaluTambahAlamatSupplier</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>60211200-39c2-4c6b-8a6f-d7a736d6bfa3</id>
+         <id>e16d1826-9eca-4841-9f35-064d0995fe25</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/SupplierData</testDataId>
+         <testDataId>Data Files/DaftarKontak/SupplierData</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>60211200-39c2-4c6b-8a6f-d7a736d6bfa3</testDataLinkId>
+         <testDataLinkId>e16d1826-9eca-4841-9f35-064d0995fe25</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>namasupplier</value>
          <variableId>2478b794-e631-44a6-a208-a3ff857eba18</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>60211200-39c2-4c6b-8a6f-d7a736d6bfa3</testDataLinkId>
+         <testDataLinkId>e16d1826-9eca-4841-9f35-064d0995fe25</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>jenisalamat</value>
          <variableId>2ff93395-686b-4975-a9c2-ed6f8d0369de</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>60211200-39c2-4c6b-8a6f-d7a736d6bfa3</testDataLinkId>
+         <testDataLinkId>e16d1826-9eca-4841-9f35-064d0995fe25</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>alamatlengkap</value>
          <variableId>755b9a99-45d8-48db-9df8-4084524e574f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>60211200-39c2-4c6b-8a6f-d7a736d6bfa3</testDataLinkId>
+         <testDataLinkId>e16d1826-9eca-4841-9f35-064d0995fe25</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>namapj</value>
          <variableId>36a80bdd-fd18-4520-bba2-fe1de2a75484</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>60211200-39c2-4c6b-8a6f-d7a736d6bfa3</testDataLinkId>
+         <testDataLinkId>e16d1826-9eca-4841-9f35-064d0995fe25</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>teleponpj</value>
          <variableId>eaf4e75a-c335-42ee-9c0b-7cbfe826f052</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>60211200-39c2-4c6b-8a6f-d7a736d6bfa3</testDataLinkId>
+         <testDataLinkId>e16d1826-9eca-4841-9f35-064d0995fe25</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>emailpj</value>
          <variableId>0fb7d482-27d3-4caf-bd62-8a5ccbbdb763</variableId>
@@ -356,49 +388,71 @@
       <testCaseId>Test Cases/DK_Supplier_Positive/EditAlamatSupplier</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>858a9ef4-5bf0-4d1c-bc81-3060ee973f6b</id>
+         <id>2fa7e693-a61b-427f-83c4-03a98db50c04</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/SupplierData_edit</testDataId>
+         <testDataId>Data Files/DaftarKontak/SupplierData</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>858a9ef4-5bf0-4d1c-bc81-3060ee973f6b</testDataLinkId>
+         <testDataLinkId>2fa7e693-a61b-427f-83c4-03a98db50c04</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>namasupplier</value>
          <variableId>a0421d1a-7600-4d12-b124-c8cd84b4164b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>858a9ef4-5bf0-4d1c-bc81-3060ee973f6b</testDataLinkId>
+         <testDataLinkId>2fa7e693-a61b-427f-83c4-03a98db50c04</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>jenisalamat_edit</value>
          <variableId>d048565b-b3a7-4513-ba1d-f3a393d20aa1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>858a9ef4-5bf0-4d1c-bc81-3060ee973f6b</testDataLinkId>
+         <testDataLinkId>2fa7e693-a61b-427f-83c4-03a98db50c04</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>alamatlengkap_edit</value>
          <variableId>f23b4c31-c8ea-48c2-b0cc-9c230b195f3c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>858a9ef4-5bf0-4d1c-bc81-3060ee973f6b</testDataLinkId>
+         <testDataLinkId>2fa7e693-a61b-427f-83c4-03a98db50c04</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>namapj_edit</value>
          <variableId>433dd2a2-54b9-425c-a982-9579598a3594</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>858a9ef4-5bf0-4d1c-bc81-3060ee973f6b</testDataLinkId>
+         <testDataLinkId>2fa7e693-a61b-427f-83c4-03a98db50c04</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>teleponpj_edit</value>
          <variableId>ca6c7dda-f7a1-46c1-a971-2b3c2a6dcdcd</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>858a9ef4-5bf0-4d1c-bc81-3060ee973f6b</testDataLinkId>
+         <testDataLinkId>2fa7e693-a61b-427f-83c4-03a98db50c04</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>emailpj_edit</value>
          <variableId>e3209935-9c9d-489e-9377-f5e7b7afbcd2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7c41ddb1-165d-4331-b52d-91f189a9e0d5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DK_Supplier_Positive/DataMaskingSupplier</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>963ebafc-cde7-4ad0-a07a-d44621e83192</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DaftarKontak/SupplierData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>963ebafc-cde7-4ad0-a07a-d44621e83192</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>namasupplier</value>
+         <variableId>6838ff07-6afc-4809-8284-9638fec5b7e1</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

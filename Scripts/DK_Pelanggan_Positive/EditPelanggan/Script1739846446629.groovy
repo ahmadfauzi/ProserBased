@@ -74,16 +74,16 @@ WebUI.setText(findTestObject('Pelanggan/Page_TataPabrik/input_(Tidak wajib diisi
 WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_Simpan'))
 
 // Ambil teks dari atribut "value"
-String namaPelangganText = WebUI.getAttribute(findTestObject('Pelanggan/Page_TataPabrik/disabled_Nama Pelanggan_name'),
+String namaPelangganEditText = WebUI.getAttribute(findTestObject('Pelanggan/Page_TataPabrik/disabled_Nama Pelanggan_name'),
 	'value')
 
 // Verifikasi teks yang diharapkan
-WebUI.verifyMatch(namaPelangganText, namapelanggan_edit, false)
+WebUI.verifyMatch(namaPelangganEditText, namapelanggan_edit, false)
 
-String teleponText = WebUI.getAttribute(findTestObject('Pelanggan/Page_TataPabrik/disabled_(Tidak wajib diisi)_phoneNumber'),
+String teleponEditText = WebUI.getAttribute(findTestObject('Pelanggan/Page_TataPabrik/disabled_(Tidak wajib diisi)_phoneNumber'),
 	'value')
 
-WebUI.verifyMatch(teleponText, telepon_edit, false)
+WebUI.verifyMatch(teleponEditText, telepon_edit, false)
 
 String mobilePhoneText = WebUI.getAttribute(findTestObject('Pelanggan/Page_TataPabrik/disabled_(Tidak wajib diisi)_mobilePhone'),
 	'value')
@@ -121,3 +121,67 @@ String infoPerusahaanText = WebUI.getAttribute(findTestObject('Pelanggan/Page_Ta
 	'value')
 
 WebUI.verifyMatch(infoPerusahaanText, infoperusahaan_edit, false)
+
+//**Edit kembali ke data awal**
+
+WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/div_Pelanggan'))
+
+WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_Filter Pencarian_icon'))
+
+WebUI.setText(findTestObject('Pelanggan/Page_TataPabrik/input_Cari_input'), namapelanggan_edit)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_icon_edit pelanggan'))
+
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_Nama Pelanggan_name'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_Nama Pelanggan_name'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Pelanggan/Page_TataPabrik/input_Nama Pelanggan_name'), namapelanggan)
+
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_Nomor Telepon'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_Nomor Telepon'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Pelanggan/Page_TataPabrik/input_Nomor Telepon'), telepon)
+
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_(Tidak wajib diisi)_mobilePhone'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_(Tidak wajib diisi)_mobilePhone'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Pelanggan/Page_TataPabrik/input_(Tidak wajib diisi)_mobilePhone'), nomorponsel)
+
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_(Tidak wajib diisi)_email'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_(Tidak wajib diisi)_email'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Pelanggan/Page_TataPabrik/input_(Tidak wajib diisi)_email'), email)
+
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_Kode Pelanggan_code'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_Kode Pelanggan_code'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Pelanggan/Page_TataPabrik/input_Kode Pelanggan_code'), kodepelanggan)
+
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_(Tidak wajib diisi)_nik'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_(Tidak wajib diisi)_nik'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Pelanggan/Page_TataPabrik/input_(Tidak wajib diisi)_nik'), nik)
+
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_(Tidak wajib diisi)_npwp'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_(Tidak wajib diisi)_npwp'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Pelanggan/Page_TataPabrik/input_(Tidak wajib diisi)_npwp'), npwp)
+
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_Tenggat Pembayaran (hari)_paymentDeadline'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_Tenggat Pembayaran (hari)_paymentDeadline'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Pelanggan/Page_TataPabrik/input_Tenggat Pembayaran (hari)_paymentDeadline'), tenggat)
+
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_Rp_creditLimit'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_Rp_creditLimit'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Pelanggan/Page_TataPabrik/input_Rp_creditLimit'), limitpiutang)
+
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_(Tidak wajib diisi)_companyDetail'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Pelanggan/Page_TataPabrik/input_(Tidak wajib diisi)_companyDetail'), Keys.chord(Keys.BACK_SPACE))
+WebUI.setText(findTestObject('Pelanggan/Page_TataPabrik/input_(Tidak wajib diisi)_companyDetail'), infoperusahaan)
+
+WebUI.click(findTestObject('Pelanggan/Page_TataPabrik/span_Simpan'))
+
+String namaPelangganText = WebUI.getAttribute(findTestObject('Pelanggan/Page_TataPabrik/disabled_Nama Pelanggan_name'),
+	'value')
+
+WebUI.verifyMatch(namaPelangganText, namapelanggan, false)
+
+String teleponText = WebUI.getAttribute(findTestObject('Pelanggan/Page_TataPabrik/disabled_(Tidak wajib diisi)_phoneNumber'),
+	'value')
+
+WebUI.verifyMatch(teleponText, telepon, false)
