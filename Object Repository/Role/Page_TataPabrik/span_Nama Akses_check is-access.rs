@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Nama Akses_check is-access</name>
+   <tag></tag>
+   <elementGuidId>e8b47110-bf58-4930-83cb-0951d5dde576</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[2]/div/label/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.check.is-access</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8836cb77-7bbe-45df-be93-09230103c524</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>check is-access</value>
+      <webElementGuid>5d717c25-0a9f-4af2-8c0e-138a8b903468</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[1]/div[@class=&quot;app&quot;]/div[@class=&quot;tile is-ancestor&quot;]/div[@class=&quot;tile is-parent is-vertical main-content&quot;]/div[@class=&quot;router-content tile is-child&quot;]/div[@class=&quot;app-content&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-content&quot;]/div[@class=&quot;box client-address-form-margin-btm&quot;]/div[@class=&quot;columns is-multiline&quot;]/div[@class=&quot;column is-12&quot;]/div[@class=&quot;pb-5 mb-4&quot;]/div[@class=&quot;b-table borderless custom-table&quot;]/div[@class=&quot;table-wrapper has-mobile-cards&quot;]/table[@class=&quot;table is-narrow&quot;]/tbody[1]/tr[1]/td[2]/div[@class=&quot;is-flex has-direction-row has-align-center pl-em03 pt-em03&quot;]/label[@class=&quot;b-checkbox checkbox is-small&quot;]/span[@class=&quot;check is-access&quot;]</value>
+      <webElementGuid>eb717bfc-c1ef-4d7e-b158-4ea7f63e6882</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div/label/span</value>
+      <webElementGuid>60012abe-9846-4f51-840a-61f061a6b8dd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
