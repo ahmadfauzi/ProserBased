@@ -19,9 +19,4 @@
       <initValue>'vRRrCeg9Qho='</initValue>
       <name>password</name>
    </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>1</initValue>
-      <name>counter</name>
-   </GlobalVariableEntity>
 </GlobalVariableEntities>

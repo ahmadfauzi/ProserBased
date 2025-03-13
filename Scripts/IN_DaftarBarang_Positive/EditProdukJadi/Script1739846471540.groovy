@@ -83,6 +83,18 @@ WebUI.sendKeys(findTestObject('DaftarBarang/Page_TataPabrik/input_Quantity'), Ke
 
 WebUI.setText(findTestObject('DaftarBarang/Page_TataPabrik/input_Quantity'), quantity_edit)
 
+//** Golongan test case **
+ 
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/DaftarBarang/Page_TataPabrik/select_Golongan_NEW'), FailureHandling.STOP_ON_FAILURE)
+ 
+WebUI.click(findTestObject('Object Repository/DaftarBarang/Page_TataPabrik/span_Golongan_icon'))
+ 
+WebUI.verifyElementVisible(findTestObject('Object Repository/DaftarBarang/Page_TataPabrik/select_Golongan_NEW'), FailureHandling.STOP_ON_FAILURE)
+ 
+WebUI.click(findTestObject('Object Repository/DaftarBarang/Page_TataPabrik/span_Golongan_icon'))
+ 
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/DaftarBarang/Page_TataPabrik/select_Golongan_NEW'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/button_Simpan'))
 
 WebUI.sendKeys(findTestObject('DaftarBarang/Page_TataPabrik/input_Cari_input'), Keys.chord(Keys.CONTROL, 'a'))

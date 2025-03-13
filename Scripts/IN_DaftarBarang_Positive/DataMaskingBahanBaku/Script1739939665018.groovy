@@ -37,7 +37,7 @@ WebUI.delay(2)
 
 if(namabarang == '') {
 	println('Nama Barang is empty');
-} else if (WebUI.waitForElementPresent(findTestObject('DaftarBarang/Page_TataPabrik/div_AlertDialog_duplicate'), 2, FailureHandling.OPTIONAL)){
+} else if (WebUI.waitForElementPresent(findTestObject('Object Repository/DaftarBarang/Page_TataPabrik/p_Tidak ditemukan'), 2, FailureHandling.OPTIONAL)){
 	println('Nama Barang is is NOT found');
 } else {
 	WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/span_icon_edit'))

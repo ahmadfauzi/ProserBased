@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat Lengkap'])[1]/following::span[1]</value>
+         <value>/html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/span[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e074611c-86cc-4b5a-ae05-4214243b97d0</webElementGuid>
+      <webElementGuid>ee0efd77-3fa9-4516-a8a6-f3f323d5bbb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>error-message</value>
-      <webElementGuid>d54830e7-9c49-400f-8ee5-ae3dca1be295</webElementGuid>
+      <webElementGuid>40dfa04a-992c-4365-94c6-a302145de01f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Wajib diisi</value>
-      <webElementGuid>a9452f70-b113-4a3d-b327-b3f06070337d</webElementGuid>
+      <webElementGuid>a259009e-a7a8-484a-a7fc-5c01d4d47e7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[1]/div[@class=&quot;app&quot;]/div[@class=&quot;tile is-ancestor&quot;]/div[@class=&quot;tile is-parent is-vertical main-content&quot;]/div[@class=&quot;router-content tile is-child&quot;]/div[@class=&quot;app-content&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-content&quot;]/div[1]/div[@class=&quot;box client-address-form-margin-btm&quot;]/div[@class=&quot;columns is-multiline&quot;]/div[@class=&quot;column is-half content-separator&quot;]/div[@class=&quot;columns is-multiline&quot;]/div[@class=&quot;column is-12&quot;]/span[@class=&quot;error-message&quot;]</value>
-      <webElementGuid>80b1a5bd-9a4b-4173-a5cf-5ee5a85d8c3c</webElementGuid>
+      <webElementGuid>a8caad4f-2af5-4f3c-9419-57dc12c1e91e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat Lengkap'])[1]/following::span[1]</value>
-      <webElementGuid>9be0710b-413b-4328-89fa-a61ab79b1876</webElementGuid>
+      <webElementGuid>e7ede2a4-6c35-45d5-94b1-033d32b40307</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Wajib diisi'])[1]/following::span[1]</value>
-      <webElementGuid>a2e7af45-e5d8-4e07-b26c-e72f9feb70c0</webElementGuid>
+      <webElementGuid>9d8e964f-7fd8-46b0-8907-d296f2cc7609</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat Faktur'])[1]/preceding::span[1]</value>
-      <webElementGuid>a418b065-5e4e-4a61-822e-a93788235f60</webElementGuid>
+      <webElementGuid>3201d77b-67cf-4961-a6b9-23275865474c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Wajib diisi'])[3]/preceding::span[1]</value>
-      <webElementGuid>b8cc378c-716d-4cfe-8fb3-6d25810e73f5</webElementGuid>
+      <webElementGuid>839d56e5-15a1-4be4-b2ed-ce29a2931653</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/span</value>
-      <webElementGuid>d2508131-ff7c-4c5f-a295-45e511d85e98</webElementGuid>
+      <webElementGuid>51a655b2-955a-4388-bd53-9106b518c8aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Wajib diisi' or . = 'Wajib diisi')]</value>
-      <webElementGuid>26bdceef-2bee-4fb8-b312-6d06391852b3</webElementGuid>
+      <webElementGuid>8beb9b23-ad92-455a-b5d1-b59cbeabaab0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -58,9 +58,55 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>a3211352-164b-41ef-8c37-5da0747343fd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IN_DaftarBarang_Positive/RincianBahanBaku</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>009a3eaf-b383-468e-a615-9e7056a162cc</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DaftarBarang/BahanBakuData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>009a3eaf-b383-468e-a615-9e7056a162cc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>namabarang</value>
+         <variableId>c03e2fee-fb9a-46da-ad92-0b4d4cbd2ebe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>009a3eaf-b383-468e-a615-9e7056a162cc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>kodebarang</value>
+         <variableId>baf72bfe-4c1d-4cda-bf22-2fc85c382105</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>009a3eaf-b383-468e-a615-9e7056a162cc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>netto</value>
+         <variableId>d35faeec-970b-4ac4-8467-610b5cdc55b0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>009a3eaf-b383-468e-a615-9e7056a162cc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>satuanberat</value>
+         <variableId>feb185fc-1782-47b5-8c63-9f0ec7f42cce</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>009a3eaf-b383-468e-a615-9e7056a162cc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>harga</value>
+         <variableId>434182ae-cbec-4656-8ca8-e77733e4cbd9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>9f2003ca-e568-4a45-b531-a1a218406333</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/IN_DaftarBarang_Positive/EditBahanBaku</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -447,12 +493,6 @@
       <variableLink>
          <testDataLinkId>e462764a-07b5-4db9-8de2-0b5ed99ad89f</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>namabarang_edit</value>
-         <variableId>92a2d5be-4684-4cab-91bb-c3a41972d58d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>e462764a-07b5-4db9-8de2-0b5ed99ad89f</testDataLinkId>
-         <type>DATA_COLUMN</type>
          <value>namabarang</value>
          <variableId>f76a4794-f900-4de6-9077-c6c0ab9c67a0</variableId>
       </variableLink>
@@ -490,7 +530,7 @@
    <testCaseLink>
       <guid>e68203b0-b03c-45e9-97b9-7061ea712fb9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/IN_DaftarBarang_Positive/DataMaskingBahanBaku</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -502,12 +542,6 @@
          <testDataId>Data Files/DaftarBarang/BahanBakuData</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId>19eb9861-f235-4541-93d8-15796318961a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>namabarang_edit</value>
-         <variableId>fbd8bc1e-3711-48ea-8278-f0b5c8e853cd</variableId>
-      </variableLink>
       <variableLink>
          <testDataLinkId>19eb9861-f235-4541-93d8-15796318961a</testDataLinkId>
          <type>DATA_COLUMN</type>

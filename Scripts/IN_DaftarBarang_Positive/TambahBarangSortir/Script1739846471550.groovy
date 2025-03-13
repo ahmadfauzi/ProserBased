@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.callTestCase(findTestCase('Auth/LoginSuccess'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -24,6 +25,8 @@ WebUI.click(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/div_I
 WebUI.click(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/div_Daftar Barang'))
 
 WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/span_tab_Barang Sortir'))
+
+//** Input data **
 
 WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/button_tambah jenis barang'))
 
@@ -41,36 +44,59 @@ WebUI.setText(findTestObject('DaftarBarang/Page_TataPabrik/input_Netto_netto'), 
 
 WebUI.setText(findTestObject('DaftarBarang/Page_TataPabrik/input_Satuan Berat'), satuanberat)
 
+//** Golongan test case **
+
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/DaftarBarang/Page_TataPabrik/select_Golongan_NEW'), FailureHandling.STOP_ON_FAILURE)
+ 
+WebUI.click(findTestObject('Object Repository/DaftarBarang/Page_TataPabrik/span_Golongan_icon'))
+ 
+WebUI.verifyElementVisible(findTestObject('Object Repository/DaftarBarang/Page_TataPabrik/select_Golongan_NEW'), FailureHandling.STOP_ON_FAILURE)
+ 
+WebUI.click(findTestObject('Object Repository/DaftarBarang/Page_TataPabrik/span_Golongan_icon'))
+ 
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/DaftarBarang/Page_TataPabrik/select_Golongan_NEW'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/button_Simpan'))
 
-if (namabarang == '') {
-    WebUI.verifyElementPresent(findTestObject('DaftarBarang/Page_TataPabrik/span_Wajib diisi_namabarang'), 2)
-} else if (netto == '') {
-    WebUI.verifyElementPresent(findTestObject('DaftarBarang/Page_TataPabrik/span_Wajib diisi_netto'), 2)
-} else if (satuanberat == '') {
-    WebUI.verifyElementPresent(findTestObject('DaftarBarang/Page_TataPabrik/span_Wajib diisi_satuanberat'), 2)
-} else if (WebUI.verifyElementPresent(findTestObject('DaftarBarang/Page_TataPabrik/div_AlertDialog_duplicate'), 2) == true) {
-    println('The data is duplicate');
-} else {
-	
-	WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/span_Filter Pencarian_icon'))
-	
-	WebUI.setText(findTestObject('DaftarBarang/Page_TataPabrik/input_Cari_input'), namabarang)
-	
-	WebUI.delay(2)
-	
-	String namaBarangText = WebUI.getText(findTestObject('DaftarBarang/Page_TataPabrik/div_list_namabarang'))
-	
-	WebUI.verifyMatch(namaBarangText, namabarang, false)
-	
-	String kodeBarangText = WebUI.getText(findTestObject('DaftarBarang/Page_TataPabrik/div_list_kodebarang'))
-	
-	WebUI.verifyMatch(kodeBarangText, kodebarang, false)
-	
-	String satuanBeratText = WebUI.getText(findTestObject('DaftarBarang/Page_TataPabrik/div_list_satuanberat'))
-	
-	WebUI.verifyMatch(satuanBeratText, satuanberat, false)
-	
-	WebUI.verifyTextPresent('Wajib diisi', false)
+//** Verify field validation **
+ boolean isErrorPresent = false
+ 
+ if (namabarang == '' && WebUI.verifyElementPresent(findTestObject('DaftarBarang/Page_TataPabrik/span_Wajib diisi_namabarang'), 2)) {
+	 KeywordUtil.logInfo('Nama Barang is empty and the warning text is displayed')
+	 isErrorPresent = true
+ }
+String inputNetto = netto
+String getOnlyNumberNetto = inputNetto.replaceAll('[^0-9]', '')
+if ((getOnlyNumberNetto == '') && WebUI.verifyElementPresent(findTestObject('DaftarBarang/Page_TataPabrik/span_Wajib diisi_netto'), 
+    2)) {
+    KeywordUtil.logInfo('Netto is not number and the warning text is displayed')
+    isErrorPresent = true
 }
-
+ if (satuanberat == '' && WebUI.verifyElementPresent(findTestObject('DaftarBarang/Page_TataPabrik/span_Wajib diisi_satuanberat'), 2)) {
+	 KeywordUtil.logInfo('Satuan Berat is empty and the warning text is displayed')
+	 isErrorPresent = true
+ }
+ 
+ if (!isErrorPresent){
+	 if (WebUI.waitForElementPresent(findTestObject('Object Repository/Pelanggan/Page_TataPabrik/div_AlertDialog_error duplicate'), 2)) {
+		 KeywordUtil.logInfo("Nama Barang is duplicate and the toast message is displayed")
+	 } else {
+		 WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/span_Filter Pencarian_icon'))
+		 
+		 WebUI.setText(findTestObject('DaftarBarang/Page_TataPabrik/input_Cari_input'), namabarang)
+		 
+		 WebUI.delay(2)
+		 
+		 String namaBarangText = WebUI.getText(findTestObject('DaftarBarang/Page_TataPabrik/div_list_namabarang'))
+		 
+		 WebUI.verifyMatch(namaBarangText, namabarang, false)
+		 
+		 String kodeBarangText = WebUI.getText(findTestObject('DaftarBarang/Page_TataPabrik/div_list_kodebarang'))
+		 
+		 WebUI.verifyMatch(kodeBarangText, kodebarang, false)
+		 
+		 String satuanBeratText = WebUI.getText(findTestObject('DaftarBarang/Page_TataPabrik/div_list_satuanberat'))
+		 
+		 WebUI.verifyMatch(satuanBeratText, satuanberat, false)
+	 }
+ }

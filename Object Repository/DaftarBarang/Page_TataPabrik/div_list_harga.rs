@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_list_harga</name>
+   <tag></tag>
+   <elementGuidId>3412fba0-1082-4df4-8ada-d7963df00ebf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(2) > div.overflow-wrap > div.b-tooltip.is-light.is-bottom.is-large.is-multiline > div.tooltip-trigger</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@data-label='Harga Beli']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8f97cb51-addd-49f1-a801-5d106fd48f8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tooltip-trigger</value>
+      <webElementGuid>a5f9be0a-2bba-49b8-9d75-807489502835</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$PSJ</value>
+      <webElementGuid>3b348abc-d9ec-4f45-8a26-e7cbc78838fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[1]/div[@class=&quot;app&quot;]/div[@class=&quot;tile is-ancestor&quot;]/div[@class=&quot;tile is-parent is-vertical main-content&quot;]/div[@class=&quot;router-content tile is-child&quot;]/div[@class=&quot;app-content&quot;]/div[@class=&quot;content product-overview&quot;]/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-table with-separator table-shared-style mt-5&quot;]/div[@class=&quot;b-table table table-striped&quot;]/div[@class=&quot;table-wrapper has-mobile-cards&quot;]/table[@class=&quot;table is-striped&quot;]/tbody[1]/tr[1]/td[2]/div[@class=&quot;overflow-wrap&quot;]/div[@class=&quot;b-tooltip is-light is-bottom is-large is-multiline&quot;]/div[@class=&quot;tooltip-trigger&quot;]</value>
+      <webElementGuid>e66b4144-4a3e-4986-8da0-65e0c33bbf7f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$PSJ'])[1]/following::div[1]</value>
+      <webElementGuid>b5bd9753-7931-493b-a7e5-7008b409b7aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$Produk Jadi Satu'])[2]/following::div[4]</value>
+      <webElementGuid>efe44bde-5e27-4be5-b145-c1ed5a84b970</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='pcs'])[1]/preceding::div[1]</value>
+      <webElementGuid>9fe97661-9f2f-464e-a573-f023a3de14c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='pcs'])[2]/preceding::div[2]</value>
+      <webElementGuid>53408c6c-50dc-4685-b6ed-36ab87e54ffc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div/div/div[2]</value>
+      <webElementGuid>dca2d364-0a77-46b7-8fe7-795d5f72195d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '$PSJ' or . = '$PSJ')]</value>
+      <webElementGuid>52c1c733-d691-440a-915f-b43d748aaef5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

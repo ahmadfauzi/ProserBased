@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String editedText = "SR-" + GlobalVariable.counter
+String randomNumber = CustomKeywords.'com.utils.RandomNumberGenerator.generateUniqueFourDigitNumber'()
+
+String editedText = "SR-" + randomNumber
 
 WebUI.callTestCase(findTestCase('Auth/LoginSuccess'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -33,34 +35,42 @@ WebUI.setText(findTestObject('DaftarBarang/Page_TataPabrik/input_Cari_input'), n
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/span_icon_edit'))
+if(namabarang == '') {
+	println('Nama Barang is empty');
+} else if (WebUI.waitForElementPresent(findTestObject('Object Repository/DaftarBarang/Page_TataPabrik/p_Tidak ditemukan'), 2, FailureHandling.OPTIONAL)){
+	println('Nama Barang is is NOT found');
+} else {
+	WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/span_icon_edit'))
+	
+	WebUI.waitForElementPresent(findTestObject('DaftarBarang/Page_TataPabrik/input_Nama Barang_itemName'), 5)
+	
+	WebUI.sendKeys(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Nama Barang_itemName'), Keys.chord(Keys.CONTROL,
+			'a'))
+	
+	WebUI.sendKeys(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Nama Barang_itemName'), Keys.chord(Keys.BACK_SPACE))
+	
+	WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Nama Barang_itemName'), editedText)
+	
+	WebUI.sendKeys(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Kode Barang_itemCode'), Keys.chord(Keys.CONTROL,
+			'a'))
+	
+	WebUI.sendKeys(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Kode Barang_itemCode'), Keys.chord(Keys.BACK_SPACE))
+	
+	WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Kode Barang_itemCode'), editedText)
+	
+	WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/button_Simpan'))
+	
+	WebUI.sendKeys(findTestObject('DaftarBarang/Page_TataPabrik/input_Cari_input'), Keys.chord(Keys.CONTROL, 'a'))
+	
+	WebUI.sendKeys(findTestObject('DaftarBarang/Page_TataPabrik/input_Cari_input'), Keys.chord(Keys.BACK_SPACE))
+	
+	WebUI.setText(findTestObject('DaftarBarang/Page_TataPabrik/input_Cari_input'), editedText)
+	
+	WebUI.delay(2)
+	
+	String namaBarangText = WebUI.getText(findTestObject('DaftarBarang/Page_TataPabrik/div_list_namabarang'))
+	
+	WebUI.verifyMatch(namaBarangText, editedText, false)
+}
 
-WebUI.waitForElementPresent(findTestObject('DaftarBarang/Page_TataPabrik/input_Nama Barang_itemName'), 5)
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Nama Barang_itemName'), Keys.chord(Keys.CONTROL,
-		'a'))
-
-WebUI.sendKeys(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Nama Barang_itemName'), Keys.chord(Keys.BACK_SPACE))
-
-WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Nama Barang_itemName'), editedText)
-
-WebUI.sendKeys(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Kode Barang_itemCode'), Keys.chord(Keys.CONTROL,
-		'a'))
-
-WebUI.sendKeys(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Kode Barang_itemCode'), Keys.chord(Keys.BACK_SPACE))
-
-WebUI.setText(findTestObject('Object Repository/Page_TataPabrik/DaftarBarang/input_Kode Barang_itemCode'), editedText)
-
-WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/button_Simpan'))
-
-WebUI.sendKeys(findTestObject('DaftarBarang/Page_TataPabrik/input_Cari_input'), Keys.chord(Keys.CONTROL, 'a'))
-
-WebUI.sendKeys(findTestObject('DaftarBarang/Page_TataPabrik/input_Cari_input'), Keys.chord(Keys.BACK_SPACE))
-
-WebUI.setText(findTestObject('DaftarBarang/Page_TataPabrik/input_Cari_input'), editedText)
-
-WebUI.delay(2)
-
-String namaBarangText = WebUI.getText(findTestObject('DaftarBarang/Page_TataPabrik/div_list_namabarang'))
-
-WebUI.verifyMatch(namaBarangText, editedText, false)

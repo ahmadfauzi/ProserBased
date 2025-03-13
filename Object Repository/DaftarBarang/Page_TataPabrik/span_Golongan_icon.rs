@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Golongan_icon</name>
+   <tag></tag>
+   <elementGuidId>3ac4415f-72c1-4e4d-a2b5-4ed215db932a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.content.section-card.list-filter.paddingless > div.section-header.is-flex-direction-column-mobile.w-100-mobile > div:nth-of-type(2) > button.button.is-primary > span.icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@class='button is-primary'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>20a9c027-2f06-4e98-bfac-e69489e10fd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon</value>
+      <webElementGuid>ba1cfe0f-6b95-4ca1-9608-255f28b6f06d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;invoice-mobile&quot;)/div[@class=&quot;section-card modal-content-custom&quot;]/div[@class=&quot;section-content with-separator&quot;]/div[@class=&quot;content section-card list-filter paddingless&quot;]/div[@class=&quot;section-header is-flex-direction-column-mobile w-100-mobile&quot;]/div[2]/button[@class=&quot;button is-primary&quot;]/span[@class=&quot;icon&quot;]</value>
+      <webElementGuid>9ddef853-f991-4d69-a3ac-296924d27b60</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='invoice-mobile']/div[2]/div[2]/div[4]/div/div[2]/button/span</value>
+      <webElementGuid>90613936-5c40-4b32-9962-d3822518a057</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Golongan'])[2]/following::span[1]</value>
+      <webElementGuid>bff824df-1694-474a-b2ec-35788e7af562</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Satuan Berat'])[1]/following::span[1]</value>
+      <webElementGuid>d0fc3076-197c-4618-ba1e-1ed0c43bce46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Tidak wajib diisi)'])[1]/preceding::span[119]</value>
+      <webElementGuid>4c7aa85c-0a5f-4ca5-b50d-4f558d78fa5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/button/span</value>
+      <webElementGuid>d8597b70-9ffe-46aa-a3e6-4ee56ab239ce</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

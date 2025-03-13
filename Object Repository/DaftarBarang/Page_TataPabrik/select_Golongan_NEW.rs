@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Golongan_NEW</name>
+   <tag></tag>
+   <elementGuidId>d5e4e91c-72d1-4ce9-b0fc-4ecb37e3de75</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.column.is-half > div.control > span.select > select</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//select[@disabled='disabled'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>1f3b546b-e96e-4711-98f9-e49a92f34f59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>disabled</name>
+      <type>Main</type>
+      <value>disabled</value>
+      <webElementGuid>1a87701f-be40-4fb2-bd47-35f2d1bfb907</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>NEW</value>
+      <webElementGuid>b2e4e908-4432-40f3-b1dd-361897e865b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;invoice-mobile&quot;)/div[@class=&quot;section-card modal-content-custom&quot;]/div[@class=&quot;section-content with-separator&quot;]/div[@class=&quot;content section-card list-filter paddingless&quot;]/div[@class=&quot;collapse mt-5&quot;]/div[@class=&quot;collapse-content&quot;]/div[@class=&quot;columns&quot;]/div[@class=&quot;column is-half&quot;]/div[@class=&quot;control&quot;]/span[@class=&quot;select&quot;]/select[1]</value>
+      <webElementGuid>e860c98b-d5c3-4fc2-8d13-a9310977b41d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='invoice-mobile']/div[2]/div[2]/div[5]/div[2]/div[2]/div/div/div/span/select</value>
+      <webElementGuid>6acd385d-8845-4746-a661-00b83bc2bc4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Golongan'])[2]/following::select[1]</value>
+      <webElementGuid>24696568-13fa-4a7f-a46e-1143a9ec9bf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wajib diisi'])[1]/following::select[1]</value>
+      <webElementGuid>13d02726-f08a-4ebc-8b2c-c81a473c59b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Tidak wajib diisi)'])[1]/preceding::select[118]</value>
+      <webElementGuid>e9b1bbd0-cdb7-4789-9b71-31600abc6960</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/div[2]/div/div/div/span/select</value>
+      <webElementGuid>05df36eb-dad6-4a3a-b101-77e711a4fd8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'NEW' or . = 'NEW')]</value>
+      <webElementGuid>c7b4960a-2ff9-444f-a624-d73dceec5282</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

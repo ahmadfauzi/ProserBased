@@ -47,6 +47,18 @@ WebUI.setText(findTestObject('DaftarBarang/Page_TataPabrik/input_Nama_Bahan Baku
 
 WebUI.setText(findTestObject('DaftarBarang/Page_TataPabrik/input_Quantity'), quantity)
 
+//** Golongan test case **
+
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/DaftarBarang/Page_TataPabrik/select_Golongan_NEW'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/DaftarBarang/Page_TataPabrik/span_Golongan_icon'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/DaftarBarang/Page_TataPabrik/select_Golongan_NEW'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/DaftarBarang/Page_TataPabrik/span_Golongan_icon'))
+
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/DaftarBarang/Page_TataPabrik/select_Golongan_NEW'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/button_Simpan'))
 
 WebUI.click(findTestObject('DaftarBarang/Page_TataPabrik/span_Filter Pencarian_icon'))

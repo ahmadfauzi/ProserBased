@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/following::span[1]</value>
+         <value>//button[@class='button button is-primary']//span[@class='icon is-small']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e93ce1ef-5dac-4833-abaa-29966a4fa3d3</webElementGuid>
+      <webElementGuid>31d17804-a990-480b-9dab-af9122f28708</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>icon is-small</value>
-      <webElementGuid>d52a786d-da2a-45fa-8842-2d1f99f380bb</webElementGuid>
+      <webElementGuid>4d4fc222-ab34-4cb9-832c-f77a661cf6ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[1]/div[@class=&quot;app&quot;]/div[@class=&quot;tile is-ancestor&quot;]/div[@class=&quot;tile is-parent is-vertical main-content&quot;]/div[@class=&quot;router-content tile is-child&quot;]/div[@class=&quot;app-content&quot;]/div[@class=&quot;content product-overview&quot;]/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-table with-separator table-shared-style mt-5&quot;]/div[@class=&quot;b-table table table-striped&quot;]/div[@class=&quot;table-wrapper has-mobile-cards&quot;]/table[@class=&quot;table is-striped&quot;]/tbody[1]/tr[1]/td[8]/div[@class=&quot;action-buttons&quot;]/button[@class=&quot;button button is-primary&quot;]/span[@class=&quot;icon is-small&quot;]</value>
-      <webElementGuid>64c0833d-1289-47b4-9934-a18f8c7e2271</webElementGuid>
+      <webElementGuid>ccd63a70-3168-43ea-b830-9a3265dfa175</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/following::span[1]</value>
-      <webElementGuid>9435ab53-950a-4d0d-8152-479f03e5045a</webElementGuid>
+      <webElementGuid>0f7f3d2c-0f14-4bae-b593-4b1658c6f4ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='pcsA'])[2]/following::span[3]</value>
-      <webElementGuid>2a187309-f981-4662-b5a2-c895634a3129</webElementGuid>
+      <webElementGuid>013a76fc-039c-4fb5-8630-c78b3f3e0b8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TataPabrik'])[2]/preceding::span[2]</value>
-      <webElementGuid>676c0d0e-12c3-4740-af00-cc224cfd9781</webElementGuid>
+      <webElementGuid>7a50f9f9-c702-43cd-9bc3-2a7cb5ed15d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PT. KST'])[1]/preceding::span[2]</value>
-      <webElementGuid>0181b3ad-ad72-4a9c-9a74-5f8cb93bf909</webElementGuid>
+      <webElementGuid>cdbfe15e-05a3-4236-91f6-d333d4ca7158</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +79,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[8]/div/button/span</value>
-      <webElementGuid>8415de94-aeee-4443-b1e6-f9d75890766a</webElementGuid>
+      <webElementGuid>8661a8d7-993c-4aee-b7ba-0caf0e1fc399</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

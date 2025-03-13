@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Tenggat Pembayaran (hari)'])[1]/following::span[1]</value>
+         <value>/html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[10]/span[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>8f0bd4de-e287-489a-b121-e4d61c88ab7b</webElementGuid>
+      <webElementGuid>1bf48e32-dbf0-424b-8510-bacb1c4798cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>error-message</value>
-      <webElementGuid>cd7c3816-a8d9-4781-9044-032d5ebbc06a</webElementGuid>
+      <webElementGuid>c6097447-5f11-459e-ba54-2511d3dbcde2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <value>
       Wajib diisi angka lebih dari 0 dan tidak lebih dari 5 digit
     </value>
-      <webElementGuid>23c98142-1d01-4ec9-ad12-42fca3d20703</webElementGuid>
+      <webElementGuid>eda57edb-4ca3-49b8-8eb9-450a836f7294</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[1]/div[@class=&quot;app&quot;]/div[@class=&quot;tile is-ancestor&quot;]/div[@class=&quot;tile is-parent is-vertical main-content&quot;]/div[@class=&quot;router-content tile is-child&quot;]/div[@class=&quot;app-content&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;section-card&quot;]/div[@class=&quot;section-content&quot;]/div[@class=&quot;columns is-multiline&quot;]/div[@class=&quot;column is-half&quot;]/span[@class=&quot;error-message&quot;]</value>
-      <webElementGuid>66884124-757b-4f2a-80c1-6b373ae26a3d</webElementGuid>
+      <webElementGuid>dfbfd311-33a2-472e-beb6-18fb5f1d3a1c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tenggat Pembayaran (hari)'])[1]/following::span[1]</value>
-      <webElementGuid>86d3b7cd-2175-4c58-8d6e-28ed73f20946</webElementGuid>
+      <webElementGuid>9c96f554-0c68-43fc-b830-cc1196b1803a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(Tidak wajib diisi)'])[5]/following::span[1]</value>
-      <webElementGuid>5fc8352f-3c00-4796-b676-d3fe05066553</webElementGuid>
+      <webElementGuid>68962c53-8415-4309-860a-72d1b01f064c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Limit Piutang'])[1]/preceding::span[1]</value>
-      <webElementGuid>8759b9b9-b8d2-41a8-a9bd-66301bf4d752</webElementGuid>
+      <webElementGuid>b8f3c0c7-b759-4e8f-87ba-a7300e2bfec9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp'])[1]/preceding::span[1]</value>
-      <webElementGuid>355cb490-e495-435a-a62b-9db7d8202910</webElementGuid>
+      <webElementGuid>ade5f152-e9bc-452a-b949-4da6ca995c6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Wajib diisi angka lebih dari 0 dan tidak lebih dari 5 digit']/parent::*</value>
-      <webElementGuid>cef45038-2a3f-4473-bd05-7579db396e88</webElementGuid>
+      <webElementGuid>66da97bf-b38c-4c76-80f5-46ff1c0db36e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[10]/span</value>
-      <webElementGuid>f5a928d5-86d9-4ac7-8ce9-bbf733b4e23f</webElementGuid>
+      <webElementGuid>d6c357ec-dab4-40a8-b877-88bfb1b4ccb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
     ' or . = '
       Wajib diisi angka lebih dari 0 dan tidak lebih dari 5 digit
     ')]</value>
-      <webElementGuid>8bdc0ec9-7217-48ae-8ab2-8c765dfc186e</webElementGuid>
+      <webElementGuid>e181dc59-bf39-4389-b15b-464b6ff90017</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

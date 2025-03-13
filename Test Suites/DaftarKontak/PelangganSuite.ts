@@ -15,7 +15,7 @@
       <guid>2a2e12f5-9416-4124-983a-81359dc8d8c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DK_Pelanggan_Positive/TambahPelanggan</testCaseId>
+      <testCaseId>Test Cases/DK_Pelanggan/TambahPelanggan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d06b0a98-a6a0-43f1-88d2-c83f47be1b60</id>
@@ -123,17 +123,17 @@
          <variableId>2f4459ec-85fd-4a33-8d39-aee43e041958</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>d06b0a98-a6a0-43f1-88d2-c83f47be1b60</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>kelompok</value>
          <variableId>356aad48-ec8e-468f-a8b1-5d7a334984e4</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b7c87f55-e78c-44ed-9600-5211b9cdb256</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/DK_Pelanggan_Positive/RincianPelanggan</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/DK_Pelanggan/RincianPelanggan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>286c4777-a801-4a2e-860e-978c365d7804</id>
@@ -208,8 +208,8 @@
    <testCaseLink>
       <guid>0769c43c-5cd5-44ab-a331-12ea1eae941a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/DK_Pelanggan_Positive/EditPelanggan</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/DK_Pelanggan/EditPelanggan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7962cd7c-11a6-46a0-b377-7699c7966e72</id>
@@ -345,7 +345,7 @@
       <guid>3b871a6a-e891-4483-9f58-49acf55935ba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DK_Pelanggan_Positive/TopUpPelanggan</testCaseId>
+      <testCaseId>Test Cases/DK_Pelanggan/TopUpPelanggan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>be60e358-bb3c-4d46-a865-850e5533caf5</id>
@@ -372,8 +372,8 @@
    <testCaseLink>
       <guid>360d9f20-fc69-4206-93b6-e09cd7691061</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/DK_Pelanggan_Positive/HapusLaluTambahAlamatPelanggan</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/DK_Pelanggan/HapusLaluTambahAlamatPelanggan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>eeb1fbf0-ae0d-423c-8f1f-61f1c738a33d</id>
@@ -430,8 +430,8 @@
    <testCaseLink>
       <guid>59c6db43-1aba-46c2-bf36-4798a379cf2f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/DK_Pelanggan_Positive/EditAlamatPelanggan</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/DK_Pelanggan/EditAlamatPelanggan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>16bb99c4-5fe1-451c-b3d2-d71dfbfc85f8</id>
@@ -525,7 +525,7 @@
       <guid>0dc75bf1-b725-4058-b7b8-013931570607</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DK_Pelanggan_Positive/HapusPelanggan</testCaseId>
+      <testCaseId>Test Cases/DK_Pelanggan/HapusPelanggan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>39c81d8f-9307-4c3d-9b07-eb8b27b4051f</id>

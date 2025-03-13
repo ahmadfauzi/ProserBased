@@ -10,12 +10,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0e0904ae-fc4c-4c47-b251-ff735b4e1ba3</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>8ed86a5d-fcf1-4977-92ff-c2ddbdeee43f</variableId>
    </variableLinks>
    <variableLinks>
@@ -36,13 +30,6 @@
       <value></value>
       <variableId>6351b66c-6792-46f8-bf19-254c28bc7eb9</variableId>
    </variableLinks>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>0e0904ae-fc4c-4c47-b251-ff735b4e1ba3</id>
-      <masked>false</masked>
-      <name>namabarang_edit</name>
-   </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
